@@ -1,0 +1,13 @@
+TWITTER_CLIENT_ID=UG9EUFdFN01jbDRFS244SnVpSHg6MTpjaQ
+TWITTER_CLIENT_SECRET=Y0awh_4oPJi5h-7tXWDTGIolmHNT-7O9IYKNj1o1ZcowDS4MTt
+TWITTER_LOGIN_REDIRECT_URL=http://localhost:3000/login
+TWITTER_ACCOUNT_LINK_REDIRECT_URL=http://localhost:3000/profile?tab=account-linking
+TWITTER_ACCOUNT_LOGIN_AND_LINKING_FOR_KARAMENDOS_URL=http://localhost:3000/karamendos?step=1
+
+NX_TWITTER_LOGIN_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=UG9EUFdFN01jbDRFS244SnVpSHg6MTpjaQ&redirect_uri=http://localhost:3000/login&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+
+NX_TWITTER_ACCOUNT_LINK_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=UG9EUFdFN01jbDRFS244SnVpSHg6MTpjaQ&redirect_uri=http://localhost:3000/profile?tab=account-linking&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+
+NX_TWITTER_ACCOUNT_LINK_URL_FOR_KARAMENDOS=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=UG9EUFdFN01jbDRFS244SnVpSHg6MTpjaQ&redirect_uri=http://localhost:3000/karamendos?step=1&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+
+NX_TWITTER_ACCOUNT_LOGIN_AND_LINKING_URL_FOR_KARAMENDOS=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=UG9EUFdFN01jbDRFS244SnVpSHg6MTpjaQ&redirect_uri=http://localhost:3000/karamendos?step=1&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain

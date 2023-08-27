@@ -1,0 +1,6 @@
+DB=postgres
+DB_PORT=5432
+DB_HOST=localhost
+DB_USERNAME=root
+DB_PASSWORD=mysecretpassword
+DB_NAME=test_db 

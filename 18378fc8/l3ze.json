@@ -1,0 +1,37 @@
+{
+    "editor.fontSize": 16,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.showExecutionMessage": false,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "test",
+            "database": "test",
+            "username": "postgres",
+            "password": "root1234"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "testing",
+            "database": "test",
+            "username": "farabi-dev"
+        }
+    ],
+    "editor.defaultFormatter": "Prisma.prisma",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "tabnine.experimentalAutoImports": true,
+    "window.zoomLevel": 1,
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}

@@ -1,0 +1,70 @@
+import axios from 'axios'
+import dotenv from 'dotenv'
+import express from 'express'
+
+
+const app = express()
+dotenv.config()
+
+express.Router()
+
+const exchangeCodeForToken = async (requestToken) => {
+  try{
+    const data = {
+      code: code,
+      client_id: process.env.CLIENT_ID,
+      redirect_uri: process.env.REDIRECT_URI,
+      grant_type: 'authorization_code',
+      code_verifier: 'something'
+    };
+
+    const response = await axios.post('https://api.twitter.com/2/oauth2/token', JSON.stringify(data), {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Authorization' : 'Basic TVRKdVJsaHFkVEZmT0ZCSVkwMWljR1IxTmxjNk1UcGphUTpDUUZJaXJHQ2x5MTFyNVRtQTcta2lWUHg1OEtPLVhGYl9UTE1EX08xN2s0dWNCSzlfZg=='
+      },
+    })
+  
+    fs.writeFileSync('./data.json', response.data)
+  }catch(err) {
+    console.log(err)
+  }
+
+//   const createFormParams = (params) => {
+//     return Object.keys(params)
+//         .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`)
+//         .join('&')
+// }
+
+//   axios({
+//     headers: {
+//         'Content-Type': 'application/x-www-form-urlencoded',
+//         'X-API-Key': process.env.API_KEY,
+//         'Authorization': 'Basic  TVRKdVJsaHFkVEZmT0ZCSVkwMWljR1IxTmxjNk1UcGphUTpDUUZJaXJHQ2x5MTFyNVRtQTcta2lWUHg1OEtPLVhGYl9UTE1EX08xN2s0dWNCSzlfZg==' 
+//     },
+//     method: 'POST',
+//     url: process.env.TOKEN_URL,
+//     data: createFormParams({
+//         grant_type: 'authorization_code',
+//         client_id: process.env.CLIENT_ID,
+//         code: requestToken,
+//         code_verifier: 'challenge'
+//     })
+// }).then(response => {
+//     console.log(response);
+// }).catch(err => {
+//     console.error(err);
+//  });
+// }
+
+app.get('/auth/twitter', (req, res) => {
+    res.redirect(`https://twitter.com/i/oauth2/authorize?response_type=code&client_id=MTJuRlhqdTFfOFBIY01icGR1Nlc6MTpjaQ&redirect_uri=http://localhost:4000/auth/twitter/callback&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain`)
+})
+
+app.get('/auth/twitter/callback', (req, res) => {
+    exchangeCodeForToken(req.query.code)
+    res.end()
+})
+
+app.listen(4000)
+let url = `https://twitter.com/i/oauth2/authorize?response_type=code&client_id=X3dDXzlWRVlyRE1hdG5ZSXlqdmc6MTpjaQ&redirect_uri=https://www.example.com&scope=tweet.read%20users.read%20follows.read%20follows.write&state=state&code_challenge=challenge&code_challenge_method=plain`

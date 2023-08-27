@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "ac": "autocannon -c 20 http://localhost:4000/",
+    "pm2Start": "pm2 start app.js -i max",
+    "pm2Monit": "pm2 monit",
+    "pm2Stop": "pm2 stop app.js"
+  },
+  "dependencies": {
+    "autocannon": "^7.10.0",
+    "express": "^4.18.2",
+    "pm2": "^5.2.2"
+  }
+}

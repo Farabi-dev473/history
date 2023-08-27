@@ -1,0 +1,28 @@
+PORT=4001
+WL_SPOT_ASSIGNMENT_BATCH_SIZE=1000
+
+# discord credential
+DISOCRD_TOKEN=OTkzNzIyNjE3Mjk3MTEzMTI5.GKIDIB.CFAmCri8o9sN4UP8z3hBTIsMEG3lXW4V73raWs
+DISCORD_CLIENT_ID=993722617297113129
+
+# moonly back-end endpoint
+MOONLY_HOST=http://localhost:4000/graphql
+MOONLY_CLIENT_HOST=https://moon.ly
+# moonly-bot endpoint
+MOONLY_BOT_API=http://localhost:4600/api
+# moonly back-end subscription endpoint
+MOONLY_SUBSCRIPTION_HOST=ws://localhost:4000/subscriptions
+
+# db credential
+DATABASE_URL="postgresql://postgres:postgres@localhost:5433/discord-bot"
+POSTGRESQL_USERNAME=postgres
+POSTGRESQL_PASSWORD=postgres
+POSTGRESQL_DATABASE=discord-bot
+POSTGRESQL_POSTGRES_PASSWORD=adminpass
+
+# used in front-end
+NX_PUBLIC_SERVER_URL=http://localhost:4001/graphql
+NX_PUBLIC_DISCORD_INSTALL=https://discord.com/api/oauth2/authorize?client_id=993722617297113129&permissions=2416069712&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fsetup&response_type=token&scope=identify%20bot
+NX_PUBLIC_DISCORD_LOGIN=https://discord.com/oauth2/authorize?client_id=993722617297113129&redirect_uri=http%3A%2F%2Flocalhost%3A3000&response_type=token&scope=identify
+NX_PUBLIC_FORM_SUBMISSION_AUTHORIZE=https://discord.com/oauth2/authorize?client_id=993722617297113129&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fform&response_type=token&scope=identify%20guilds%20guilds.members.read
+s

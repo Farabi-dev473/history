@@ -1,0 +1,9 @@
+FROM node:slim
+
+WORKDIR /app
+
+COPY . .
+
+EXPOSE 4000
+
+CMD [ "npm", "app.js" ]

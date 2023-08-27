@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  api:
+    container_name: api
+    restart: always
+    build: .
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+    volumes:
+    - .:/app
+
+  db:
+    container_name: postgres
+    image: postgres
+    ports:
+      - '5433:5433'
+    volumes:
+        - ./postgres-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=mysecretpassword
+      - POSTGRES_DB=app
+
+volumes: 
+ postgres-data:

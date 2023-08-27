@@ -1,0 +1,9 @@
+export const metadata = {
+  title: 'Space Giveaway',
+};
+
+const Page = () => {
+  return <h1>GIVEAWAY SPACE</h1>;
+};
+
+export default Page;

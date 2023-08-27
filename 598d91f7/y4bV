@@ -1,0 +1,22 @@
+
+Host *
+AddKeysToAgent yes
+IdentityFile /home/farabi-dev/.ssh/id_rsa
+
+Host moonlystaging
+User root
+Port 19622
+HostName 15.235.14.226
+LocalForward 1081 127.0.0.1:8080
+
+Host moonlytesting
+User root
+Port 20422
+HostName 15.235.14.226
+LocalForward 1082 127.0.0.1:8080
+
+Host moonlydev
+User root
+Port 22522
+HostName 15.235.14.226
+LocalForward 1083 127.0.0.1:8080

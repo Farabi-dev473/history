@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+
+  api:
+    depends_on:
+      - db 
+    image: quote-api
+    ports:
+      - 3000:3000
+
+  db: 
+    image: postgres:latest
+    ports:
+      - 5000:5432
+    restart: always
+    container_name: postgres-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
+      - POSTGRES_DB_NAME=mydatabase
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:

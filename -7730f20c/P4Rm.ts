@@ -1,0 +1,1 @@
+type nullOrNumber = null | number;

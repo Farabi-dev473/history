@@ -1,0 +1,51 @@
+import { Field, Int, ObjectType } from 'type-graphql';
+
+@ObjectType('TwitterSpace')
+class TwitterSpace {
+  @Field()
+  spaceId!: string;
+
+  @Field(() => Int)
+  minTime!: number;
+
+  @Field(() => Int)
+  numberOfWinners!: number;
+
+  @Field()
+  followHostRequired!: boolean;
+
+  @Field(() => [User])
+  userTypes!: User[];
+
+  @Field(() => String)
+  prizeName!: string;
+
+  @Field(() => [HoldingRequirement])
+  holdingRequirements!: HoldingRequirement[];
+}
+
+enum Role {
+  CO_HOST = 'CO-HOST',
+  SPEAKER = 'SPEAKER',
+  LISTENER = 'LISTENER',
+}
+
+@ObjectType('User')
+class User {
+  @Field(() => Role)
+  type!: Role;
+}
+
+@ObjectType('HoldingRequirement')
+class HoldingRequirement {
+  @Field(() => Int)
+  numberOfNft!: number;
+
+  @Field()
+  collectionName!: string;
+
+  @Field()
+  trait!: string;
+}
+
+export { TwitterSpace, Role, User, HoldingRequirement };

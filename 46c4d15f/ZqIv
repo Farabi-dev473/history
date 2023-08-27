@@ -1,0 +1,11 @@
+# Application Configs
+PROXY_SERVER_HOST="2.56.119.93"
+PROXY_SERVER_PROTOCOL="http"
+PROXY_SERVER_PORT=5074
+PROXY_SERVER_USERNAME = "klrrqtab"
+PROXY_SERVER_PASSWORD = "baok8z6x2gw0"
+INTERVAL_TIME_MS = 20000
+
+
+# Database Configs
+DATABASE_URL="postgresql://farabi:Hello@localhost:5432/twitterSpace?schema=public"

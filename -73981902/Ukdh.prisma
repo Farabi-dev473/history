@@ -1,0 +1,36 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Space {
+  id      String    @unique
+  title   String
+  members Members[]
+  started_at DateTime?
+  endeded_at DateTime?
+  @@index([id])
+}
+
+enum Role {
+  HOST
+  CO_HOST
+  SPEAKER
+  LISTENER
+}
+
+model Members {
+  id      Int     @unique @default(autoincrement())
+  name    String
+  role    Role
+  Space   Space?  @relation(fields: [spaceId], references: [id])
+  spaceId String?
+  time Int @default(0)
+}

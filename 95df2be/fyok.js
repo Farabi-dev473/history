@@ -1,0 +1,119 @@
+import parseListEventTx from '../src/packages/decoders/parseListEventTx.js'
+
+let txId, output, result
+
+describe('parseListEventTx', () => {
+    it('should return an object with 9 properties', () => {
+        txId = "21JLn1W6J7uWxZWNe33NAaCN5uhxABE1R63wDfFbkkiySh9xnjw15K8PEssX3bm464Z219MEBeDxjK9GH8EhLDP5"
+        output = 9
+        result = Object.keys(parseListEventTx(txId)).length
+        expect(result).toEqual(output)
+    })
+    
+    it("should return an object which is equal to `output` - Magic Eden V2 Program", () => {
+        txId = "57bHzn6dNftr7J17JGEbvJsD4RjkZWLQWRohD1b9xqk7nsAX5woh2tozcJLLcFph5GkkuNcgGS7ihcdfhx8bVhbP"
+        output = {
+            pdaAddress: '7FFHkvtcHBLPQubz5QUZ5qkFohaxA3yjyC5LWPFMNYHg',
+            auctionHouse: 'E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe',
+            tokenAddress: '4sq66jVVa5k8YDUUF2j8KSSbUesRy3rzRWUnGXXwABHM',
+            tokenMint: '8i1on1c81t9LNwesYyreZfqMB1LYGx21ScvuB1JSYutQ',
+            seller: '9DxRBPbEE41o4HZM7j4PV4cvKozmWgdEgdGqtqP7h4zd',
+            sellerReferral: '25Bu6Fnm1cLmtwbRkpY3yuVaqAGURGJvdJxpKtKrG5Cb',
+            tokenSize: 1,
+            expiry: -1,
+            price: 0.566
+          }
+        result = parseListEventTx(txId)
+        expect(result).toEqual(output)
+    })
+
+    it('should return an object which is equal to `output` - HyperSpace Program', () => {
+        txId = "65GBRLNkRcuSr8JkgFg1xJuMRqWLTXd87uv2bxLvEq1TgY2MdiLtqtEqNRxqaSPuyMASJoaxP4Z9sdFZ67UGHhYF"
+        output = {
+            pdaAddress: 'C8dLV8Rxo49Zwc2SnTTn1bHNnVWMi77PM3957pnYpbhp',
+            auctionHouse: '4BzVBkBvZ7atwQCw2sVQjXG3EDuouuD7EVgtEgJ9CNWc',
+            tokenAddress: '2qbHEBkNcPdBa4baXJND7RS2f4gS99XbZfXrUUtoWTNx',
+            tokenMint: 'Ep8W6ou8nphhx83K2XHzFt7nvHWRVXHCKVxrnaPYNh2c',
+            seller: '4vnt9boTFKqGEykMUexG3uyr64QnaLetHmFTSPucF57',
+            sellerReferral: '6QEJwoTfHg4vkwE6nbprtwiwEw7msvNuZJ1tp22SPACE',
+            tokenSize: 1,
+            expiry: undefined,
+            price: 115
+          }
+
+        result = parseListEventTx(txId)
+        expect(result).toEqual(output)
+    })
+
+    it('should return an object which is equal to `output` - Solanart Program', () => {
+        txId = "4oBFNe4qY8HQGUMComcWQtDmF9Q9YGvLEYDUPbMWqeGBKRXTj5595C3N1EWyT6SRgFSSQys12kdaauDndNeHKbPR"
+        output = {
+            pdaAddress: '5cKUN1Wre6EHhh2j6knEPwLtfLs4jPkEtcwxL2TjBLdM',
+            auctionHouse: '969kj9XHPixNZ1Yet7sMA4zyGhyFsZcfipcc5caU8pfV',
+            tokenAddress: '4xRjoLZq9LWo6f9ETEVmeJ3KF5ze7h3VC2vh1YA71R6u',
+            tokenMint: 'BhfThdDQjZMkXHPSQGxKrbNoqtj3DhVrtFYAKYBaFRkz',
+            seller: 'EAoUTaAQAxTmmpkgXjJoGuc6AN298PCn1cgtmcEnHxqF',
+            sellerReferral: '39fEpihLATXPJCQuSiXLUSiCbGchGYjeL39eyXh3KbyT',
+            tokenSize: 1,
+            expiry: undefined,
+            price: 17
+          }
+
+        result = parseListEventTx(txId)
+        expect(result).toEqual(output)
+    })
+
+    it('should return an object which is equal to `output` - Auction House Program', () => {
+        txId = "4bfq3XrHJ5ik9rCy6bwJPdAFUbxnbKQbZtYAns4yM5xQxqwGbN675yNjBE8qzgpzirPapkkzwoQxUCzJLnbrXM7a"
+        output = {
+            pdaAddress: '7sCBBDvgc6N4xPbWFVDydBp1cUvQw4EoCNfB3wC8bSsK',
+            auctionHouse: '29xtkHHFLUHXiLoxTzbC7U8kekTwN3mVQSkfXnB1sQ6e',
+            tokenAddress: '38FWaDDVwfFTXmEzi2C7THNkyeWGBveXE5ZfVQJnx3Jk',
+            tokenMint: '2mV6fMySkw6XiP6ghkWNxzFGv9w17ppxmTkB1r1ecxsi',
+            seller: 'DGWLm75aiyRC6eYio145cMngn1RzP1DRPc4zuDr2jXb3',
+            sellerReferral: '7sCBBDvgc6N4xPbWFVDydBp1cUvQw4EoCNfB3wC8bSsK',
+            tokenSize: 1,
+            expiry: undefined,
+            price: 5.69
+          }
+
+        result = parseListEventTx(txId)
+        expect(result).toEqual(output)
+    })
+
+    it('should return an object which is equal to `output` - Auction House CoralCube Program', () => {
+        txId = "5TfkkW6JeFQVNM7i8Ymtk6SyJz57zWSvBTf7ABeRPBh8wp1PpWhD7wU5t76qAqyvBBkLB7VfQTHVyBs98Fn2CshF"
+        output = {
+            pdaAddress: 'Eb3acfYSGkFeRCnbPjMpwdsqouo41LiKYv3MApobNLwE',
+            auctionHouse: 'Ex9xNf2ocrM9hmtKhkpQG4i4XeXWrhFxsusSc1wHz3X8',
+            tokenAddress: 'GVwrFA1yjmnYygTRv3zXjrJ1VP29xC79ofdXVY43u8Xq',
+            tokenMint: '5hhuAbZafGBLgyPwbiuDH9GgEax19GUe7FJ6YGG7KET1',
+            seller: 'DYLm6wkeFJgyAHS1y5EW3Hi2xQHdxMXfsiau9BSqLzEc',
+            sellerReferral: 'Eb3acfYSGkFeRCnbPjMpwdsqouo41LiKYv3MApobNLwE',
+            tokenSize: 1,
+            expiry: undefined,
+            price: 0.15
+          }
+          
+        result = parseListEventTx(txId)
+        expect(result).toEqual(output)
+    })
+
+    it('should return an object which is equal to `output` - Digital Eye Program', () => {
+      txId = "5g4pDLjDggzNKKhPdwc9C1hyjVokbdz18EGPNwGGJXSHvkrSaDFUTnEBu5gWDFQ4eBaVGfDy2RWxjxeMUoy9ma5M"
+      output = {
+        pdaAddress: 'Hj8FFeKJAjUbARohxx2B9qBSVvSY13ctPqb4bWSfAxKc',
+        auctionHouse: '4zdNGgAtFsW1cQgHqkiWyRsxaAgxrSRRynnuunxzjxue',
+        tokenAddress: 'DyaNakVH3yXmDLx1uptU7miKL4cBg2WsXNqcC4G7tGWF',
+        tokenMint: 'GazP7HjFcYry1KWDJv7qefUGLtqhhcTGwdciEpFqgzBC',
+        seller: 'BeriPCcLdHpp8uegg2EjByYwVgJVGw83Q1AEgWjukbVn',
+        sellerReferral: 'auth9SigNpDKz4sJJ1DfCTuZrZNSAgh9sFD3rboVmgg',
+        tokenSize: 1,
+        expiry: undefined,
+        price: 52.99
+      }
+        
+      result = parseListEventTx(txId)
+      expect(result).toEqual(output)
+  })
+})

@@ -1,0 +1,6 @@
+BASE_URL=http://localhost:4000
+CLIENT_ID="MTJuRlhqdTFfOFBIY01icGR1Nlc6MTpjaQ"
+CLIENT_SECRET="CeV_T90Io1sAaOEpApecPoLPTfoPRJg67mZLcdQ36x-j9HC1-r"
+REDIRECT_URI="http://localhost:4000/auth/twitter/callback"
+API_KEY='UjuHHvmzC9CiGpLdsQptzDW15'
+TOKEN_URL='https://api.twitter.com/2/oauth2/token'

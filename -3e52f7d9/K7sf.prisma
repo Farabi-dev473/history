@@ -1,0 +1,151 @@
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//users
+model User {
+  userID      String   @id @default(uuid())
+  email       String   @unique
+  role        Role     @default(USER)
+  fisrtName   String?
+  lastName    String?
+  phoneNumber Int?
+  street      String?
+  postcode    Int?
+  city        String?
+  country     String?
+  bio         String?
+  website     String?
+  facebook    String?
+  instaram    String?
+  linkedIn    String?
+  pinterset   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime
+  Review        Review[] // a user can have many review
+  FavPoductList FavPoductList[] // a user can add multpule product in his favorite list
+}
+
+//categories
+model MainCategories {
+  id       Int    @id @default(autoincrement())
+  name     String
+  imageUrl String
+  Categories Categories[]
+}
+
+model Categories {
+  id           Int            @id @default(autoincrement())
+  mainCategory MainCategories @relation(fields: [mainCategoriesId], references: [id])
+  name         String
+  imageUrl     String
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime
+  SubCategories    SubCategories[] // a category may have multiple subcategory
+  Product          Product[] // under category can have multiole product
+  mainCategoriesId Int
+}
+
+model SubCategories {
+  id   Int    @id @default(autoincrement())
+  name String
+  category        Categories @relation(fields: [subCategoriesId], references: [id])
+  subCategoriesId Int
+  Product         Product[] //under subcategory can have multiole product
+}
+
+//prouct
+model Product {
+  productId Int      @id @default(autoincrement())
+  name      String
+  imageUrls String[] // a product may have multiple image
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+  category        Categories    @relation(fields: [categoriesId], references: [id])
+  categoriesId    Int
+  subCategory     SubCategories @relation(fields: [subCategoriesId], references: [id])
+  subCategoriesId Int
+  ProductInfo     ProductInfo[] //for product informatation
+  variants variants[] // a paroduct have diffrent varinent and type
+}
+
+model variants {
+  id        Int      @id @default(autoincrement())
+  color     String
+  imageUrls String[]
+  product          Product         @relation(fields: [productProductId], references: [productId])
+  productProductId Int
+  ComparePrices    ComparePrices[] // by varient can have diffrent product by diffrent store and price or color
+}
+
+model Brand {
+  id      Int    @id @default(autoincrement())
+  name    String
+  logoUrl String
+}
+
+model ProductInfo {
+  id                 Int      @id @default(autoincrement())
+  type               String?
+  manufacturerColour String?
+  Colour             String?
+  targetGroup        String?
+  series             String?
+  fastening          String?
+  upperMaterial      String?
+  Outsole            String?
+  goreTex            Boolean?
+  sizesEU            Float[]
+  sizesUK            Float[]
+  sizesUS            Float[]
+  pdouctInfo       Product @relation(fields: [productProductId], references: [productId])
+  productProductId Int
+}
+
+model ComparePrices {
+  id          Int     @id @default(autoincrement())
+  productName String
+  shopUrl     String
+  shopLogo    String
+  price       Float
+  isInStock   Boolean
+  comparePrice variants @relation(fields: [variantsId], references: [id]) // by varient can be diffrent product by diffrent store and price or color
+  variantsId   Int
+}
+
+
+
+model PaymentMethods {
+  id           Int    @id @default(autoincrement())
+  providerName String
+  providerLogo String
+}
+
+model Review {
+  id          String   @id @default(uuid())
+  author      User     @relation(fields: [authorID], references: [userID])
+  authorID    String
+  rating      Int
+  title       String
+  description String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime
+}
+
+model FavPoductList {
+  id         Int    @id @default(autoincrement())
+  list       User   @relation(fields: [userUserID], references: [userID])
+  userUserID String
+}
+
+enum Role {
+  USER
+  ADMIN
+}

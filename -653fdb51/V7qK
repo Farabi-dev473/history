@@ -1,0 +1,14 @@
+BASE_URL=http://localhost:4000
+CLIENT_ID="SWFuUmZtNDVtSXFJVXdnbzZQTnY6MTpjaQ"
+CLIENT_SECRET="3IjTzbuYFeNtfPxhOJXarsCUWbD6xLimpZD9Nvo9aqy9IyCHVr"
+REDIRECT_URI="http://localhost:4000/auth/twitter/callback"
+API_KEY='UjuHHvmzC9CiGpLdsQptzDW15'
+TOKEN_URL='https://api.twitter.com/2/oauth2/token'
+
+{
+  token_type: 'bearer',
+  expires_in: 7200,
+  access_token: 'ZWlmMW1xR0FUU1dpOGpGWVh6aVF2MENGd3dpRHdPNFhzNUQzQUJYZlFIRzNNOjE2ODI5MjgzMTI0MTY6MTowOmF0OjE',
+  scope: 'users.read follows.read tweet.read offline.access',
+  refresh_token: 'd1FEclFDQmtJUllJWm00a0xOSEtsb0J6bkt3NFZpYTBaT0IwQ0N0OURmTkg3OjE2ODI5MjgzMTI0MTY6MToxOnJ0OjE'
+}

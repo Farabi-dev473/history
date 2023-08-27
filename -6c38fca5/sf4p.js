@@ -1,0 +1,13 @@
+const express = require('express')
+
+console.log(require('os').cpus().length)
+
+const app = express()
+
+app.get('/', (req, res) => {
+    res.send('Hello')
+})
+
+app.listen(4000, () => {
+    console.log('Server is listening on port 4000')
+})

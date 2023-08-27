@@ -1,0 +1,15 @@
+Auction House Program && AUCTION_HOUSE_CoralCube_V2
+- Token Address - accounts index 1
+- Token mint - pre/post token balances mint property
+- Seller - accounts index 0
+- price
+- tokenSize 
+- Auction House - account index 4
+
+Solanart 
+- Token Address - accounts index 5
+- Token Mint - accounts index 4
+- seller - accounts index 0
+- pdaAddress - accounts index 2
+- Auction house - accounts index 3
+- seller referal - accounts index 1

@@ -1,0 +1,67 @@
+class TreeNode {
+    left: TreeNode | null;
+    right: TreeNode | null;
+    value: number;
+  
+    constructor(value: number) {
+      this.left = null;
+      this.right = null;
+      this.value = value;
+    }
+  }
+  
+  class BinaryTree {
+    root: TreeNode | null;
+  
+    constructor() {
+      this.root = null;
+    }
+  
+    insert(value: number) {
+      const newNode = new TreeNode(value);
+  
+      if (this.root === null) {
+        this.root = newNode;
+      } else {
+        let currentNode = this.root;
+  
+        while (true) {
+          if (value < currentNode.value) {
+            if (currentNode.left === null) {
+              currentNode.left = newNode;
+              break;
+            } else {
+              currentNode = currentNode.left;
+            }
+          } else {
+            if (currentNode.right === null) {
+              currentNode.right = newNode;
+              break;
+            } else {
+              currentNode = currentNode.right;
+            }
+          }
+        }
+      }
+    }
+  
+    generateRandomTree(nodeCount: number) {
+      const values: number[] = [];
+  
+      for (let i = 0; i < nodeCount; i++) {
+        let value = Math.floor(Math.random() * 10) + 1;
+  
+        while (values.includes(value)) {
+          value = Math.floor(Math.random() * 10) + 1;
+        }
+  
+        values.push(value);
+        this.insert(value);
+      }
+    }
+  }
+  
+  const tree = new BinaryTree();
+  tree.generateRandomTree(7);
+  console.log(tree.root); // TreeNode { value: 5, left: TreeNode { value: 3, left: [TreeNode], right: [TreeNode] }, right: TreeNode { value: 9, left: [TreeNode], right: [TreeNode] } }
+  

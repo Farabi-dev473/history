@@ -1,0 +1,194 @@
+{
+  "collections": [
+    {
+      "id": "0x1928a68ff8d278ac65d005b26be8a3d5e627432e",
+      "slug": "dreambeatznft",
+      "createdAt": "2022-12-10T04:33:33.347Z",
+      "name": "DreamBeatz! GENESIS",
+      "image": "https://i.seadn.io/gcs/files/901b0084f6c6323d8db0afc1e09eeb3b.png?w=500&auto=format",
+      "banner": "https://i.seadn.io/gcs/files/94cd4dce06cf29a60f62820c7ac648dd.jpg?w=500&auto=format",
+      "discordUrl": "https://discord.gg/cj3Uahqhgj",
+      "externalUrl": "https://www.dreambeatz.io/",
+      "twitterUsername": "DreamBeatzNFT",
+      "openseaVerificationStatus": "not_requested",
+      "description": "**Mint goes live December 11th 12am UTC**\n▶ **[https://app.dreambeatz.io/](https://app.dreambeatz.io/)**\n\nDreamBeatz! is a Japan-based Web3 Project consisting of 5,555 anime themed characters residing on the Ethereum blockchain.\n\nBecome their dedicated band manager as you guide them through the journey. Upgrading costumes and instruments, recruiting a mascot, lyrics contest and Rhythm Game battles are just some of the stops along the way!",
+      "sampleImages": [],
+      "tokenCount": "172",
+      "onSaleCount": "3",
+      "primaryContract": "0x1928a68ff8d278ac65d005b26be8a3d5e627432e",
+      "tokenSetId": "contract:0x1928a68ff8d278ac65d005b26be8a3d5e627432e",
+      "royalties": {
+        "recipient": "0x410da9946c248bd34a339d8cfb29e5cbdae27df0",
+        "breakdown": [
+          {
+            "bps": 500,
+            "recipient": "0x410da9946c248bd34a339d8cfb29e5cbdae27df0"
+          }
+        ],
+        "bps": 500
+      },
+      "allRoyalties": {
+        "custom": [
+          {
+            "bps": 500,
+            "recipient": "0x410da9946c248bd34a339d8cfb29e5cbdae27df0"
+          }
+        ],
+        "opensea": [
+          {
+            "bps": 500,
+            "recipient": "0x410da9946c248bd34a339d8cfb29e5cbdae27df0"
+          }
+        ]
+      },
+      "lastBuy": {
+        "value": null
+      },
+      "floorAsk": {
+        "id": "0x59413b80394ac8077031617f699453757e959b2cf348cf31db38ce7f3f427678",
+        "sourceDomain": "opensea.io",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "33000000000000000",
+            "decimal": 0.033,
+            "usd": 47.96144,
+            "native": 0.033
+          }
+        },
+        "maker": "0x5e1dae6e97be78d79a0c2a03ab359fc46880f8f4",
+        "validFrom": 1672452341,
+        "validUntil": 1675130741,
+        "token": {
+          "contract": "0x1928a68ff8d278ac65d005b26be8a3d5e627432e",
+          "tokenId": "61",
+          "name": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ade825fbadf91b0175545dc79ed07a623e0c87814bb0e0a77f61a0fab51eb8c105bbc5d211d796be9664ec3f21d4160cd7cd64be9526d303eb64ab3a5c2a109a7471b4dd4bdb646a894c4f414c535f15bfcbd723546dc7625d3d394ea2c4e7e2696b1c333ab0f646c3cf68015341bc28e058ed9feecb44e991ea6b299d1f7ae6c"
+        }
+      },
+      "rank": {
+        "1day": null,
+        "7day": null,
+        "30day": 12494,
+        "allTime": 37838
+      },
+      "volume": {
+        "1day": 0,
+        "7day": 0,
+        "30day": 0.025,
+        "allTime": 0.12
+      },
+      "volumeChange": {
+        "1day": 0,
+        "7day": 0,
+        "30day": 0.2631578947368421
+      },
+      "floorSale": {
+        "1day": 0.025,
+        "7day": 0.025,
+        "30day": 0.029
+      },
+      "floorSaleChange": {
+        "1day": 1.32,
+        "7day": 1.32,
+        "30day": 1.1379310344827587
+      },
+      "collectionBidSupported": true
+    },
+    {
+      "id": "0xbb15002647de0e6a86779f2c9919c51fdb603083",
+      "slug": "dreambeatznft",
+      "createdAt": "2022-12-11T06:09:28.020Z",
+      "name": "DreamBeatz! Genesis",
+      "image": "https://i.seadn.io/gcs/files/7903df47ab60eb0cfab4f995b5cb81c2.png?w=500&auto=format",
+      "banner": "https://i.seadn.io/gcs/files/05368329b7c54af8c28b3ad1e9676292.png?w=500&auto=format",
+      "discordUrl": "https://discord.gg/KpHPuE4vYK",
+      "externalUrl": "https://app.dreambeatz.io/",
+      "twitterUsername": "DreamBeatzNFT",
+      "openseaVerificationStatus": "not_requested",
+      "description": "DreamBeatz! is Japan-based web3 project including a P2E Rhythm Game and dynamic NFTs.\nFeaturing 5,555 Japanese anime-style characters and in-game beat tracks produced by #1 Japan Billboard music producer.\n\nUpgrading costumes and instruments, recruiting a band mascot, lyrics contest and metaverse concert are just some of the stages along the way.\nBecome a band manager and guide your musicians through the exciting journey!",
+      "sampleImages": [],
+      "tokenCount": "2237",
+      "onSaleCount": "106",
+      "primaryContract": "0xbb15002647de0e6a86779f2c9919c51fdb603083",
+      "tokenSetId": "contract:0xbb15002647de0e6a86779f2c9919c51fdb603083",
+      "royalties": {
+        "recipient": null,
+        "breakdown": [],
+        "bps": 0
+      },
+      "allRoyalties": {
+        "onchain": [],
+        "opensea": [
+          {
+            "bps": 1000,
+            "recipient": "0x410da9946c248bd34a339d8cfb29e5cbdae27df0"
+          }
+        ]
+      },
+      "lastBuy": {
+        "value": null
+      },
+      "floorAsk": {
+        "id": "0x434381e59b63e5e93cd9c2cf57cd5198e81854b98b4293c21e65d1709e90c355",
+        "sourceDomain": "opensea.io",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "4900000000000000",
+            "decimal": 0.0049,
+            "usd": 7.12155,
+            "native": 0.0049
+          }
+        },
+        "maker": "0xb45d30bc38b2ea421ad4ec60eea9afa649ff0820",
+        "validFrom": 1673779840,
+        "validUntil": 1674384640,
+        "token": {
+          "contract": "0xbb15002647de0e6a86779f2c9919c51fdb603083",
+          "tokenId": "1182",
+          "name": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8a9158a03cb948f2e8f881761eb975b90f720e569d9a170096d2a1a2156e4485c307b28c81f46a9678c19fb290973fb5ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d"
+        }
+      },
+      "rank": {
+        "1day": null,
+        "7day": null,
+        "30day": null,
+        "allTime": null
+      },
+      "volume": {
+        "1day": 0,
+        "7day": 0,
+        "30day": 0,
+        "allTime": 0
+      },
+      "volumeChange": {
+        "1day": null,
+        "7day": null,
+        "30day": null
+      },
+      "floorSale": {
+        "1day": null,
+        "7day": null,
+        "30day": null
+      },
+      "floorSaleChange": {
+        "1day": null,
+        "7day": null,
+        "30day": null
+      },
+      "collectionBidSupported": true
+    }
+  ]
+}

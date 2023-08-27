@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  backed: 
+    build: .
+    ports:
+      - 3000:3000
+  postgres-db:
+    image: postgres
+    ports:
+    - 5432:5432

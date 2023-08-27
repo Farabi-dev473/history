@@ -1,0 +1,35 @@
+export const PROGRAM_IDS = {
+    MAGICEDEN_V2: 'M2mx93ekt1fmXSVkTrUL9xVFHkmME8HTUi5Cyc5aF7K',
+    HYPERSPACE: 'HYPERfwdTjyJ2SCaKHmpF2MtrXqWxrsotYDsTrshHWq8',
+    AUCTIONHOUSE: 'hausS13jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk',
+    CORALCUBE: '29xtkHHFLUHXiLoxTzbC7U8kekTwN3mVQSkfXnB1sQ6e',
+    CORALCUBE_AUCTIONHOUSE_2: '6U2LkBQ6Bqd1VFt7H76343vpSwS5Tb1rNyXSNnjkf9VL',
+    OPENSEA: '3o9d13qUvEuuauhFrVom1vuCzgNsJifeaBYDPquaT73Y',
+    SOLANART: 'CJsLwbP1iu5DuUikHEJnLfANgKy6stB2uFgvBBHoyxwz',
+    YAWWW: '5SKmrbAxnHV2sgqyDXkGrLrokZYtWWVEEk5Soed7VLVN',
+    SOLSEA: 'AARTcKUzLYaWmK7D1otgyAoFn5vQqBiTrxjwrvjvsVJa',
+    SOLSEA_2: '617jbWo616ggkDxvW1Le8pV38XLbVSyWY8ae6QUmGBAU',
+    HADESWAP: 'hadeK9DLv9eA7ya5KCTqSvSvRZeJC3JgD5a9Y3CNbvu',
+    EXCHANGE_ART: 'AmK5g2XcyptVLCFESBCJqoSfwV3znGoVYQnqEnaAZKWn',
+    TENSOR: 'TSWAPaqyCSx2KABk68Shruf4rp7CxcNi8hAsbdwmHbN',
+    DIGITAL_EYES: 'A7p8451ktDCHq5yYaHczeLMYsjRsAkzc3hCXcSrwYHU7',
+    MMM: 'mmm3XBJg5gk8XJxEKBvdgptZz6SgK4tXvn36sodowMc'
+};
+
+export const MARKETPLACE_NAMES = {
+   MAGICEDEN_V2: 'magiceden_v2',
+   HYPERSPACE: 'hyperspace',
+   TENSOR: 'tensor',
+   AUCTIONHOUSE: 'auctionhouse',
+   CORALCUBE: 'coralcube',
+   CORALCUBE_AUCTIONHOUSE_2: 'coralcube_auctionhouse_2',
+   OPENSEA: 'opensea',
+   SOLANART: 'solanart',
+   YAWWW: 'yawww',
+   SOLSEA: 'solsea',
+   SOLSEA_2: 'solsea_2',
+   HADESWAP: 'hadeswap',
+   EXCHANGE_ART: 'exchange_art',
+   DIGITAL_EYES: 'digital_eyes',
+   MMM: 'mmm'
+}

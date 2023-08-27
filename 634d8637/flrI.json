@@ -1,0 +1,13 @@
+{
+  "name": "Experiment-CI-CD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Farabi-dev473/Experiment-CI-CD.git",
+  "author": "Farabi-dev473 <al.farabi.dev@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest -w"
+  }
+}

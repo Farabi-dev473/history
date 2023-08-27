@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+}
+
+.item1 {
+  background-color: red;
+}
+
+.item2 {
+  background-color: blue;
+}
+
+.item3 {
+  background-color: green;
+}
+
+.item4 {
+  background-color: yellow;
+}

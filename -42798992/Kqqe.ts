@@ -1,0 +1,31 @@
+import { Request, Response } from "express";
+import getRandomUserDetails from "../services/getRandomUserDetails.js";
+
+const userController = (req: Request, res: Response) => {
+  try {
+    const { selectedProperties } = req.body;
+    const eligiblePropties = [
+      "firstName",
+      "lastName",
+      "email",
+      "avatar",
+      "age",
+      "address",
+    ];
+
+    eligiblePropties.forEach((property: string) => {
+      if (!selectedProperties.includes(property))
+        res
+          .status(400)
+          .send({
+            errMsg: `We don't accept this property (${property}) in the request body`,
+          });
+    });
+
+    return getRandomUserDetails;
+  } catch (err) {
+    return res.status(500).send({ errMsg: (err as Error).message });
+  }
+};
+
+export default userController;

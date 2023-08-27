@@ -1,0 +1,231 @@
+{
+  i: 0,
+  txId: '2i8DcvdB8gXhKUqynxqx8SGucQiRv7jTq3EH3XL9eb1M1aP1B3idThKLX2fMcWk64kEGkr5tzZttEaPKqq2wfR47',
+  txType: 'Delist',
+  slug: 'MagicEdenV2',
+  buyerPrice: '250000000000',
+  amount: '250.00 SOL',
+  buyer: false,
+  seller: false,
+  owner: '8fjZm4BgydL5j4hSwRSE9kaVN2ytyrxes81eWp3Mc9hu'
+}
+{
+  i: 1,
+  txId: '2uAF57i5E1oLn15MYLDUoi5fGbw8WcwLsgE3QKJX6qc4DpAyft7Aott9NJXBMAzhKUhK61YFLfaxQMcnntUPuceN',
+  txType: 'UpdateList',
+  slug: 'yawww',
+  buyerPrice: '40000000000',
+  amount: '40.00 SOL',
+  buyer: false,
+  seller: false,
+  owner: 'Ep4p1DGZNEoezJdojY2eSUCfsjDb38LmdACpGNSfdoSr'
+}
+{
+  i: 2,
+  txId: '4oBFNe4qY8HQGUMComcWQtDmF9Q9YGvLEYDUPbMWqeGBKRXTj5595C3N1EWyT6SRgFSSQys12kdaauDndNeHKbPR',
+  txType: 'List',
+  slug: 'Solanart',
+  buyerPrice: '17000000000',
+  amount: '17.00 SOL',
+  buyer: false,
+  seller: 'EAoUTaAQAxTmmpkgXjJoGuc6AN298PCn1cgtmcEnHxqF',
+  owner: 'EAoUTaAQAxTmmpkgXjJoGuc6AN298PCn1cgtmcEnHxqF'
+}
+{
+  i: 3,
+  txId: '5iW72NYeUDFmUsRAxYVxReLx9PYRmApf4MNKRSxT5nZBH2dhRqugpJvbb1GyPtXiKtZg4WVY6kfvgFZ6xGBxKia5',
+  txType: 'Delist',
+  slug: 'Solanart',
+  buyerPrice: '970000000',
+  amount: '0.97 SOL',
+  buyer: false,
+  seller: false,
+  owner: '2vkmBXYF4bbij5orbd9xUJkyX9tkPZD2v21M77r1bzA7'
+}
+{
+  i: 4,
+  txId: '44JE5GMpWkNEtMUdrBTMVVkPQBdvCrZSjxZzc24yHgij6FPSEKQZt2o6A58Hap9BQbdgrhLmvqqK3c7NPJ4EAC1Y',
+  txType: 'Sale',
+  slug: 'Solanart',
+  buyerPrice: '17900000000',
+  amount: '17.90 SOL',
+  buyer: 'CNApMpy3cDBafm1G8pxBArERXn9rX7TtsDPNH6UxBNLR',
+  seller: '9zbzbgoBYx6gefbTC42TWcKy7pm1GLDniJeAVznFHTmA',
+  owner: 'CNApMpy3cDBafm1G8pxBArERXn9rX7TtsDPNH6UxBNLR'
+}
+{
+  i: 5,
+  txId: '5jpP5jRjy638KbGUEveeF9JsiA47y4xEtmjNoSaifEzFE9GhT93oKWGkf4yRkPzf8gz33ng1ujbRxXFVchna3Y3z',
+  txType: 'Sale',
+  slug: 'Solanart',
+  buyerPrice: '15000000000',
+  amount: '15.00 SOL',
+  buyer: '4iLF1Rcfb2fxXqXh92TxieQWuyyivvrw52qTrTLWkPWV',
+  seller: 'Np6qxvNzvFY18sH6NPpXytw6d8StyVnMGthZsrXoSPV',
+  owner: '4iLF1Rcfb2fxXqXh92TxieQWuyyivvrw52qTrTLWkPWV'
+}
+{
+  i: 6,
+  txId: '2SkDXdsEpm9bEZH6zdsC4TFWeQTPLh2zwiLo86fTxPZmqrqTPmjobdu73HPyjFat6MQphp5yVYkJQNSDvx849xw1',
+  txType: 'List',
+  slug: 'yawww',
+  buyerPrice: '52500000000',
+  amount: '52.50 SOL',
+  buyer: false,
+  seller: 'G8aXCw3iShnL7tcd94scdL6Y2hXn9QDSotsvWr89Nwxz',
+  owner: 'G8aXCw3iShnL7tcd94scdL6Y2hXn9QDSotsvWr89Nwxz'
+}
+{
+  i: 7,
+  txId: '55RUvCGt2ASe6xmEQgRgUiyoHTR1tu17rkpsf2VNhhZwMP1WVdG3U89in4LGJKjqaV3v2pdXTY5Pa91PcwN7ZDNH',
+  txType: 'Sale',
+  slug: 'yawww',
+  buyerPrice: '100000000000',
+  amount: '100.00 SOL',
+  buyer: '49jkiMUF3wB8N4MmRwewVSKNbYpfi2NYKBuLt4X28owR',
+  seller: '4vnt9boTFKqGEykMUexG3uyr64QnaLetHmFTSPucF57',
+  owner: '49jkiMUF3wB8N4MmRwewVSKNbYpfi2NYKBuLt4X28owR'
+}
+{
+  i: 8,
+  txId: '4bfq3XrHJ5ik9rCy6bwJPdAFUbxnbKQbZtYAns4yM5xQxqwGbN675yNjBE8qzgpzirPapkkzwoQxUCzJLnbrXM7a',
+  txType: 'List',
+  slug: 'CoralCube',
+  buyerPrice: '5690000000',
+  amount: '5.69 SOL',
+  buyer: false,
+  seller: 'DGWLm75aiyRC6eYio145cMngn1RzP1DRPc4zuDr2jXb3',
+  owner: 'DGWLm75aiyRC6eYio145cMngn1RzP1DRPc4zuDr2jXb3'
+}
+{
+  i: 9,
+  txId: '4KsMmAdcYMG91SAjV57iueteCXxaiRWtbFMgbh3ryey1esYS1iTkp1F4MK2UV2t2wSSkUp5YeGUnK2DKubyPVmMA',
+  txType: 'Sale',
+  slug: 'HyperSpace',
+  buyerPrice: '15150000000',
+  amount: '15.15 SOL',
+  buyer: '6D7GtaQEWQZxnfd9nQ7vWu5XNqYddfkaXpRjUeV8BavH',
+  seller: '2SzdKLmvtUy5xwwKvgTfME9CEQRoh3f3qYMoSV4yQbM3',
+  owner: '6D7GtaQEWQZxnfd9nQ7vWu5XNqYddfkaXpRjUeV8BavH'
+}
+{
+  i: 10,
+  txId: '3LAKYWLgWLTbBDthspnAfbffkNBKWXFSixAVXAW9rVPYBbhrizBvCtW1GTvSRpmLgc5GKk7atpreP1XZvVEZG1YB',
+  txType: 'Sale',
+  slug: 'MagicEdenV2',
+  buyerPrice: '300000000',
+  amount: '0.30 SOL',
+  buyer: '3SZ7dpXCYu1XN6r9x4ekQNrmdMQQpyemmA1fSUQ49Mph',
+  seller: '2iTxWVuvFbtTQv3HDAwSe8qxMT7Dia3kqtH8HqH1SK7Q',
+  owner: '3SZ7dpXCYu1XN6r9x4ekQNrmdMQQpyemmA1fSUQ49Mph'
+}
+{
+  i: 11,
+  txId: '5QAWR56Ybx2sanHMfpGkbnXnciJAhKuxa7y9LCqYQR4PWrEGyEvUCySykCwzcTqQNFV9JvAUsKu8hwbRSmbB6RVe',
+  txType: 'Sale',
+  slug: 'Mmm',
+  buyerPrice: '1281001000',
+  amount: '1.28 SOL',
+  buyer: '28QCj71ovpqyQruW8ziv6MoF21h8wGCPPPNMQoZzCWB5',
+  seller: '28QCj71ovpqyQruW8ziv6MoF21h8wGCPPPNMQoZzCWB5',
+  owner: '28QCj71ovpqyQruW8ziv6MoF21h8wGCPPPNMQoZzCWB5'
+}
+{
+  i: 12,
+  txId: '4xrVoNr6HtT3GoJMT4yGEkrkxgQ9dtd5FRwdTZiErcsLLFhqtxft2iuo92gsB3f1uq4JygVEJLfcwuo67JugKTQq',
+  txType: 'Sale',
+  slug: 'Mmm',
+  buyerPrice: '893235987',
+  amount: '0.89 SOL',
+  buyer: '6VU8N5YrsrksBkvk2Atz5KWkT6NXpcLqjQnkRHnemskX',
+  seller: '6VU8N5YrsrksBkvk2Atz5KWkT6NXpcLqjQnkRHnemskX',
+  owner: '6VU8N5YrsrksBkvk2Atz5KWkT6NXpcLqjQnkRHnemskX'
+}
+{
+  i: 13,
+  txId: '4rrSVmxe4BgdWgCeYGvPqCw53WmZU7hh6Yt337qSky4jLYa82xteptWQ8yA9bkcxmuikhFzEgyWn1zUaSyxyD9tK',
+  txType: 'Sale',
+  slug: 'MagicEdenV2',
+  buyerPrice: '1215600000',
+  amount: '1.22 SOL',
+  buyer: 'BpAkt9QKDHNwmwMxZUgBnPjoVTqK5seDn2hB8XQ8JiVX',
+  seller: '57yQYzV3rg1Uw3UUivbbDktuuodUhq9o9JkizTBfTFve',
+  owner: 'BpAkt9QKDHNwmwMxZUgBnPjoVTqK5seDn2hB8XQ8JiVX'
+}
+{
+  i: 14,
+  txId: '5HmqqzU3YzsH8QtHZ89VZPmZhEVhtu6ef26M25NZ9csE2BENzyTDSDogRykTkkhcGBBJLg1VqVqztMwgZ7f2Czgj',
+  txType: 'Sale',
+  slug: 'OpenSea',
+  buyerPrice: '31300000000',
+  amount: '31.30 SOL',
+  buyer: 'DPHCNaAhLpJHcC7tfmgwUKyeGjCv9WHgH79bspuUCCTn',
+  seller: 'EqTbsv4ryhbjprPzxi7jBvskgy4bSTb6NzBRLUg9nPZj',
+  owner: 'DPHCNaAhLpJHcC7tfmgwUKyeGjCv9WHgH79bspuUCCTn'
+}
+{
+  i: 15,
+  txId: '3ro8eK8wcifmFr6Z2CVVsvtoU3RsMs6WxYCD8iHX5s5X8pFgAQ81tomFBGp7UmQxgZEfgN8KXKZZqitzRHPTVBXE',
+  txType: 'List',
+  slug: 'OpenSea',
+  buyerPrice: '31300000000',
+  amount: '31.30 SOL',
+  buyer: false,
+  seller: 'EqTbsv4ryhbjprPzxi7jBvskgy4bSTb6NzBRLUg9nPZj',
+  owner: 'EqTbsv4ryhbjprPzxi7jBvskgy4bSTb6NzBRLUg9nPZj'
+}
+{
+  i: 16,
+  txId: '4BUWYwKhSYMPoL89tDBK5ctGtZeLEbpTtML1pSggERepuxL2mU4EsSoNEVsvRYT9fbaXuFC7NKi7Fy47eUgJ2Ryc',
+  txType: 'Delist',
+  slug: 'OpenSea',
+  buyerPrice: '33330000000',
+  amount: '33.33 SOL',
+  buyer: false,
+  seller: false,
+  owner: 'EqTbsv4ryhbjprPzxi7jBvskgy4bSTb6NzBRLUg9nPZj'
+}
+{
+  i: 17,
+  txId: '52RFA8HKKTzeBwnNG7sFyZA9WFNZpMd4jQ8ouSWWAxpsZvA4qi7hj4nt7vdiE3K9YrURvajPj5sHy9F8v3w7dpWS',
+  txType: 'Sale',
+  slug: 'HadeSwap',
+  buyerPrice: '156532596220',
+  amount: '156.53 SOL',
+  buyer: 'EozUcRnKqujuqir4y9ANaNRS2pkk5tRzqxbHtRnZvadF',
+  seller: '6uBaNVngE46W8ZUVHuVzcsgeTLEnUDKo9NEtDkinecDJ',
+  owner: 'EozUcRnKqujuqir4y9ANaNRS2pkk5tRzqxbHtRnZvadF'
+}
+{
+  i: 18,
+  txId: '5e6p4UDy56ujZUxhypEcxTMmgCS8DkTVnpQujNDPwJ5XBJXoJpFj34BZXVF7TNrD4FpQSVv1Fb4XJwyNq1axhx5L',
+  txType: 'List',
+  slug: 'OpenSea',
+  buyerPrice: '4870000000',
+  amount: '4.87 SOL',
+  buyer: false,
+  seller: 'B17DTCLLvyH5DiiAVyuTzw4nxRa4ne8tTKjmyTgxruDS',
+  owner: 'B17DTCLLvyH5DiiAVyuTzw4nxRa4ne8tTKjmyTgxruDS'
+}
+{
+  i: 19,
+  txId: 'e2JpGF1RhtzeaBbU6D4mQJYE6ZThkyWCAjakS75kQX85d2jK4WEkqkMHZHrJGmVUx4TibNbu7giYjasyfi9mmFn',
+  txType: 'Sale',
+  slug: 'HadeSwap',
+  buyerPrice: '46380668409',
+  amount: '46.38 SOL',
+  buyer: 'NRSjAoeFq4otfpmxHkPdfpjUb6bCE9nsW359Uk8ShKP',
+  seller: '7upYVPJjmVwyB3YGK2tgc69yC4GyHgQbSgn61vz3vPZY',
+  owner: 'NRSjAoeFq4otfpmxHkPdfpjUb6bCE9nsW359Uk8ShKP'
+}
+{
+  i: 20,
+  txId: 'Vu2ukx8bddQT8RgPhocYJJdg8NaBotbHkDRQywNWsgRWSca1KfjZxtnSRHCapVc1bgrx6gMukARq9sh5ozDpWfR',
+  txType: 'Sale',
+  slug: 'HadeSwap',
+  buyerPrice: '46658364022',
+  amount: '46.66 SOL',
+  buyer: '25CMtPkDy4wU8Lkg625cpGfVbnQuuXPgBCkZVrbJ3zRY',
+  seller: '7upYVPJjmVwyB3YGK2tgc69yC4GyHgQbSgn61vz3vPZY',
+  owner: '25CMtPkDy4wU8Lkg625cpGfVbnQuuXPgBCkZVrbJ3zRY'
+}

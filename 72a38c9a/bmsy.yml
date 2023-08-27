@@ -1,0 +1,10 @@
+version: '3'
+services:
+    server_one: 
+          build: .
+          port:
+            - "4000:4000"
+    server_two: 
+          build: .
+          port: 
+            - "3000:3000"

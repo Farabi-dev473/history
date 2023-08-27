@@ -1,0 +1,12 @@
+{
+  "name": "Twitter-Spaces-Scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/app.js"
+  },
+  "repository": "https://github.com/automatio-co/Twitter-Spaces-Scraper.git",
+  "author": "Farabi <programmer.farabi.224@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,188 @@
+version: '3.7'
+
+services:
+  postgresql:
+    image: bitnami/postgresql:14
+    restart: always
+    environment:
+      - POSTGRESQL_USERNAME=${POSTGRESQL_USERNAME}
+      - POSTGRESQL_PASSWORD=${POSTGRESQL_PASSWORD}
+      - POSTGRESQL_DATABASE=${POSTGRESQL_DATABASE}
+    volumes:
+      - postgresql:/bitnami/postgresql
+      - './tools/postgres/${SERVER_NAME:-development}/conf.d/:/opt/bitnami/postgresql/conf/conf.d/'
+    tmpfs:
+      - /var/lib/pg_stat_tmp
+      # - /bitnami/postgresql
+    ports:
+      - 5432:5432
+
+  nginx:
+    image: nginx
+    restart: always
+    volumes:
+      - ./tools/nginx/snippets:/etc/nginx/snippets
+      - ./tools/nginx/default.conf:/etc/nginx/templates/default.conf.template
+      - ./tools/nginx/502.html:/var/www/html/maintenance/502.html
+      - ./server-static-dir:/server-static-dir
+    ports:
+    - "${NGINX_PORT:-2080}:80"
+    - "${IMGPROXY_PORT:-2081}:81"
+    environment:
+     - DOCKER_HOST_IP=${DOCKER_HOST_IP}
+     - SERVER_PORT=${SERVER_PORT:-4000}
+     - RPC_PROXY_PORT=${RPC_PROXY_PORT:-9554}
+
+  meilisearch:
+    restart: always
+    image: 'getmeili/meilisearch:v0.28.1'
+    ports:
+      - '${FORWARD_MEILISEARCH_PORT:-7700}:7700'
+    command: /meilisearch --enable-auto-batching
+    volumes:
+      - 'meilisearch:/meili_data'
+    environment:
+      -  MEILI_MASTER_KEY=${SEARCH_ADMIN_KEY}
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'wget',
+          '--no-verbose',
+          '--spider',
+          'http://localhost:7700/health',
+        ]
+      retries: 3
+      timeout: 5s
+
+  rabbitmq:
+    image: rabbitmq:3.8-management-alpine
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - rabbitmq:/var/lib/rabbitmq/
+    hostname: rabbitmq
+    restart: always
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 127.0.0.1:8080:8080
+      - ${ADMINER_LAN_IP:-[::1]:8080}:8080
+
+  redis:
+    image: redis:7.0.4-alpine
+    restart: always
+    ports:
+      - '${REDIS_PORT}:6379'
+    command: redis-server --save 20 1 --loglevel warning --requirepass ${REDIS_PASS}
+    volumes:
+      - redis:/data
+
+  bullboard:
+    image: vaviloff/bullboard_subpath:latest
+    restart: always
+    # ports:
+    #   - 3001:3000
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: ${REDIS_PORT}
+      REDIS_PASSWORD: ${REDIS_PASS}
+      REDIS_USE_TLS: 'false'
+      BULL_PREFIX: bull
+      PROXY_PATH: /bullq
+    depends_on:
+      - redis  
+
+  bullboard_auth:
+    image: nginx-basic-auth-proxy
+    restart: always
+    env_file: .env
+    build:
+      context: ./tools/loki/auth/
+      args:
+        - PORT=3111
+    ports:
+      - 3111:3111
+    environment:
+      - BASIC_AUTH_USERNAME=${LOKI_USER}
+      - BASIC_AUTH_PASSWORD=${LOKI_PASS}
+      - PROXY_PASS=http://bullboard:3000
+      - PORT=3111
+      - CLIENT_MAX_BODY_SIZE=1m
+
+  loki:
+    image: grafana/loki:2.5.0
+    restart: always
+    command:
+      - --config.file=/mnt/config/loki-config.yaml
+    volumes:
+      - ./tools/loki/loki-config.yaml:/mnt/config/loki-config.yaml:ro
+      - loki:/loki
+
+  lokiauth:
+    image: nginx-basic-auth-proxy
+    restart: always
+    env_file: .env
+    build:
+      context: ./tools/loki/auth/
+      args:
+        - PORT=${LOKI_PORT}
+    ports:
+      - ${LOKI_PORT}:${LOKI_PORT}
+      - 8090:8090
+    environment:
+      - BASIC_AUTH_USERNAME=${LOKI_USER}
+      - BASIC_AUTH_PASSWORD=${LOKI_PASS}
+      - PROXY_PASS=${LOKI_ORIGIN}
+      - PORT=${LOKI_PORT}
+      - CLIENT_MAX_BODY_SIZE=2m
+
+  # Grafana
+  grafana:
+    image: grafana/grafana:latest
+    restart: always
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - ${GRAFANA_HOST:-127.0.0.1:3333}:3000
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GRAFANA_USER}
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+      - GF_SERVER_SERVE_FROM_SUB_PATH=true
+      - GF_SERVER_ROOT_URL=%(protocol)s://%(domain)s:%(http_port)s/grafana/
+      - LOKI_HOST=${LOKI_HOST}
+      - LOKI_USER=${LOKI_USER}
+      - LOKI_PASS=${LOKI_PASS}
+    volumes:
+      - ./tools/grafana/provisioning-datasources.yml:/etc/grafana/provisioning/datasources/provisioning-datasources.yml
+      - grafana:/var/lib/grafana
+
+  imgproxy:
+    image: darthsim/imgproxy@sha256:00b60c894f2eec6c4770011b95102a6da819521620c318a0fb39bb4aea44a1e6
+    ports:
+      - 9000:8080
+    restart: always
+    environment:
+      - HTTP_PROXY=http://${PROXY_SERVICE_USERNAME}:${PROXY_SERVICE_PASSWORD}@${DOCKER_HOST_IP}:${PROXY_SERVICE_PORT}
+      - HTTPS_PROXY=http://${PROXY_SERVICE_USERNAME}:${PROXY_SERVICE_PASSWORD}@${DOCKER_HOST_IP}:${PROXY_SERVICE_PORT}
+      - IMGPROXY_LOCAL_FILESYSTEM_ROOT=/srv/server-static-dir
+      - IMGPROXY_MAX_ANIMATION_FRAMES=12
+      - IMGPROXY_DOWNLOAD_TIMEOUT=${IMGPROXY_DOWNLOAD_TIMEOUT:-20}
+    volumes:
+      - ./server-static-dir:/srv/server-static-dir
+
+volumes:
+  loki: null
+  grafana: null
+  postgresqldata: null
+  postgresql: null
+  rabbitmq: null
+  meilisearch: null
+  redis: null
+  yarn_cache: null

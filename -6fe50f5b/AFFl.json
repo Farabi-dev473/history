@@ -1,0 +1,1907 @@
+{
+	"data": {
+		"audioSpace": {
+			"metadata": {
+				"rest_id": "1lDGLnarNWbxm",
+				"state": "Running",
+				"title": "ゴールドリアルトレードテクニック(30分のやつ復習とか)",
+				"media_key": "28_1645358836684050432",
+				"created_at": 1681119090596,
+				"scheduled_start": 1681119600000,
+				"started_at": 1681119872795,
+				"replay_start_time": 0,
+				"updated_at": 1681147634360,
+				"disallow_join": false,
+				"narrow_cast_space_type": 0,
+				"is_employee_only": false,
+				"is_locked": false,
+				"is_space_available_for_replay": false,
+				"is_space_available_for_clipping": false,
+				"conversation_controls": 0,
+				"total_replay_watched": 0,
+				"total_live_listeners": 364,
+				"creator_results": {
+					"result": {
+						"__typename": "User",
+						"id": "VXNlcjoyNzA1OTQ1MjU4",
+						"rest_id": "2705945258",
+						"affiliates_highlighted_label": {
+							
+						},
+						"has_graduated_access": true,
+						"is_blue_verified": true,
+						"legacy": {
+							"can_dm": true,
+							"can_media_tag": true,
+							"created_at": "Mon Aug 04 07:30:08 +0000 2014",
+							"default_profile": true,
+							"default_profile_image": false,
+							"description": "FXトレーダー / ゴールド ドル円 ポンド BTC etc. / discord : Dagram Traders Studio代表(¥ALL FREE)",
+							"entities": {
+								"description": {
+									"urls": []
+								},
+								"url": {
+									"urls": [
+										{
+											"display_url": "discord.gg/Y5CnDppCVX",
+											"expanded_url": "https://discord.gg/Y5CnDppCVX",
+											"url": "https://t.co/PPKUz0KAwh",
+											"indices": [0,23]
+										}
+									]
+								}
+							},
+							"fast_followers_count": 0,
+							"favourites_count": 7847,
+							"followers_count": 2210,
+							"friends_count": 24,
+							"has_custom_timelines": true,
+							"is_translator": false,
+							"listed_count": 12,
+							"location": "DagramTradersStudio フリーFXサロン",
+							"media_count": 99,
+							"name": "dagram_trader",
+							"normal_followers_count": 2210,
+							"pinned_tweet_ids_str": [
+								"1644812626357293056"
+							],
+							"possibly_sensitive": false,
+							"profile_banner_url": "https://pbs.twimg.com/profile_banners/2705945258/1631978835",
+							"profile_image_url_https": "https://pbs.twimg.com/profile_images/1353362223557562368/C_hc3cos_normal.jpg",
+							"profile_interstitial_type": "",
+							"screen_name": "dagram_trader",
+							"statuses_count": 877,
+							"translator_type": "none",
+							"url": "https://t.co/PPKUz0KAwh",
+							"verified": false,
+							"want_retweets": false,
+							"withheld_in_countries": []
+						},
+						"professional": {
+							"rest_id": "1469404146063519745",
+							"professional_type": "Creator",
+							"category": []
+						},
+						"business_account": {
+							
+						}
+					}
+				}
+			},
+			"is_subscribed": false,
+			"sharings": {
+				"items": [],
+				"slice_info": {
+					
+				}
+			},
+			"participants": {
+				"total": 74,
+				"admins": [
+					{
+						"periscope_user_id": "1pzjMNXzzGnEd",
+						"start": 1681119090596,
+						"twitter_screen_name": "dagram_trader",
+						"display_name": "dagram_trader",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1353362223557562368/C_hc3cos_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "2705945258",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					}
+				],
+				"speakers": [
+					{
+						"periscope_user_id": "1YLEJZqOeqyEN",
+						"start": 1681141709357,
+						"twitter_screen_name": "GGGovb2022",
+						"display_name": "GGG",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1589102774960402435/ELM93dsj_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1505231616360124417",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WgEgqeJkOzKv",
+						"start": 1681146262332,
+						"twitter_screen_name": "Raul426game",
+						"display_name": "Raul",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1577265192505073664/domfWfkn_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "981096381451452416",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					}
+				],
+				"listeners": [
+					{
+						"periscope_user_id": "tw-1644986404571852800",
+						"twitter_screen_name": "AlFarab58316007",
+						"display_name": "Al Farabi",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1644986482371997697/TmvNNMsw_normal.png",
+						"is_verified": false,
+						"user_results": {
+							"rest_id": "1644986404571852800",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1VGjvAmnRZpKO",
+						"start": 1681146955000,
+						"twitter_screen_name": "ebp8k",
+						"display_name": "kazu@Certified Public Accountant🇯🇵🇦🇺🇬🇧",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1603327229135814656/v1ifQxJQ_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1157849058175664128",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1raQZgqNOvRKz",
+						"start": 1681136837000,
+						"twitter_screen_name": "YoshiandFamily",
+						"display_name": "🗝️EXE 。。。⚽💜",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1638463883970248710/K7aSB1nc_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1091493873560350720",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1PXKdORBnOyQe",
+						"start": 1681132457000,
+						"twitter_screen_name": "mochimoney1",
+						"display_name": "もっちさん",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1643275760344629248/MLjlX4Wy_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1439043523869741056",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1zYEbnPPDrNEe",
+						"start": 1681128481000,
+						"twitter_screen_name": "maaaaakunnn1",
+						"display_name": "おファンダ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1631207186176315392/d0ZPw9nx_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1391225224541073411",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1mMEPRdPyZOKG",
+						"start": 1681143771000,
+						"twitter_screen_name": "SOTAsFX01b",
+						"display_name": "つかさんFX@ゴールド専門転向",
+						"avatar_url": "https://pbs.twimg.com/profile_images/904690357744541696/itpHFSp3_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "904688813145858048",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-840957000053751809",
+						"start": 1681146958000,
+						"twitter_screen_name": "pnwwqq45",
+						"display_name": "マキノボウ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1582282878804987905/2D5326ln_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "840957000053751809",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1426400651299356672",
+						"start": 1681141182000,
+						"twitter_screen_name": "investorwin",
+						"display_name": "つうぃんず",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1530504932289581056/5O6USCH2_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1426400651299356672",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1zYKbanNLWXQe",
+						"start": 1681133969000,
+						"twitter_screen_name": "seven3339",
+						"display_name": "seven",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1561243067708948481/IK9yHqSN_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1542011359465857029",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1YLEJLgZlaqKN",
+						"start": 1681144349000,
+						"twitter_screen_name": "FX96207896",
+						"display_name": "カルボナーラFX",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1616863377225285632/fPKihKN4_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1394288449046269954",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WgKgLeVrlJjv",
+						"start": 1681141006000,
+						"twitter_screen_name": "yyuu88aa",
+						"display_name": "ゆ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1226516312622395392/nu599LYZ_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1020576690777411585",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DZEoJZMmYJja",
+						"start": 1681141996000,
+						"twitter_screen_name": "tecchan_fx",
+						"display_name": "テッチャン",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1643301523525611525/MN_128aD_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "393273223",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oPKLBnvPrrEd",
+						"start": 1681139767000,
+						"twitter_screen_name": "eichanboo",
+						"display_name": "エイニー",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1552123244773523456/srF8lQvy_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1098169930959093760",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eVQYaqkwyPQL",
+						"start": 1681136392000,
+						"twitter_screen_name": "mitsu_y_0629",
+						"display_name": "やなぎ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1641043768395825152/KmWtQ_C5_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "886819022196555777",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1drQeoNpAdwjb",
+						"start": 1681133552000,
+						"twitter_screen_name": "FXck62369094",
+						"display_name": "ck36よかぢま",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1628390888434180100/rdJ1SPyy_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1475715410683375617",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eRKxeJmqXyjw",
+						"start": 1681142125000,
+						"twitter_screen_name": "ark2023",
+						"display_name": "ark",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1526671892790542336/Ztaw7Jen_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "784595655297789957",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1368457959206883328",
+						"start": 1681146044000,
+						"twitter_screen_name": "61Kt3oCVP3M2o1X",
+						"display_name": "セイ星&セボッツ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1368460268502577155/o8NCal2a_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1368457959206883328",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oNQlJqwppejw",
+						"start": 1681146812000,
+						"twitter_screen_name": "Ryuma517301821",
+						"display_name": "Ryuma",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1033355912595955715/tUwQTHaP_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "712638051957104640",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1267093091430760449",
+						"start": 1681142739000,
+						"twitter_screen_name": "daifukusazanami",
+						"display_name": "だいふく",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1460219011548192773/1zyIi5V-_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1267093091430760449",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1zYKbLvPAaaEe",
+						"start": 1681143662000,
+						"twitter_screen_name": "queenbbbeeee",
+						"display_name": "らぶねき",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1583739645598216192/hUBInyl9_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "981226057436037120",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1xeEWdRerDgQP",
+						"start": 1681143939000,
+						"twitter_screen_name": "pokopo_official",
+						"display_name": "ぽこ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1455708194974887937/h5ESWdVh_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1420027259608571914",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1252264985452875781",
+						"start": 1681143553000,
+						"twitter_screen_name": "fx_fx_yuuuuu",
+						"display_name": "ゆぅ@FxBoお祈りトレーダー🛐",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1462387577596833795/AW7b9hjJ_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1252264985452875781",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1567825896828186625",
+						"start": 1681142455000,
+						"twitter_screen_name": "chott_ganbaru",
+						"display_name": "みゃー",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1625531165083062274/RD8EefW5_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1567825896828186625",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1476147810278191111",
+						"start": 1681133699000,
+						"twitter_screen_name": "kinkin_1984",
+						"display_name": "キンちゃん",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1643896334297223168/YA8sgjhQ_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1476147810278191111",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1YLEJXWRwALKN",
+						"start": 1681145992000,
+						"twitter_screen_name": "t_yorz",
+						"display_name": "ふらふらっと",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1142335445386190848/u5ZFNHzQ_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "948084512293974016",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WgKgWkvqPAKv",
+						"start": 1681146944000,
+						"twitter_screen_name": "daikokuFX",
+						"display_name": "だいこくFX＠お祈りトレーダー",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1565356372580921344/3Zsk7th0_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1565337383494909953",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1mMKPqLWGrmjG",
+						"start": 1681132627000,
+						"twitter_screen_name": "227yoshi",
+						"display_name": "RURU",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1514266971537551361/K1Ddj7ge_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1262755462211985409",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DZKoOVDPrdKa",
+						"start": 1681124813000,
+						"twitter_screen_name": "NXtO4p0NiA82R1h",
+						"display_name": "ラッキー",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1480455013273325569/EQJ_6PAO_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1279177388081860608",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1384838287227965444",
+						"start": 1681139654000,
+						"twitter_screen_name": "FX01368267",
+						"display_name": "ペコ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1622620463859105792/BS2BjYpO_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1384838287227965444",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1PmEqyVNvJPEo",
+						"start": 1681138779000,
+						"twitter_screen_name": "96BCat",
+						"display_name": "くろねこ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1621566774490845184/I27fQfqD_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1621566124742815744",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DYEXMxwwDRQg",
+						"start": 1681143961000,
+						"twitter_screen_name": "A0Z9vJdyfoaQEA7",
+						"display_name": "門前の小僧",
+						"avatar_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1330769380716683264",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1XJQkaAORAMjL",
+						"start": 1681138706000,
+						"twitter_screen_name": "ZawaoOz",
+						"display_name": "お",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1482748905041235968/B39GXkP-_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "3314709426",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1VGjvBVlaYDjO",
+						"start": 1681141984000,
+						"twitter_screen_name": "sora__chika",
+						"display_name": "そらちか",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1509139748568584192/hB0eCidL_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1501197616088231938",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1014171647656411137",
+						"start": 1681134160000,
+						"twitter_screen_name": "matsunosun",
+						"display_name": "まつの",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1531348994701479936/JBgOOtVA_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1014171647656411137",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DLKBkWekDmjJ",
+						"start": 1681121336000,
+						"twitter_screen_name": "gotousantou",
+						"display_name": "ごとう",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1641324683126804480/0F2gfna-_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1641321684782444544",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1ayQVDMqRWRjp",
+						"start": 1681145136000,
+						"twitter_screen_name": "MF3M90NXGksu4zW",
+						"display_name": "アメリカンドリーム",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1291503677283266560/EiSAkZ2s_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1221994127279050753",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1368916120741109760",
+						"start": 1681145558000,
+						"twitter_screen_name": "IMl3E8Nf9SpWBW7",
+						"display_name": "ビジネスマン",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1491075674257641472/1T7rwt3S_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1368916120741109760",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oNjlZWbeMdQw",
+						"start": 1681128049000,
+						"twitter_screen_name": "smith4161440",
+						"display_name": "smith",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1547107805685227520/SQOv8S1E_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1490213656247738370",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1MWEwDgJJwZQb",
+						"start": 1681146248000,
+						"twitter_screen_name": "tinkle889",
+						"display_name": "silk469",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1281281330383220736/89Gbe-1L_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "154402131",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1zvENoweRkZQe",
+						"start": 1681139982000,
+						"twitter_screen_name": "kona24811",
+						"display_name": "kona2481",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1580593442786136065/FMiTIdar_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1490487917730361345",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eVjYrnVDMmEL",
+						"start": 1681136253000,
+						"twitter_screen_name": "FX_kohaku214",
+						"display_name": "あお",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1561319195043737602/iDmH191q_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1209740018849239045",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1JRKmYkOeeDKP",
+						"start": 1681132001000,
+						"twitter_screen_name": "gurusan40",
+						"display_name": "ぐるさん",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1563179680790118400/ddZMo1E4_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "936684843504504832",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1YLKJwJORbDjN",
+						"start": 1681147584000,
+						"twitter_screen_name": "thehair7777",
+						"display_name": "ザ・ヘアー@FXペソ円",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1192833230270918662/MArtXn8M_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1192832592078204929",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oPKLAPLZvpjd",
+						"start": 1681141124000,
+						"twitter_screen_name": "BO_LETSGO65",
+						"display_name": "FXにチャレンジ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1559316699220148224/_karOHpc_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1516186917540614149",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1492311205167337473",
+						"start": 1681142900000,
+						"twitter_screen_name": "naspyld",
+						"display_name": "ナスオ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1553531700784680960/goJsgp79_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1492311205167337473",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WLERGMdewwQb",
+						"start": 1681119980000,
+						"twitter_screen_name": "alan_kawaiii",
+						"display_name": "おもち🤍専業主婦しながらFX",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1608835779337531393/XFxU1fup_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "768417707981012992",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1631062664607850497",
+						"start": 1681141064000,
+						"twitter_screen_name": "S8B7zsEGtWmi39Q",
+						"display_name": "しん",
+						"avatar_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1631062664607850497",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1wBEAowlBPnKP",
+						"start": 1681147342000,
+						"twitter_screen_name": "pippipirupiru",
+						"display_name": "ゆゆ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1507519400509075456/6xefgKfh_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1472283205445505024",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1zvKNweeGeLje",
+						"start": 1681125558000,
+						"twitter_screen_name": "1DKVnHPRicuSomN",
+						"display_name": "ほりゆう",
+						"avatar_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1206731576098226176",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DZEognGBWGEa",
+						"start": 1681143941000,
+						"twitter_screen_name": "bakuekidaze",
+						"display_name": "OG",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1602845415883218944/b3fJ9cj0_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1493171743044689925",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1xNQabzqDzaKb",
+						"start": 1681139299000,
+						"twitter_screen_name": "GOLDgold_100000",
+						"display_name": "ゴルマン",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1599968894462365696/zJpqF4eZ_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1599968451472547840",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1MWEwlDoZxZQb",
+						"start": 1681121312000,
+						"twitter_screen_name": "sheeerxxxxx3",
+						"display_name": "sheeer",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1617932617827102721/wWMf5JeJ_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1507951475422826497",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1261931789104209920",
+						"start": 1681145856000,
+						"twitter_screen_name": "787LwRA4WApNwZF",
+						"display_name": "ヒロ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1355731272434241537/ifkGUPMF_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1261931789104209920",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1dvEOkykgApEX",
+						"start": 1681144282000,
+						"twitter_screen_name": "ace_fx_base",
+						"display_name": "ace",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1583646747863453696/6og_XGrX_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1398430579935248384",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WgKgXOqqVkjv",
+						"start": 1681142767000,
+						"twitter_screen_name": "piropirooon123",
+						"display_name": "ぴっぴ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1639276665581760524/WSMK7CSt_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1282018921642524673",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1zvENokNbZwQe",
+						"start": 1681142229000,
+						"twitter_screen_name": "ryuu1953",
+						"display_name": "ryuu",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1642908879452532737/jposXoBt_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1537001137123229701",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-126044694",
+						"start": 1681141880000,
+						"twitter_screen_name": "suchan1205",
+						"display_name": "ゆ―すけ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1644944529643159553/eIWeJy3P_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "126044694",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1603327703264169984",
+						"start": 1681144592000,
+						"twitter_screen_name": "1ktojMI6DXesDD5",
+						"display_name": "あむ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1623641915676852224/r7D2GPfl_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1603327703264169984",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1XJQkrbrVBnEL",
+						"start": 1681144570000,
+						"twitter_screen_name": "kaya0808kaya",
+						"display_name": "ゆっきー",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1555583394930896901/IWqonnd4_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1018158807770284033",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1dvEOxDkaklQX",
+						"start": 1681146821000,
+						"twitter_screen_name": "yoshiro0448",
+						"display_name": "ヨシロー",
+						"avatar_url": "https://pbs.twimg.com/profile_images/705625090298253313/TbiHKKvn_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "705296621962006528",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1324552513400438790",
+						"start": 1681144991000,
+						"twitter_screen_name": "YASUTOM60805405",
+						"display_name": "YASUTOMO",
+						"avatar_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1324552513400438790",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1065413568584015873",
+						"start": 1681144264000,
+						"twitter_screen_name": "kudou_5454",
+						"display_name": "工藤 慎二",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1379661000996089859/ut7VL1wr_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1065413568584015873",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1mMEPqyBNGgQG",
+						"start": 1681120762000,
+						"twitter_screen_name": "UKmNM2QtJydSEYi",
+						"display_name": "ゴールド初心者",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1562947363169132545/MjysxBV8_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1562912268735488005",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DLKBoxODxpjJ",
+						"start": 1681129869000,
+						"twitter_screen_name": "frisco1018",
+						"display_name": "フリスコ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1502433632153391106/nZaSj_z0_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1502427014309244928",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1239516280605966336",
+						"start": 1681145598000,
+						"twitter_screen_name": "87coco87",
+						"display_name": "^_coco_^",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1606308319966416896/NzA-YTTj_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1239516280605966336",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1285964737193230337",
+						"start": 1681133462000,
+						"twitter_screen_name": "X6vpTx6RDYR1A20",
+						"display_name": "猿彦",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1285966396019470336/Ahexk78W_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1285964737193230337",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1645286994988380161",
+						"start": 1681147164000,
+						"twitter_screen_name": "yoyoyoottotto",
+						"display_name": "よー@主にゴールドアカ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1645288119342866433/wZl0akmX_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1645286994988380161",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WLERqzRyrBjb",
+						"start": 1681139066000,
+						"twitter_screen_name": "naogwr",
+						"display_name": "nao1",
+						"avatar_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "3318911617",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1183014338346381312",
+						"start": 1681140193000,
+						"twitter_screen_name": "Pecho_tan",
+						"display_name": "ぺちょたん",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1183024057991565312/Km2NwqAq_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1183014338346381312",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1pzjMGdaqdXQd",
+						"start": 1681146878000,
+						"twitter_screen_name": "sWM4kBux0FboOpi",
+						"display_name": "ゆるゆる",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1619632769436647425/mBU_zRYO_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1619625994457067521",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1qLQGOymleeQJ",
+						"start": 1681144568000,
+						"twitter_screen_name": "Seven_S_cc",
+						"display_name": "ꪔ̤̱💜⋆͛",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1603418845368111106/2pbNPgGg_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1483481508187090944",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oNQlWXWPbdEw",
+						"start": 1681126870000,
+						"twitter_screen_name": "penpen861994",
+						"display_name": "ぺん",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1643646226729156610/wnuNAhIh_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1554166512118026240",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

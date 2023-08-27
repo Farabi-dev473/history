@@ -1,0 +1,5 @@
+DB_PORT=3306
+DB_HOST=mysql-db
+DB_USERNAME=root
+DB_PASSWORD=my-secret-pw
+DB_NAME=products

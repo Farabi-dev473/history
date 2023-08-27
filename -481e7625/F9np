@@ -1,0 +1,205 @@
+DOCKER_BUILDKIT=1
+COMPOSE_DOCKER_CLI_BUILD=1
+TZ=UTC
+
+# --------------------
+# APPLICATION SETTINGS
+# --------------------
+
+# if set to 'staging' the scrapers will scrape less NFT to save resources
+SERVER_NAME=development
+NODE_ENV=production
+# Available names:
+# SERVER_NAME=production
+# SERVER_NAME=staging
+# SERVER_NAME=development
+
+# if you change the port you need to change the other URLs' port as well
+SERVER_PORT=4000
+NX_FRONTEND_URL=https://sg.moonly.online
+NX_SERVER_URL=https://sg.moonly.online/graphql
+NX_WEBSOCKET_URL=wss://sg.moonly.online/subscriptions
+NX_SERVER_ADDRESS=http://localhost:4000
+NX_NEXT_SSR_SERVER_URL=http://localhost:4000/graphql
+
+
+APP_SECRET=dev1app3secret3
+ADMIN_USERNAME=adminUser
+ADMIN_PASSWORD=adminPass
+ADMIN_EMAIL=admin@moon.ly
+
+NX_PUBLIC_VAPID_KEY=BCdXZ1lm32_K67RUGcrY3YO_o2uo5sj2BZkF4jrW9ObmqhaW70zBkxmdZZmKfR5mPONyIwVFVNaARVGzYvA2d4s
+PRIVATE_VAPID_KEY=ahnfeJqdAwkVDVhtEkKraz7isFyYGr5GU6SzUZAP283
+
+# ---------
+# DATABASES
+# ---------
+
+# Postgres
+DATABASE_URL=postgresql://udXDHn8WyaKG:GZ0Cb7kQqMUe@localhost/moonly?connection_limit=100&pool_timeout=100
+POSTGRESQL_USERNAME=udXDHn8WyaKG
+POSTGRESQL_PASSWORD=GZ0Cb7kQqMUe
+POSTGRESQL_DATABASE=moonly
+POSTGRESQL_POSTGRES_PASSWORD=fwj7IqSOIqjj4s
+
+# RabbitMQ
+RABBITMQ_DEFAULT_USER=FuAkENFKkKhez
+RABBITMQ_DEFAULT_PASS=Jkw2EixmzCDvVa14
+RABBITMQ_HOST=amqp://FuAkENFKkKhez:Jkw2EixmzCDvVa14@localhost:5672
+
+# Redis
+REDIS_PORT=6379
+REDIS_PASS=yUi3X2IIoFH5AEHTX5QC
+REDIS_HOST=localhost
+
+# -----------------
+# SCRAPER SETTINGS
+# -----------------
+
+## Reservoir
+RESERVOIR_COLLECTION_LIMIT=20
+RESERVOIR_COLLECTION_CONCURRENCY=
+RESERVOIR_SORTBY_QUERY_LIST=allTimeVolume,createdAt,1DayVolume,7DayVolume,30DayVolume,floorAskPrice
+DISABLE_RESERVOIR_COLLECTOR=true
+DISABLE_RESERVOIR_NFT_UPDATE=
+DISABLE_RESERVOIR_CONTINUATION_CACHE=
+
+## Stats
+STATS_UPDATE_CONCURRENCY=30
+STATS_SCRAPER_BATCH=300
+DISABLE_STATS_SCRAPER=true
+## Twitter
+DISABLE_TWITTER_SCRAPER=true
+TWITTER_UPDATE_CONCURRENCY=10
+## Sales
+DISABLE_SALES_SCRAPER=true
+SALE_SCRAPER_CONCURRENCY=10
+SALE_SCRAPER_BATCH=50
+SALE_MAX_APIPAGE=20
+## Mints
+DISABLE_MINTS_SCRAPER=true
+MINT_SCRAPER_CONCURRENCY=10
+## Social
+DISABLE_SOCIAL_SCRAPER=true
+SOCIAL_UPDATE_CONCURRENCY=10
+## Wallet-checker
+DISABLE_WALLET_CHECKER=true
+WALLET_CHECKER_CONCURRENCY=10
+## Autodiscover
+DISABLE_AUTODISCOVER_SCRAPER=true
+## NFT item metadata
+NFT_ITEM_METADATA_SCRAPER_BATCH=100
+NFT_ITEM_METADATA_SCRAPER_CONCURRENCY=10
+NFT_ITEM_METADATA_SCRAPER_CONNECTION=https://api.mainnet-beta.solana.com
+
+# randomize magic eden data for testing purposes of the NFT with this slug
+RANDOMIZE_ME_STAT_SLUG=social-whale-club
+
+# How long to wait when opening remote URLs, ms
+GET_URL_TIMEOUT=10000
+
+#----------
+# LIVE FEED
+#----------
+LIVE_FEED_EVENT_TIMEOUT=30
+LIVE_FEED_WORKER_CONCURRENCY=100
+LIFE_FEED_QUEUENAME=life-feed-queue
+
+# -------
+# LOGGING
+# -------
+LOG_FILE=false
+LOG_CONSOLE=true
+LOG_LOKI=false
+
+# Grafana
+GRAFANA_USER=stats
+GRAFANA_PASSWORD=statspass
+GRAFANA_HOST=127.0.0.1:3333
+
+# Loki endpoint to give to applications, will be protected by basic auth
+LOKI_PORT=3100
+LOKI_USER=moonloki
+LOKI_PASS=lomokino
+LOKI_HOST=http://127.0.0.1
+
+# Dockerized Loki endpoint without auth
+LOKI_ORIGIN=http://loki:3100
+
+# -------------
+# PROXY SERVICE
+# -------------
+PROXY_SERVICE_USERNAME=moonlyBot
+PROXY_SERVICE_PASSWORD=lxxtDxxrPxxk
+PROXY_SERVICE_PORT=9191
+PROXY_SERVICE_URL=http://moonlyBot:lxxtDxxrPxxk@127.0.0.1:9191
+PROXY_SERVICE_RESTURL=http://moonlyBot:lxxtDxxrPxxk@127.0.0.1:9192
+# URL of a Webshare proxy list
+PROXY_LIST_URL=
+# Will override all other proxies (do not use)
+# HTTP_PROXY=http://user:password@127.0.0.1:9191
+HTTP_PROXY=
+
+# ------------------------
+# IMAGE RESIZE/CACHE PROXY
+# ------------------------
+# For local imgproxy development:
+# NX_IMGPROXY_URL=http://localhost:2080
+NX_IMGPROXY_URL=https://img.moon.ly
+
+# ------
+# SEARCH
+# ------
+SEARCH_ADMIN_URL=http://localhost:7700
+SEARCH_HOST=localhost
+SEARCH_PORT=7700
+SEARCH_PROTOCOL=http
+SEARCH_ADMIN_KEY=xyz
+SEARCH_PUBLIC_KEY=xyzsearch
+NX_SEARCH_PUBLIC_KEY=xyzsearch
+
+# NEED TO BUY NFT USING THIRD PARTY API
+NX_RPC_NODE=https://mainnet-beta.solflare.network
+HYPERSPACE_BUYER_BROKER_KEY=
+HYPERSPACE_API_KEY=
+MAGICEDEN_API_KEY=
+
+# ------------------
+# LOGIN with Discord
+# ------------------
+DISCORD_CLIENT_ID=1100261812324286646
+DISCORD_CLIENT_SECRET=naqi7OKrZA5p5WMQzWQKPdPYS0ML4uOG
+DISCORD_LOGIN_REDIRECT_URL=https://sg.moonly.online/login
+DISCORD_ACCOUNT_LINK_REDIRECT_URL=https://sg.moonly.online/profile?tab=account-linking
+NX_DISCORD_LOGIN_URL=https://discord.com/api/oauth2/authorize?client_id=1100261812324286646&redirect_uri=https://sg.moonly.online/login&response_type=token&scope=identify
+NX_DISCORD_ACCOUNT_LINK_URL=https://discord.com/api/oauth2/authorize?client_id=1100261812324286646&redirect_uri=https://sg.moonly.online/profile?tab=account-linking&response_type=token&scope=identify
+
+# -----------------
+# RPC NODE SETTINGS
+# -----------------
+# Free trial endpoints are available
+# from Alchemy.com and Quicknode.com
+RPC_ENDPOINT=https://api.mainnet-beta.solana.com
+RPC_MASTER_FALLBACK=https://api.mainnet-beta.solana.com
+RPC_MAIN=https://api.mainnet-beta.solana.com
+RPC_ARRAY=https://solana-mainnet.g.alchemy.com/v2/KEY_HERE,https://solana-mainnet.g.alchemy.com/v2/ANOTHER_KEY
+RPC_MAIN_TIMEOUT=1000
+RPC_CACHE_TTL=10
+RPC_LISTENER_1=https://api.mainnet-beta.solana.com
+RPC_LISTENER_2=
+RPC_LISTENER_3=
+RPC_LISTENER_4=
+
+# On which local port to run nginx serving the app
+NGINX_PORT=2080
+# can usually get it with `hostname -I` command, take first IP
+DOCKER_HOST_IP=172.17.0.1
+
+RPC_PROXY_PORT=9554
+RPC_PROXY_HTTP_URLS=["https://api.mainnet-beta.solana.com","https://api.testnet.solana.com"]
+RPC_PROXY_WS_URLS=["wss://api.mainnet-beta.solana.com","wss://api.testnet.solana.com"]
+RPC_PROXY_AUTH=b39730b7d46d6c38f1f28c832ea12e18
+# Get the auth key from developers
+RPC_MAIN_WEBSOCKET=wss://rpc.moonly.online/?auth=auth_key_here
+# or use this endpoint for local development:
+# RPC_MAIN_WEBSOCKET=ws://localhost:2080/rpc/?auth=b39730b7d46d6c38f1f28c832ea12e18

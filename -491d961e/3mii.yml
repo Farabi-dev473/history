@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+
+  api:
+    depends_on:
+      - db 
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - /home/farabi-dev/Codes/Projects/Md-Abu-Taher-Projects/Quote-API/public:/app/public
+    command: npx prisma generate && yarn start
+  db: 
+    image: postgres:latest
+    ports:
+      - 5000:5432
+    restart: always
+    container_name: postgres-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
+      - POSTGRES_DB_NAME=mydatabase
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:

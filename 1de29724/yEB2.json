@@ -1,0 +1,31 @@
+{
+  "name": "moonly-sol-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fahim Faisaal <fahimfaisal.soikot@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -w",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "borsh": "^0.7.0",
+    "bs58": "^5.0.0",
+    "data-store": "^3.1.0",
+    "json-format": "^1.0.1",
+    "typescript": "4.2.4",
+    "winston": "^3.7.2",
+    "winston-loki": "^6.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^18.15.11",
+    "babel-jest": "^29.5.0",
+    "jest": "^27.5.1",
+    "jest-mock-extended": "2.0.4",
+    "jiti": "^1.18.2",
+    "ts-jest": "^27.1.5"
+  }
+}

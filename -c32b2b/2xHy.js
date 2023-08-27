@@ -1,0 +1,22 @@
+import MagicEdenParseStrategy from './magicEdenParseStrategy.js'
+import HyperSpaceParseStrategy from './hyperSpaceParseStrategy.js'
+import AuctionHouseParseStrategy from './auctionHouseParseStrategy.js'
+import DigitalEyesParseStrategy from './digitalEyesParseStrategy.js'
+import TenorSwapParseStrategy from './tenorSwapParseStrategy.js'
+import SolanartParseStrategy from './solanartParseStrategy.js'
+
+export default class ListEventParser {
+   strategy
+
+   constructor(strategy){
+    this.strategy = strategy
+   }
+
+   parse(){
+    return this.strategy.parseListEventTx()
+   }
+}
+
+const strategy = new MagicEdenParseStrategy("57bHzn6dNftr7J17JGEbvJsD4RjkZWLQWRohD1b9xqk7nsAX5woh2tozcJLLcFph5GkkuNcgGS7ihcdfhx8bVhbP")
+const listEventParseStrategy = new ListEventParseStrategy(strategy)
+console.log(listEventParseStrategy.parseListEventTx())

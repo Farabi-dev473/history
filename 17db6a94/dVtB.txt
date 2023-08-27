@@ -1,0 +1,7 @@
+Processor: Intel Core I5 13500 - 29500
+Motherboard: BIOSTAR B760MX-E D4 12th/ 13th Generation single chip - 10000                 
+Ram:TEAM T-Force DELTA RGB White 16GB 3200MHz DDR4 CL16 Gaming RAM-5199                                                              
+Case:Montech AIR 100 ARGB Micro ATX Case White-6100
+Psu:Corsair CV750 750 Watt 80 Plus Bronze Certified Power Supply-6899
+ssd:Samsung PM9A1 512GB M.2 PCIe Gen 4.0 NVMe SSD-4870
+total:62568

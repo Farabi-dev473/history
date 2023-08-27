@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

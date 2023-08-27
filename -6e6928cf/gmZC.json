@@ -1,0 +1,10 @@
+{
+  "name": "twitter-automated-recorder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.33.0"
+  }
+}

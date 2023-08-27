@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Giveaway Creation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="boom">
+      <!-- Header Section -->
+      <header
+        class="bg-green-500 rounded-md shadow-md py-2 px-4 flex justify-between items-center"
+      >
+        <div class="logo flex items-center">
+          <img
+            src="./img/moon-logo.png"
+            alt="Moonly Logo"
+            class="w-5 h-5 mr-2"
+          />
+          <p class="font-bold">Moonly</p>
+        </div>
+        <nav class="font-bold">
+          <ul class="inline-block">
+            <li class="inline-block mr-4">
+              <a href="#" class="text-black no-underline px-2 py-1 rounded"
+                >Home</a
+              >
+            </li>
+            <li class="inline-block mr-4">
+              <a href="#" class="text-black no-underline px-2 py-1 rounded"
+                >Tools</a
+              >
+            </li>
+            <li class="inline-block mr-4">
+              <a href="#" class="text-black no-underline px-2 py-1 rounded"
+                >Market Data</a
+              >
+            </li>
+            <li class="inline-block">
+              <a href="#" class="text-black no-underline px-2 py-1 rounded"
+                >Blog</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main Section -->
+      <main class="mt-4 px-4 py-4 bg-white rounded-md shadow-md">
+        <h1 class="text-2xl mb-8">Space Giveaway Creation</h1>
+
+        <form>
+          <div class="mb-4">
+            <div>
+              <label
+                for="twitter-url"
+                class="block font-bold mb-1 text-gray-700"
+                >Twitter Spaces URL</label
+              >
+              <input
+                type="text"
+                id="twitter-url"
+                name="twitter-url"
+                class="w-full px-4 py-2 border border-gray-300 rounded"
+              />
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div>
+              <label
+                for="num-winners"
+                class="block font-bold mb-1 text-gray-700"
+                >Number of winners</label
+              >
+              <input
+                type="number"
+                id="num-winners"
+                name="num-winners"
+                class="w-full px-4 py-2 border border-gray-300 rounded"
+              />
+            </div>
+          </div>
+
+          <div class="flex mb-4">
+            <!-- Minimum Time in spaces -->
+            <div class="flex-1">
+              <label for="min-time" class="block font-bold mb-1 text-gray-700"
+                >Minimum Time in spaces</label
+              >
+              <input
+                type="text"
+                id="min-time"
+                name="min-time"
+                class="w-full px-4 py-2 border border-gray-300 rounded"
+              />
+            </div>
+            <!-- Time -->
+            <div class="flex-1 ml-4">
+              <label for="time" class="block font-bold mb-1 text-gray-700"
+                >Time</label
+              >
+              <select
+                name="time"
+                id="time"
+                class="w-full px-4 py-2 border border-gray-300 rounded"
+              >
+                <option value="minutes">minutes</option>
+                <option value="second">second</option>
+                <option value="hour">hour</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div>
+              <label for="user-type" class="block font-bold mb-1 text-gray-700"
+                >User types</label
+              >
+              <input
+                type="text"
+                id="user-type"
+                name="user-type"
+                class="w-full px-4 py-2 border border-gray-300 rounded"
+              />
+            </div>
+          </div>
+
+          <!-- Toggle Switch -->
+          <div class="mb-4">
+            <label
+              for="follow-required"
+              class="block font-bold mb-1 text-gray-700"
+              >Follow host required?</label
+            >
+            <label class="switch">
+              <input type="checkbox" class="toggle-switch" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+
+          <!-- Requirement Section -->
+          <div class="mb-4">
+            <h2 class="text-xl mb-2">Holding Requirements</h2>
+            <div class="bg-gray-200 p-4 rounded-md">
+              <div class="flex">
+                <!-- NFT -->
+                <div class="flex-1 mb-4">
+                  <label for="nft" class="block font-bold mb-1 text-gray-700"
+                    >NFT</label
+                  >
+                  <input
+                    type="number"
+                    id="nft"
+                    class="w-full px-4 py-2 border border-gray-300 rounded"
+                  />
+                </div>
+
+                <!-- Collection -->
+                <div class="flex-1 ml-4 mb-4">
+                  <label
+                    for="collection"
+                    class="block font-bold mb-1 text-gray-700"
+                    >Collection</label
+                  >
+                  <select
+                    name="collection"
+                    id="collection"
+                    class="w-full px-4 py-2 border border-gray-300 rounded"
+                  >
+                    <option value="moonly">moonly</option>
+                    <option value="okay bears">okay bears</option>
+                  </select>
+                </div>
+
+                <!-- Trait -->
+                <div class="flex-1 ml-4 mb-4">
+                  <label for="trait" class="block font-bold mb-1 text-gray-700"
+                    >Trait</label
+                  >
+                  <select
+                    name="trait"
+                    id="trait"
+                    class="w-full px-4 py-2 border border-gray-300 rounded"
+                  >
+                    <option value="any">Any</option>
+                    <option value="crown">Crown</option>
+                  </select>
+                </div>
+              </div>
+              <div class="flex">
+                <!-- NFT -->
+                <div class="flex-1 mb-4">
+                  <label for="nft" class="block font-bold mb-1 text-gray-700"
+                    >NFT</label
+                  >
+                  <input
+                    type="number"
+                    id="nft"
+                    class="w-full px-4 py-2 border border-gray-300 rounded"
+                  />
+                </div>
+
+                <!-- Collection -->
+                <div class="flex-1 ml-4 mb-4">
+                  <label
+                    for="collection"
+                    class="block font-bold mb-1 text-gray-700"
+                    >Collection</label
+                  >
+                  <select
+                    name="collection"
+                    id="collection"
+                    class="w-full px-4 py-2 border border-gray-300 rounded"
+                  >
+                    <option value="moonly">moonly</option>
+                    <option value="okay bears">okay bears</option>
+                  </select>
+                </div>
+
+                <!-- Trait -->
+                <div class="flex-1 ml-4 mb-4">
+                  <label for="trait" class="block font-bold mb-1 text-gray-700"
+                    >Trait</label
+                  >
+                  <select
+                    name="trait"
+                    id="trait"
+                    class="w-full px-4 py-2 border border-gray-300 rounded"
+                  >
+                    <option value="any">Any</option>
+                    <option value="crown">Crown</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add Rule Button -->
+          <div class="text-right mb-4">
+            <button
+              id="add-rule"
+              class="px-4 py-2 bg-purple-600 text-white font-bold rounded"
+            >
+              Add Rule
+            </button>
+          </div>
+
+          <!-- Rule Section -->
+          <div class="rule mb-4">
+            <label
+              for="rule"
+              class="block font-bold mb-1 text-gray-700 flex-shrink-0"
+              >Rule</label
+            >
+            <input
+              type="text"
+              id="rule"
+              name="rule"
+              class="w-full px-4 py-2 border border-gray-300 rounded"
+            />
+          </div>
+
+          <!-- Rule Container -->
+          <div class="container mb-4">
+            <div class="gray-box p-2 rounded">
+              <div class="rule flex items-center gap-2 mb-2">
+                <label for="rule" class="flex-basis-100">Rule</label>
+                <input
+                  type="text"
+                  id="rule"
+                  name="rule"
+                  class="w-full px-4 py-2 border border-gray-300 rounded"
+                />
+              </div>
+              <div class="rule flex items-center gap-2">
+                <label for="rule" class="flex-basis-100">Rule</label>
+                <input
+                  type="text"
+                  id="rule"
+                  name="rule"
+                  class="w-full px-4 py-2 border border-gray-300 rounded"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="text-right">
+            <button
+              type="submit"
+              class="px-4 py-2 bg-purple-600 text-white font-bold rounded"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

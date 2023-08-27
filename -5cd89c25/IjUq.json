@@ -1,0 +1,101 @@
+
+{
+  "collections": [
+    {
+      "id": "0x1278fb63b150e1c9cc478824e589045729321c54",
+      "slug": "patchworks",
+      "createdAt": "2023-01-10T15:59:16.473Z",
+      "name": "PATCHWORKS",
+      "image": "https://i.seadn.io/gcs/files/primary-drop-files/patchworks/logo.png",
+      "banner": "https://i.seadn.io/gcs/files/primary-drop-files/patchworks/patchworks-min.png",
+      "discordUrl": "https://discord.gg/cameopass",
+      "externalUrl": "http://pass.cameo.com",
+      "twitterUsername": "CAMEOPASS",
+      "openseaVerificationStatus": "verified",
+      "description": "",
+      "sampleImages": [
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad953736a0550e93df74abd2950414945bc826dbfe5f948c7b3b4c3fa9c23d50f2a40dbb688578ecc4ff51b2db56c093dea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5585851ddb10ea973ad5289cd5843ead7abe242416387aca01755bcbd36c25c2c837347d4ffb2048f996ef8c45aa82d4ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a649889ee76eb46c2d235c12894cc8bb84010c8ae18f0bb27c12bd7b0fdc8e893d3f4f66b14f20cab22604878a3f0ecb2ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae66d50893e9549d4fa2977d80de90aacb24cbbce25be8a4130f11c7aa563ed273be56e13e5bc7260ee4e16dcdfe37a9eea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d"
+      ],
+      "tokenCount": "1000",
+      "onSaleCount": "136",
+      "primaryContract": "0x1278fb63b150e1c9cc478824e589045729321c54",
+      "tokenSetId": "contract:0x1278fb63b150e1c9cc478824e589045729321c54",
+      "royalties": {
+        "recipient": null,
+        "breakdown": [],
+        "bps": 0
+      },
+      "allRoyalties": {
+        "onchain": [],
+        "opensea": [
+          {
+            "bps": 500,
+            "recipient": "0x1d522ae2dff7f5b3cb24465630a5951ad60c9233"
+          }
+        ]
+      },
+      "lastBuy": {
+        "value": null
+      },
+      "floorAsk": {
+        "id": "0xf848f1e79ec2915b4a7d33f9a8d0ad745df307bccd660269250a40ee93877080",
+        "sourceDomain": "opensea.io",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "113800000000000000",
+            "decimal": 0.1138, // Floor Price
+            "usd": 176.54073,  
+            "native": 0.1138  // Floor 
+          }
+        },
+        "maker": "0x9fe98adff9c37deb4433201203cb0852b8e49193",
+        "validFrom": 1673865031,
+        "validUntil": 1673868631,
+        "token": {
+          "contract": "0x1278fb63b150e1c9cc478824e589045729321c54",
+          "tokenId": "839",
+          "name": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b58ec48febf24c014fe16c0719a1041fc124b4bc7fcc40797d7e2732927cafcd727b6c8dc85e6022f4b374e7ff32212ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d"
+        }
+      },
+      "rank": {
+        "1day": 421,
+        "7day": 77,
+        "30day": 236,
+        "allTime": 3195
+      },
+      "volume": {
+        "1day": 2.343,
+        "7day": 233.14768,
+        "30day": 233.14768,
+        "allTime": 233.14768
+      },
+      "volumeChange": {
+        "1day": 0.721164944550634,
+        "7day": null,
+        "30day": null
+      },
+      "floorSale": {
+        "1day": 0.0811,
+        "7day": null,
+        "30day": null
+      },
+      "floorSaleChange": {
+        "1day": 1.403205918618989,
+        "7day": null,
+        "30day": null
+      },
+      "collectionBidSupported": true
+    }
+  ],
+  "continuation": "MjMzMTQ3NjgwNjMwMDk5OTk4OTk5XzB4MTI3OGZiNjNiMTUwZTFjOWNjNDc4ODI0ZTU4OTA0NTcyOTMyMWM1NA=="
+}

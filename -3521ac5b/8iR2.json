@@ -1,0 +1,11 @@
+{
+  "name": "random-numer-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Farabi <programmer.farabi.224@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./dist/main.js"
+  }
+}

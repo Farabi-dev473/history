@@ -1,0 +1,771 @@
+datasource db {
+  url      = env("DATABASE_URL")
+  provider = "postgresql"
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+enum Role {
+  ADMIN
+  USER
+  HOLDER
+}
+
+// data point is defined in lower case as mestat object keys are small letter
+enum DataPoint {
+  floor_price
+  volume
+  total_listed
+}
+
+enum ComparisonOperator {
+  ABOVE
+  BELOW
+  EQUAL
+}
+
+enum OperationType {
+  AND
+  OR
+}
+
+enum AlertOptions {
+  PUSH_NOTIFICATION
+  SMS
+  EMAIL
+  DISCORD
+}
+
+model TempPrivateKey {
+  id  String @id @unique @default(cuid())
+  key String
+}
+
+model SignatureMessage {
+  id            String   @id @unique @default(cuid())
+  walletAddress String   @unique
+  message       String?
+  createdAt     DateTime @unique @default(now())
+
+  @@index([walletAddress])
+}
+
+model Wallet {
+  id             String   @id @unique @default(cuid())
+  address        String   @unique
+  userId         String?
+  user           User?    @relation("owner", fields: [userId], references: [id])
+  primaryAddress String?  @unique
+  primary        User?    @relation(fields: [primaryAddress], references: [walletAddress])
+  createdAt      DateTime @unique @default(now())
+
+  @@index([address])
+}
+
+model User {
+  id                           String    @id @unique @default(cuid())
+  email                        String?   @unique
+  name                         String?
+  password                     String?
+  walletAddress                String?   @unique
+  primaryWallet                Wallet?
+  discordUserId                String?   @unique
+  userName                     String?   @unique
+  avatar                       String?
+  bio                          String?
+  showProfile                  Boolean?  @default(true)
+  hasRequiredDiscordPermission Boolean?  @default(false)
+  discordAccessToken           String?
+  discordRefreshToken          String?
+  tokenExpireTime              DateTime?
+
+  twitterUserId          String?   @unique
+  twitterUserName        String?
+  twitterDisplayName     String?
+  twitterAccessToken     String?
+  twitterRefreshToken    String?
+  twitterTokenExpireTime DateTime?
+
+  walletNftItems NFTItem[]
+  autoAlert      AutoAlert?
+
+  role Role @default(USER)
+
+  bookmarkedNfts BookmarkNFT[]
+  devices        Device[]
+  alerts         Alert[]
+  reminders      Reminder[]
+
+  owner   Owner?   @relation(fields: [ownerId], references: [id])
+  ownerId String?
+  wallets Wallet[] @relation("owner")
+}
+
+model Owner {
+  id   String @id @unique @default(cuid())
+  User User[]
+}
+
+model NFT {
+  id                  String   @id @unique @default(cuid())
+  createdAt           DateTime @unique @default(now())
+  collectionAddress   String?  @unique
+  collectionAuthority String?
+  candyMachineAddress String?
+
+  mintDate    DateTime?
+  hasMintTime Boolean?  @default(false)
+
+  // description and name
+  name            String?
+  slug            String  @unique
+  nft_description String?
+
+  recommended     Boolean @default(false) // if nft_score > 70% it's recommended
+  featured        Boolean @default(false)
+  rugged          Boolean @default(false)
+  red_flagged     Boolean @default(false)
+  verified        Boolean @default(false)
+  doxxed          Boolean @default(false)
+  published       Boolean @default(true)
+  verifyRequested Boolean @default(false)
+
+  verifyRequest VerifyRequest?
+
+  // discord
+  discord_url        String?
+  discord_log        DiscordLog[]
+  discord_latest_log DiscordLatestLog?
+
+  // twitter
+  twitter_url        String?
+  twitter_feed       String[]
+  twitter_log        TwitterLog[]
+  twitter_latest_log TwitterLatestLog?
+
+  // price and amount related
+  price           Float?    @default(0)
+  currency        String?
+  supply          Float?    @default(0)
+  supply_found    Float?    @default(0) // How many items scraped
+  supply_finished Boolean?  @default(false)
+  supply_checked  DateTime?
+  nft_score       Float?    @default(0)
+
+  // misc links
+  project_image_link           String?
+  project_meme_links           String[]
+  youtube_links                String[]
+  project_site_link            String?
+  project_site_screenshot_link String?
+  magic_eden_url               String?
+  opensea_url                  String?
+  etherscan_url                String?
+  polygonscan_url              String?
+  scraped_last                 BigInt?
+  scrape_frequency             Int?
+  scrape_active                Boolean  @default(false)
+  last_social_updated          BigInt?  @default(0)
+  last_sale_updated            BigInt?
+  last_audit_updated           BigInt?
+  sale_scrape_frequency        Int?
+  autocreated                  Boolean  @default(false)
+  discord_id                   String?
+  attribute_migrated           Boolean  @default(false)
+
+  tags Tag[]
+
+  blockchain      Blockchain? @relation(fields: [blockchain_slug], references: [slug])
+  blockchain_slug String?
+
+  magic_eden_stats_day     MEStatDay[]
+  magic_eden_stats_hour    MEStatHour[]
+  magic_eden_latest        MEStatLatest?
+  magic_eden_sales         MESale[]
+  magic_eden_sales_day     MESaleDay?
+  magic_eden_sales_week    MESaleWeek?
+  magic_eden_sales_stats   MESaleStats?
+  magic_eden_sales_day_top METopSaleDay[]
+
+  alert     Alert[]
+  twitter   TwitterNFT?
+  reminder  Reminder?
+  nftItems  NFTItem[]
+  bookmarks BookmarkNFT[]
+
+  autoAlerts          AutoAlert[]
+  autoAlertTimingMaps AutoAlertTimingMap[]
+
+  events           Event[]
+  attributesTraits AttributeTrait[]
+
+  HoldingRequirement HoldingRequirement[]
+  @@index([discord_id])
+  @@index([mintDate])
+}
+
+model NFTItem {
+  id                      String  @id @unique
+  title                   String
+  image                   String
+  owner                   String
+  on_chain_metadata       Json?
+  off_chain_metadata      Json?
+  metadata_scraper_failed Boolean @default(false)
+  is_burned               Boolean @default(false)
+
+  nft   NFT    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId String
+
+  User   User?   @relation(fields: [userId], references: [id])
+  userId String?
+
+  @@index([userId, nftId])
+  @@index(is_burned)
+  @@index(on_chain_metadata)
+}
+
+model BookmarkNFT {
+  id     String  @id @unique @default(cuid())
+  nft    NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId  String?
+  user   User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String?
+}
+
+model Reminder {
+  id           String         @id @default(cuid())
+  alert_by     AlertOptions[]
+  reminderDate DateTime
+
+  nft   NFT    @relation(fields: [nFTId], references: [id], onDelete: Cascade)
+  nFTId String @unique
+
+  User   User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String?
+}
+
+model Blockchain {
+  title                 String  @unique
+  description           String
+  secondary_description String?
+  slug                  String  @id @unique
+  logo                  String
+  website               String
+  twitter               String
+  discord               String
+  github                String
+  currency              String?
+  NFT                   NFT[]
+}
+
+model Influencer {
+  id         String              @id
+  cursor     String?
+  startedAt  DateTime?
+  finishedAt DateTime?
+  following  BigInt?
+  runtime    Int?
+  disabled   Boolean             @default(false)
+  error      String?
+  twitters   InfluencerTwitter[]
+}
+
+model InfluencerTwitter {
+  influencer   Influencer @relation(fields: [influencerId], references: [id], onDelete: Cascade)
+  influencerId String
+  twitter      Twitter    @relation(fields: [twitterId], references: [id], onDelete: Cascade)
+  twitterId    String
+
+  @@id([twitterId, influencerId])
+}
+
+model TwitterNFT {
+  twitterId String
+  twitter   Twitter @relation(fields: [twitterId], references: [id], onDelete: Cascade)
+  nftId     String  @unique
+  nft       NFT     @relation(fields: [nftId], references: [id], onDelete: Cascade)
+
+  @@id([nftId, twitterId])
+}
+
+model Twitter {
+  id              String              @id
+  influencers     Json?
+  score           Float?
+  engagement      Float?
+  percentage      Float?
+  last_updated    DateTime?
+  disabled        Boolean             @default(false)
+  error           String?
+  influencer_list InfluencerTwitter[]
+  nfts            TwitterNFT[]
+}
+
+// when time comes this will rise - prophecy by @developerruhul
+model News {
+  id          String @id @default(cuid())
+  url         String
+  title       String
+  description String
+  thumb       String
+  // nft         NFT    @relation(fields: [nftId], references: [id])
+  // nftId       String
+}
+
+model Tag {
+  name        String @id @unique
+  slug        String @unique
+  description String
+  nfts        NFT[]
+}
+
+model MESale {
+  id        String   @id @default(cuid())
+  tokenMint String?
+  soldAt    DateTime @default(now())
+  price     Float    @default(0)
+  nftId     String
+  nft       NFT      @relation(fields: [nftId], references: [id], onDelete: Cascade)
+
+  @@index([nftId, soldAt])
+}
+
+model METopSaleDay {
+  id        String   @id
+  name      String
+  tokenMint String
+  soldAt    DateTime @default(now())
+  price     Float?   @default(0)
+  image     String
+  url       String
+  nftId     String
+  nft       NFT?     @relation(fields: [nftId], references: [id], onDelete: Cascade)
+}
+
+model MESaleDay {
+  id          String  @id @default(cuid())
+  total_sales Int?    @default(0)
+  min_price   Float?  @default(0)
+  max_price   Float?  @default(0)
+  nftId       String? @unique
+  nft         NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+}
+
+model MESaleWeek {
+  id          String  @id @default(cuid())
+  total_sales Int?    @default(0)
+  min_price   Float?  @default(0)
+  max_price   Float?  @default(0)
+  nftId       String? @unique
+  nft         NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+}
+
+model MESaleStats {
+  id              String  @id @default(cuid())
+  listed          Int?    @default(0)
+  total_sales     Int?    @default(0)
+  top_sale        Float?  @default(0)
+  min_price       Float?  @default(0)
+  max_price       Float?  @default(0)
+  floor_thickness Float?  @default(0)
+  nftId           String? @unique
+  nft             NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  top_sale_item   Json?
+}
+
+model MEStatDay {
+  id                 String   @id @default(cuid())
+  createdAt          DateTime @default(now())
+  floor_price        Float?   @default(0)
+  floor_price_trend  Float?   @default(0)
+  volume             Float?   @default(0)
+  volume_trend       Float?   @default(0)
+  total_listed       Float?   @default(0)
+  total_listed_trend Float?   @default(0)
+
+  floor_price_highest Float? @default(0)
+  floor_price_lowest  Float? @default(0)
+  floor_price_7d      Float? @default(0)
+  floor_price_30d     Float? @default(0)
+  volume_24h          Float? @default(0)
+
+  nft   NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId String?
+}
+
+model MEStatHour {
+  id                 String   @id @default(cuid())
+  createdAt          DateTime @default(now())
+  floor_price        Float?   @default(0)
+  floor_price_trend  Float?   @default(0)
+  volume             Float?   @default(0)
+  volume_trend       Float?   @default(0)
+  total_listed       Float?   @default(0)
+  total_listed_trend Float?   @default(0)
+
+  floor_price_highest Float? @default(0)
+  floor_price_lowest  Float? @default(0)
+  floor_price_7d      Float? @default(0)
+  floor_price_30d     Float? @default(0)
+  volume_24h          Float? @default(0)
+
+  nft   NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId String?
+}
+
+model MEStatLatest {
+  nft   NFT    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId String @unique
+
+  id                      String   @id @default(cuid())
+  createdAt               DateTime @default(now())
+  floor_price             Float?   @default(0)
+  floor_price_trend       Float?   @default(0)
+  volume                  Float?   @default(0)
+  volume_trend            Float?   @default(0)
+  total_listed            Float?   @default(0)
+  total_listed_trend      Float?   @default(0)
+  floor_price_lowest      Float?   @default(0)
+  floor_price_highest     Float?   @default(0)
+  floor_price_diff_24h    Float?   @default(0)
+  floor_price_highest_7d  Float?   @default(0)
+  floor_price_lowest_7d   Float?   @default(0)
+  floor_price_lowest_24h  Float?   @default(0)
+  floor_price_highest_24h Float?   @default(0)
+  volume_7d               Float?   @default(0)
+  volume_diff_7d          Float?   @default(0)
+
+  floor_price_7d      Float? @default(0)
+  floor_price_diff_7d Float? @default(0)
+  floor_price_30d     Float? @default(0)
+  volume_24h          Float? @default(0)
+}
+
+model DiscordLog {
+  id                        String   @id @default(cuid())
+  createdAt                 DateTime @default(now())
+  discord_members           Float?   @default(0)
+  discord_members_online    Float?   @default(0)
+  discord_members_ratio     Float?   @default(0)
+  discord_members_24h_trend Float?   @default(0)
+
+  nft              NFT               @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId            String
+  DiscordLatestLog DiscordLatestLog?
+}
+
+model DiscordLatestLog {
+  id           String     @id @default(cuid())
+  nft          NFT        @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId        String     @unique
+  discordLog   DiscordLog @relation(fields: [discordLogId], references: [id], onDelete: Cascade)
+  discordLogId String     @unique
+}
+
+model TwitterLog {
+  id                          String   @id @default(cuid())
+  createdAt                   DateTime @default(now())
+  twitter_followers           Float?   @default(0)
+  twitter_followers_24h_trend Float?   @default(0)
+
+  nft              NFT?              @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId            String?
+  TwitterLatestLog TwitterLatestLog?
+}
+
+model TwitterLatestLog {
+  id String @id @default(cuid())
+
+  nft   NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId String? @unique
+
+  twitterLog   TwitterLog @relation(fields: [twitterLogId], references: [id], onDelete: Cascade)
+  twitterLogId String     @unique
+}
+
+model VerifyRequest {
+  id          String @id @default(cuid())
+  name        String
+  email       String
+  nft_slug    String @unique
+  website_url String
+  comment     String
+
+  nft   NFT?    @relation(fields: [nftId], references: [id], onDelete: Cascade)
+  nftId String? @unique
+}
+
+model Condition {
+  id                  String             @id @default(cuid())
+  data_point          DataPoint
+  comparison_operator ComparisonOperator
+  operation           OperationType?
+  value               Float
+  percentage          Boolean            @default(false)
+  percentagePeriod    Float?             @default(0)
+
+  alert   Alert?  @relation(fields: [alertId], references: [id], onDelete: Cascade)
+  alertId String?
+
+  autoAlert   AutoAlert? @relation(fields: [autoAlertId], references: [id], onDelete: Cascade)
+  autoAlertId String?
+}
+
+model Alert {
+  id         String         @id @default(cuid())
+  alert_by   AlertOptions[]
+  conditions Condition[]
+  name       String
+
+  nft   NFT    @relation(fields: [nFTId], references: [id], onDelete: Cascade)
+  nFTId String
+
+  User   User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String?
+}
+
+model AutoAlert {
+  id         String         @id @default(cuid())
+  alert_by   AlertOptions[]
+  conditions Condition[]
+  name       String
+  auto_alert Boolean        @default(true)
+
+  alertTimingMaps AutoAlertTimingMap[]
+  nfts            NFT[]
+
+  User   User?  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String @unique
+}
+
+model AutoAlertTimingMap {
+  id                  String @id @default(cuid())
+  expected_time       BigInt
+  comparison_operator String
+
+  autoAlert   AutoAlert? @relation(fields: [autoAlertId], references: [id], onDelete: Cascade)
+  autoAlertId String?
+
+  nft   NFT?    @relation(fields: [nftId], references: [id])
+  nftId String?
+}
+
+model Device {
+  id      String  @id @unique @default(cuid())
+  pushSub String?
+  User    User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId  String?
+}
+
+model Settings {
+  name    String  @id @unique
+  value   String
+  descr   String?
+  visible Boolean @default(true)
+}
+
+// @blockchain-events
+model BlockchainEvent {
+  id              String               @id @unique @default(cuid())
+  event_day_logs  BCEventNumbersStat[] @relation(name: "event_day_logs")
+  event_hour_logs BCEventNumbersStat[] @relation(name: "event_hour_logs")
+}
+
+model ActiveCollection {
+  id         String   @id @unique @default(cuid())
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @default(now())
+  slug       String   @unique
+  name       String?
+  image_link String?
+
+  total_events_24h Float? @default(0)
+  total_events_1h  Float? @default(0)
+
+  hourLogs BCEventTypes[]
+}
+
+model BCEventNumbersStat {
+  id        String   @id @unique @default(cuid())
+  createdAt DateTime @default(now())
+
+  eventTypes   BCEventTypes[]
+  marketplaces BCMarketplaces[]
+
+  RootForDay   BlockchainEvent? @relation(name: "event_day_logs", fields: [rootForDayId], references: [id], onDelete: Cascade)
+  rootForDayId String?
+
+  RootForHour   BlockchainEvent? @relation(name: "event_hour_logs", fields: [rootForHourId], references: [id], onDelete: Cascade)
+  rootForHourId String?
+}
+
+model BCEventTypes {
+  id        String   @id @unique @default(cuid())
+  createdAt DateTime @default(now())
+
+  all_time_total_events  Float? @default(0)
+  total_events           Float? @default(0)
+  total_events_24h       Float? @default(0)
+  total_events_24h_trend Float? @default(0)
+  total_events_7d        Float? @default(0)
+  total_events_7d_trend  Float? @default(0)
+  List                   Float? @default(0)
+  Delist                 Float? @default(0)
+  Sale                   Float? @default(0)
+  Mint                   Float? @default(0)
+
+  BCEventNumStat BCEventNumbersStat? @relation(fields: [numberStatId], references: [id], onDelete: Cascade)
+  numberStatId   String?
+
+  ActiveCollection   ActiveCollection? @relation(fields: [activeCollectionId], references: [id])
+  activeCollectionId String?
+}
+
+model BCMarketplaces {
+  id        String   @id @unique @default(cuid())
+  createdAt DateTime @default(now())
+
+  all_time_total_volume  Float? @default(0)
+  total_volume           Float? @default(0)
+  total_volume_24h       Float? @default(0)
+  total_volume_24h_trend Float? @default(0)
+  total_volume_7d        Float? @default(0)
+  total_volume_7d_trend  Float? @default(0)
+  magiceden              Float? @default(0)
+  opensea                Float? @default(0)
+  coralcube              Float? @default(0)
+  solanart               Float? @default(0)
+  solsea                 Float? @default(0)
+  yawww                  Float? @default(0)
+  exchangeArt            Float? @default(0)
+  hyperspace             Float? @default(0)
+  hadeswap               Float? @default(0)
+  tensor                 Float? @default(0)
+
+  BCEventNumStat BCEventNumbersStat? @relation(fields: [numberStatId], references: [id], onDelete: Cascade)
+  numberStatId   String?
+}
+
+model Event {
+  id               String   @id @unique @default(cuid())
+  date             DateTime @default(now())
+  image_link       String?
+  slug             String?
+  nft_name         String?
+  creator_fee      Float?
+  transaction_type String?
+  sale_amount      Float?
+  marketplace      String?
+  market_url       String?
+  collection_name  String?
+  seller           String?
+  username         String?
+
+  NFT NFT? @relation(fields: [slug], references: [slug])
+
+  @@index([slug])
+}
+
+model AttributeTrait {
+  id       Int              @id @unique @default(autoincrement())
+  trait    String
+  values   AttributeValue[]
+  nftId    String
+  isNumber Boolean          @default(false)
+  nft      NFT              @relation(fields: [nftId], references: [id], onDelete: Cascade)
+
+  HoldingRequirement HoldingRequirement[]
+  @@unique([trait, nftId])
+}
+
+model AttributeValue {
+  id    Int              @id @unique @default(autoincrement())
+  value String
+  trait AttributeTrait[]
+
+  @@unique([value])
+}
+
+model TwitterSpace {
+  id                 String    @id @unique
+  minTimeInSec       Int
+  numberOfWinners    Int       @default(0)
+  followHostRequired Boolean   @default(false)
+  prizeName          String
+  scheduledStart     DateTime?
+  spaceName          String?
+  hostUsername       String?
+  hostDisplayname    String?
+  hostAvatarUrl      String?
+  startedAt          DateTime?
+  endedAt            DateTime?
+  failedToListen     Boolean? @default(false)
+
+  twitterSpaceUserDetails TwitterSpaceUserDetails[]
+  eligableUserTypes       EligableUserType[]
+  holdingRequirements     HoldingRequirement[]
+
+  @@index([id])
+}
+
+model EligableUserType {
+  id String @id @unique @default(cuid())
+
+  TwitterSpaceUserType   TwitterSpaceUserType? @relation(fields: [twitterSpaceUserTypeId], references: [id])
+  twitterSpaceUserTypeId String?
+
+  TwitterSpace   TwitterSpace? @relation(fields: [twitterSpaceId], references: [id], onDelete: Cascade)
+  twitterSpaceId String?
+
+  @@index([twitterSpaceId, twitterSpaceUserTypeId])
+}
+
+model TwitterSpaceUserType {
+  id                String             @id @unique @default(cuid())
+  type              String
+  eligableUserTypes EligableUserType[]
+}
+
+model HoldingRequirement {
+  id       String @id @unique @default(cuid())
+  numOfNFT Int?   @default(0)
+
+  NFT            NFT?            @relation(fields: [collectionId], references: [id])
+  collectionId          String?
+  AttributeTrait AttributeTrait? @relation(fields: [traitTypeId], references: [id])
+  traitTypeId        Int?
+
+  anyNFT         Boolean?      @default(false)
+  anyTrait       Boolean?      @default(false)
+  TwitterSpace   TwitterSpace? @relation(fields: [twitterSpaceId], references: [id], onDelete: Cascade)
+  twitterSpaceId String?
+}
+enum SpaceUserType {
+  CO_HOST
+  SPEAKER
+  LISTENER
+}
+model TwitterSpaceUserDetails {
+  id String @id @unique @default(cuid())
+  userTypeInSpace          SpaceUserType?
+  TwitterSpaceUser         TwitterSpaceUser? @relation(fields: [twitterSpaceUserUsername], references: [username])
+  twitterSpaceUserUsername String?
+  stayedTimeInSec          Int?              @default(0)
+  winner                   Boolean           @default(false)
+  TwitterSpace             TwitterSpace?     @relation(fields: [twitterSpaceId], references: [id], onDelete: Cascade)
+  twitterSpaceId           String?
+
+  @@index([twitterSpaceId])
+}
+
+model TwitterSpaceUser {
+  username     String  @unique
+  displayName String?
+  avatarUrl   String?
+
+  twitterSpaceUserDetails TwitterSpaceUserDetails[]
+}

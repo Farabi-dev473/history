@@ -1,0 +1,202 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              Int               @id @default(autoincrement())
+  name            String
+  country         String?
+  expert          Boolean           @default(false)
+  image_id        String?
+  Review          Review[]
+  ReviewReply     ReviewReply[]
+  UsersOnProducts UsersOnProducts[]
+}
+
+model Product {
+  id                Int                    @id @default(autoincrement())
+  name              String
+  rating            Float
+  reviews           Int
+  watching          Int?
+  discount          Int?
+  brand             String
+  comparePrice      Json
+  rank              Int
+  category          Json[]
+  images            String[]
+  description       Json
+  additionalInfo    Json[]
+  createdAt         DateTime               @default(now())
+  Review            Review[]
+  ProductStatistics ProductStatistics[]
+  videos            ProductsOnVideos[]
+  categories        ProductsOnCategories[]
+  Payment           Payment[]
+  UsersOnProducts   UsersOnProducts[]
+}
+
+model UsersOnProducts {
+  user      User    @relation(fields: [userId], references: [id])
+  product   Product @relation(fields: [productId], references: [id])
+  userId    Int
+  productId Int
+  love      Boolean @default(false)
+
+  @@id([userId, productId])
+}
+
+model ProductsOnCategories {
+  product    Product  @relation(fields: [productId], references: [id])
+  category   Category @relation(fields: [categoryId], references: [id])
+  productId  Int
+  categoryId Int
+
+  @@id([productId, categoryId])
+}
+
+model Review {
+  id          Int           @id @default(autoincrement())
+  user        User          @relation(fields: [userId], references: [id])
+  userId      Int
+  product     Product       @relation(fields: [productId], references: [id])
+  productId   Int
+  title       String
+  description String?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  ratingStar  Int
+  like        Int           @default(0)
+  ReviewReply ReviewReply[]
+}
+
+model ReviewReply {
+  id           Int      @id @default(autoincrement())
+  review       Review   @relation(fields: [reviewId], references: [id])
+  reviewId     Int
+  user         User     @relation(fields: [userId], references: [id])
+  userId       Int
+  msg          String
+  like         Int      @default(0)
+  serialNumber Int
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Shop {
+  id                Int                 @id @default(autoincrement())
+  name              String
+  siteLink          String
+  logoId            String
+  ProductStatistics ProductStatistics[]
+  Payment           Payment[]
+}
+
+model SpecialDay {
+  id                Int                 @id @default(autoincrement())
+  name              String
+  ProductStatistics ProductStatistics[]
+}
+
+model ProductStatistics {
+  id           Int         @id @default(autoincrement())
+  lowestPrice  Float
+  shop         Shop        @relation(fields: [shopId], references: [id])
+  product      Product     @relation(fields: [productId], references: [id])
+  shopId       Int
+  createdAt    DateTime    @default(now())
+  productId    Int
+  specialDay   SpecialDay? @relation(fields: [specialDayId], references: [id])
+  specialDayId Int?
+  priceChange  Float
+}
+
+model Vidoe {
+  id          Int                @id @default(autoincrement())
+  embadedLink String
+  products    ProductsOnVideos[]
+}
+
+model ProductsOnVideos {
+  product   Product @relation(fields: [productId], references: [id])
+  productId Int
+  video     Vidoe   @relation(fields: [vidoeId], references: [id])
+  vidoeId   Int
+
+  @@id([productId, vidoeId])
+}
+
+model Category {
+  id              Int                           @id @default(autoincrement())
+  name            String
+  popularSearches PopularSearchesOnCategories[]
+  products        ProductsOnCategories[]
+}
+
+model PopularSearch {
+  id         Int                           @id @default(autoincrement())
+  text       String
+  categories PopularSearchesOnCategories[]
+}
+
+model PopularSearchesOnCategories {
+  category        Category      @relation(fields: [categoryId], references: [id])
+  popularSearch   PopularSearch @relation(fields: [popularSearchId], references: [id])
+  categoryId      Int
+  popularSearchId Int
+
+  @@id([categoryId, popularSearchId])
+}
+
+model PaymentService {
+  id      Int       @id @default(autoincrement())
+  name    String
+  logoId  String
+  Payment Payment[]
+}
+
+model Payment {
+  id               Int            @id @default(autoincrement())
+  paymentService   PaymentService @relation(fields: [paymentServiceId], references: [id])
+  paymentServiceId Int
+  shop             Shop           @relation(fields: [shopId], references: [id])
+  shopId           Int
+  freeShiping      Boolean        @default(false)
+  deliveryDay      Json
+  product          Product        @relation(fields: [productId], references: [id])
+  productId        Int
+}
+
+model Delivery {
+  id              Int     @id @default(autoincrement())
+  deliveryService String?
+  deliveryOption  String?
+  deliveryType    String?
+  deliveryCharge  Float   @default(0)
+}
+
+model DeliveryService {
+  id             Int              @id @default(autoincrement())
+  name           String
+  DeliveryOption DeliveryOption[]
+}
+
+model DeliveryOption {
+  id                Int             @id @default(autoincrement())
+  name              String
+  deliveryService   DeliveryService @relation(fields: [deliveryServiceId], references: [id])
+  deliveryServiceId Int
+}
+
+model DeliveryType {
+  id   Int    @id @default(autoincrement())
+  name String
+}

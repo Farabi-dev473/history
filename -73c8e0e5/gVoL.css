@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.item1 {
+  flex-basis: 70px;
+  order: 1;
+  background-color: red;
+}
+
+.item2 {
+  background-color: blue;
+}
+
+.item3 {
+  background-color: green;
+  order: 2;
+}
+
+.item4 {
+  background-color: yellow;
+}
+
+.item5 {
+  background-color: rgb(150, 20, 126);
+}
+
+.item6 {
+  background-color: rgb(216, 103, 10);
+}
+
+.item7 {
+  background-color: rgb(22, 205, 110);
+}

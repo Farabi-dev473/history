@@ -1,0 +1,305 @@
+DOCKER_BUILDKIT=1
+COMPOSE_DOCKER_CLI_BUILD=1
+TZ=UTC
+
+# --------------------
+# APPLICATION SETTINGS
+# --------------------
+
+# if set to 'staging' the scrapers will scrape less NFT to save resources
+SERVER_NAME=development
+# Available names:
+# SERVER_NAME=production
+# SERVER_NAME=staging
+# SERVER_NAME=development
+
+# if you change the port you need to change the other URLs' port as well
+SERVER_PORT=4000
+NX_FRONTEND_URL=http://localhost:3000
+NX_SERVER_URL=http://localhost:3000
+NX_WEBSOCKET_URL=ws://localhost:4000/subscriptions
+NX_SERVER_ADDRESS=http://localhost:4000
+NX_NEXT_SSR_SERVER_URL=http://localhost:4000/graphql
+
+APP_SECRET=dev1app3secret3
+ADMIN_USERNAME=adminUser
+ADMIN_PASSWORD=adminPass
+ADMIN_EMAIL=admin@moon.ly
+
+NX_PUBLIC_VAPID_KEY=BCdXZ1lm32_K67RUGcrY3YO_o2uo5sj2BZkF4jrW9ObmqhaW70zBkxmdZZmKfR5mPONyIwVFVNaARVGzYvA2d4s
+PRIVATE_VAPID_KEY=ahnfeJqdAwkVDVhtEkKraz7isFyYGr5GU6SzUZAP283
+
+# ---------
+# DATABASES
+# ---------
+
+# Postgres
+DATABASE_URL=postgresql://user:pass@localhost/moonly
+POSTGRESQL_USERNAME=user
+POSTGRESQL_PASSWORD=pass
+POSTGRESQL_DATABASE=moonly
+POSTGRESQL_POSTGRES_PASSWORD=adminpass
+
+BIG_DATABASE_URL="postgresql://biguser:bigpass@localhost:15432/bigdb"
+BIG_POSTGRESQL_USERNAME=biguser
+BIG_POSTGRESQL_PASSWORD=bigpass
+BIG_POSTGRESQL_DATABASE=bigdb
+BIG_POSTGRESQL_POSTGRES_PASSWORD=adminpass
+AWS_ACCESS_KEY_ID=003ee2fd1f832220000000000
+AWS_SECRET_ACCESS_KEY=K003TzdE34+oqdP8GyBrtuxMQ3FDn71
+AWS_ENDPOINT=s3.us-west-004.backblazeb2.com
+AWS_BUCKET=moonly-bucket
+
+# RabbitMQ
+RABBITMQ_DEFAULT_USER=user
+RABBITMQ_DEFAULT_PASS=pass
+RABBITMQ_HOST=amqp://user:pass@localhost:5672
+
+# Redis
+REDIS_PORT=6379
+REDIS_PASS=redisPassWordPhrase
+REDIS_HOST=localhost
+
+# Redis cluster for big DB
+REDIS_CLUSTER_URLS=173.18.0.101:6379,173.18.0.102:6379,173.18.0.103:6379,173.18.0.104:6379,173.18.0.105:6379
+
+# -----------------
+# SCRAPER SETTINGS
+# -----------------
+
+## Reservoir
+ETH_COLLECTION_LIMIT=100
+ETH_COLLECTION_CONCURRENCY=5
+ETH_UPDATE_SALES_CONCURRENCY=5
+ETH_UPDATE_STATS_CONCURRENCY=5
+ETH_SORTBY_QUERY_LIST=allTimeVolume,createdAt,30DayVolume,floorAskPrice
+DISABLE_ETH_COLLECTOR=true
+DISABLE_ETH_UPDATE_SCHEDULER=true
+
+
+POLYGON_COLLECTION_LIMIT=100
+POLYGON_COLLECTION_CONCURRENCY=5
+POLYGON_UPDATE_SALES_CONCURRENCY=5
+POLYGON_UPDATE_STATS_CONCURRENCY=5
+POLYGON_SORTBY_QUERY_LIST=allTimeVolume,createdAt,30DayVolume,floorAskPrice
+DISABLE_POLYGON_COLLECTOR=true
+DISABLE_POLYGON_UPDATE_SCHEDULER=true
+
+DISABLE_RESERVOIR_CONTINUATION_CACHE=
+## Stats
+STATS_UPDATE_CONCURRENCY=10
+DISABLE_STATS_SCRAPER=true
+## Twitter
+ENABLE_TWITTER_SCRAPER=false
+TWITTER_UPDATE_CONCURRENCY=10
+## Sales
+DISABLE_SALES_SCRAPER=true
+SALE_SCRAPER_CONCURRENCY=10
+SALE_SCRAPER_BATCH=200
+SALE_MAX_APIPAGE=20
+## Mints
+MINT_SCRAPER_CONCURRENCY=10
+ENABLE_MINTS_SCRAPER=false
+ENABLE_MINTS_METADATA_SCRAPER=false
+ENABLE_TRAIT_MIGRATION=false
+## Social
+DISABLE_SOCIAL_SCRAPER=true
+SOCIAL_UPDATE_CONCURRENCY=10
+## Wallet-checker
+DISABLE_WALLET_CHECKER=true
+WALLET_CHECKER_CONCURRENCY=10
+WALLET_CHECKER_BATCH_SIZE=1000
+
+WALLET_CHECKER_WORKER_CONCURRENCY=100
+DISCORD_ROLE_CHECKER_WORKER_CONCURRENCY=40
+## Autodiscover
+DISABLE_AUTODISCOVER_SCRAPER=true
+## Trait Migration
+TRAIT_MIGRATION_BATCH_SIZE=1000
+DISABLE_TRAIT_MIGRATION=true
+## Live feed
+ENABLE_LIVE_FEED=false
+## NFT item metadata
+NFT_ITEM_METADATA_SCRAPER_BATCH=100
+NFT_ITEM_METADATA_SCRAPER_CONCURRENCY=10
+NFT_ITEM_METADATA_SCRAPER_CONNECTION=https://api.mainnet-beta.solana.com
+# General API
+API_PORT=4411
+
+# randomize magic eden data for testing purposes of the NFT with this slug
+RANDOMIZE_ME_STAT_SLUG=social-whale-club
+
+# How long to wait when opening remote URLs, ms
+GET_URL_TIMEOUT=10000
+
+#----------
+# LIVE FEED
+#----------
+LIVE_FEED_EVENT_TIMEOUT=30
+LIVE_FEED_WORKER_CONCURRENCY=100
+LIFE_FEED_QUEUENAME=life-feed-queue
+
+# -------
+# LOGGING
+# -------
+LOG_FILE=false
+LOG_CONSOLE=true
+LOG_LOKI=false
+
+# Grafana
+GRAFANA_USER=stats
+GRAFANA_PASSWORD=statspass
+GRAFANA_HOST=127.0.0.1:3333
+
+# Loki endpoint to give to applications, will be protected by basic auth
+LOKI_PORT=3100
+LOKI_USER=moonloki
+LOKI_PASS=lomokino
+LOKI_HOST=http://127.0.0.1
+
+# Dockerized Loki endpoint without auth
+LOKI_ORIGIN=http://loki:3100
+
+# -------------
+# PROXY SERVICE
+# -------------
+PROXY_SERVICE_USERNAME=moonlyBot
+PROXY_SERVICE_PASSWORD=lxxtDxxrPxxk
+PROXY_SERVICE_PORT=9191
+PROXY_SERVICE_URL=http://moonlyBot:lxxtDxxrPxxk@127.0.0.1:9191
+PROXY_SERVICE_RESTURL=http://moonlyBot:lxxtDxxrPxxk@127.0.0.1:9192
+# URL of a Webshare proxy list
+PROXY_LIST_URL=
+# Filename of a manually created proxylist
+PROXY_LIST_CUSTOM=
+# Will override all other proxies (do not use)
+# HTTP_PROXY=http://user:password@127.0.0.1:9191
+HTTP_PROXY=
+
+# ------------------------
+# IMAGE RESIZE/CACHE PROXY
+# ------------------------
+# For local imgproxy development:
+NX_IMGPROXY_URL=http://localhost:2081
+IMGPROXY_PORT=2081
+IMGPROXY_DOWNLOAD_TIMEOUT=20
+
+# ------
+# SEARCH
+# ------
+SEARCH_ADMIN_URL=http://localhost:7700
+SEARCH_HOST=localhost
+SEARCH_PORT=7700
+SEARCH_PROTOCOL=http
+SEARCH_ADMIN_KEY=xyz
+SEARCH_PUBLIC_KEY=xyzsearch
+NX_SEARCH_PUBLIC_KEY=xyzsearch
+
+# ------
+# MOONLY_BOT_API
+# ------
+MOONLY_BOT_API_PORT=4600
+MOONLY_BOT_HOST=http://localhost:4001
+
+# --------------------
+# LOGIN with TWITTER
+# --------------------
+TWITTER_CLIENT_ID=Yy1TdURrTXVmc21xc240U2c1bW06MTpjaQ
+TWITTER_CLIENT_SECRET=AbpdnmJdC7UMSl8UAMpYa-zl3bzZAj9LgozYfcwVt8cYQf_ZCf
+TWITTER_LOGIN_REDIRECT_URL=http://localhost:3000/login
+TWITTER_ACCOUNT_LINK_REDIRECT_URL=http://localhost:3000/profile?tab=account-linking
+NX_TWITTER_LOGIN_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=Yy1TdURrTXVmc21xc240U2c1bW06MTpjaQ&redirect_uri=http://localhost:3000/login&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+NX_TWITTER_ACCOUNT_LINK_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=Yy1TdURrTXVmc21xc240U2c1bW06MTpjaQ&redirect_uri=http://localhost:3000/profile?tab=account-linking&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+# ------------------
+# LOGIN with Discord
+# ------------------
+DISCORD_CLIENT_ID=1100302890666569798
+DISCORD_CLIENT_SECRET=sfI1XABG2OZysaL2JnaJuKQPitTZmtf7
+DISCORD_LOGIN_REDIRECT_URL=http://localhost:3000/login
+DISCORD_ACCOUNT_LINK_REDIRECT_URL=http://localhost:3000/profile?tab=account-linking
+NX_DISCORD_LOGIN_URL=https://discord.com/api/oauth2/authorize?client_id=1100302890666569798&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Flogin&response_type=code&scope=identify guilds
+NX_DISCORD_ACCOUNT_LINK_URL=https://discord.com/api/oauth2/authorize?client_id=1100302890666569798&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fprofile%3Ftab%3Daccount-linking&response_type=code&scope=identify guilds
+
+# On which local port to run nginx serving the app
+NGINX_PORT=2080
+# can usually get it with `hostname -I` command
+NGINX_DOCKER_HOST=192.168.0.100
+# Same URL as in NX_SERVER_URL
+NGINX_SERVER_URL=staging.moonly.online
+# -----------------
+# RPC NODE SETTINGS
+# -----------------
+# Free trial endpoints are available
+# from Alchemy.com and Quicknode.com
+RPC_ENDPOINT=https://api.mainnet-beta.solana.com
+RPC_MASTER_FALLBACK=https://api.mainnet-beta.solana.com
+RPC_MAIN=https://api.mainnet-beta.solana.com
+RPC_ARRAY=https://solana-mainnet.g.alchemy.com/v2/KEY_HERE,https://solana-mainnet.g.alchemy.com/v2/ANOTHER_KEY
+RPC_MAIN_TIMEOUT=1000
+RPC_CACHE_TTL=10
+RPC_LISTENER_1=https://api.mainnet-beta.solana.com
+RPC_LISTENER_2=
+RPC_LISTENER_3=
+RPC_LISTENER_4=
+
+# NEED TO BUY NFT USING THIRD PARTY API
+NX_RPC_NODE=https://mainnet-beta.solflare.network
+HYPERSPACE_BUYER_BROKER_KEY=
+HYPERSPACE_API_KEY=
+MAGICEDEN_API_KEY=
+
+# On which local port to run nginx serving the app
+NGINX_PORT=2080
+# can usually get it with `hostname -I` command, take first IP
+DOCKER_HOST_IP=192.168.0.100
+
+RPC_PROXY_PORT=9554
+RPC_PROXY_HTTP_URLS=["https://api.mainnet-beta.solana.com","https://api.testnet.solana.com"]
+RPC_PROXY_WS_URLS=["wss://api.mainnet-beta.solana.com","wss://api.testnet.solana.com"]
+RPC_PROXY_AUTH=b39730b7d46d6c38f1f28c832ea12e18
+RPX_PROXY_SKIP_HOSTS=quiknode.pro,alchemy.io
+# Get the auth key from developers
+RPC_MAIN_WEBSOCKET=wss://rpc.moonly.online/?auth=auth_key_here
+# or use this endpoint for local development:
+# RPC_MAIN_WEBSOCKET=ws://localhost:2080/rpc/?auth=b39730b7d46d6c38f1f28c832ea12e18
+
+
+#-----------------
+# Staking Service
+#-----------------
+NX_WALLET_NETWORK=https://api.devnet.solana.com
+# Transaction Validator Wallet Secret # Base64 Encoded
+TX_VALIDATOR=HIrYRSS21vJA0uW5YwrsrNd3O/n4LB2VU9+K+wWmidebi5Tdf9bLcFfawtTA+8U0fUr3B2KjR+nlQjbkG1Ji2g
+NX_VALIDATOR_PUBKEY=BUBe76d6K6ngTHTR1tCooKbEsCvxNj7Pyq5cz6nVEMwf 
+NX_SUPER_ADMIN_WALLET=DxnmMjdy35b5i2NHdkkjX656q73pXxDdqLnTpnS4yi8j
+NX_STAKING_PROGRAM_ID=GAMhyo8bUPCUpFBJCx5gd4DXX62XJSTE2sdc1WRGFVgt
+
+# ---------------------
+# TOKEN-TRACKER RELATED
+# ---------------------
+# Moonly settings
+# ---------------------
+TOKEN_TRACKER_CONCURRENCY=1
+TOKEN_TRACKER_PORT=4500
+TOKEN_TRACKER_URL=http://localhost:4500
+# ----------------------
+# Token tracker settings
+# ----------------------
+METRICS_SERVER=false
+
+# ------------------------
+# SERVER HEALTH MONITORING
+# ------------------------
+NETDATA_CLAIM_TOKEN=
+# Optionally expose Adminer in the LAN
+# ADMINER_LAN_IP=192.168.0.101:8080
+ADMINER_LAN_IP=
+
+# For fetching latest blog posts into sidebar
+GHOST_API_KEY=7ff5af93134f6a41ad851bc638
+
+# Disable popup about joining Discord
+NX_DISABLE_POPUP=true
+
+#Twitter Space env vars
+INTERVAL_TIME_IN_MS=100000

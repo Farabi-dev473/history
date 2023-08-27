@@ -1,0 +1,21 @@
+Problem 1 : Simple Math
+* Input variables x, y & z contains integer
+* sum up x, y & z
+* Divide by 3
+* Done
+
+
+Problem 2 : Special sum
+* Take input range start to end & declare sum = 0
+* run a loop from start to end.
+* In each step check whether start % 2 == 0. If it is 0 then add it to sum variable
+* DOne 
+
+
+
+Problem 3
+* Take input 1 alphabet name data
+* Make the data to lowercase
+* Check if data == a or data == e or data == i or data == o or data == u 
+* If if condition returns true then print 'vowel' otherwise constants
+* Done

@@ -1,0 +1,10 @@
+FROM node:alpine
+WORKDIR /app
+COPY package*.json ./
+RUN yarn install
+COPY ./prisma prisma
+RUN npx prisma
+COPY . .
+ENV PORT=3000
+EXPOSE 3000
+CMD ["yarn", "start"]

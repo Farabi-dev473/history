@@ -1,0 +1,77 @@
+{
+  txId: '2i8DcvdB8gXhKUqynxqx8SGucQiRv7jTq3EH3XL9eb1M1aP1B3idThKLX2fMcWk64kEGkr5tzZttEaPKqq2wfR47',
+  txType: 'Delist',
+  owner: '8fjZm4BgydL5j4hSwRSE9kaVN2ytyrxes81eWp3Mc9hu',
+  buyer: undefined,
+  seller: undefined
+}
+{
+  txId: '2uAF57i5E1oLn15MYLDUoi5fGbw8WcwLsgE3QKJX6qc4DpAyft7Aott9NJXBMAzhKUhK61YFLfaxQMcnntUPuceN',
+  txType: 'UpdateList',
+  owner: 'Ep4p1DGZNEoezJdojY2eSUCfsjDb38LmdACpGNSfdoSr',
+  buyer: undefined,
+  seller: undefined
+}
+{
+  txId: '4oBFNe4qY8HQGUMComcWQtDmF9Q9YGvLEYDUPbMWqeGBKRXTj5595C3N1EWyT6SRgFSSQys12kdaauDndNeHKbPR',
+  txType: 'List',
+  owner: 'EAoUTaAQAxTmmpkgXjJoGuc6AN298PCn1cgtmcEnHxqF',
+  buyer: undefined,
+  seller: 'EAoUTaAQAxTmmpkgXjJoGuc6AN298PCn1cgtmcEnHxqF'
+}
+{
+  txId: '5iW72NYeUDFmUsRAxYVxReLx9PYRmApf4MNKRSxT5nZBH2dhRqugpJvbb1GyPtXiKtZg4WVY6kfvgFZ6xGBxKia5',
+  txType: 'Delist',
+  owner: '2vkmBXYF4bbij5orbd9xUJkyX9tkPZD2v21M77r1bzA7',
+  buyer: undefined,
+  seller: undefined
+}
+{
+  txId: '44JE5GMpWkNEtMUdrBTMVVkPQBdvCrZSjxZzc24yHgij6FPSEKQZt2o6A58Hap9BQbdgrhLmvqqK3c7NPJ4EAC1Y',
+  txType: 'Sale',
+  owner: 'CNApMpy3cDBafm1G8pxBArERXn9rX7TtsDPNH6UxBNLR',
+  buyer: 'CNApMpy3cDBafm1G8pxBArERXn9rX7TtsDPNH6UxBNLR',
+  seller: undefined
+}
+{
+  txId: '5jpP5jRjy638KbGUEveeF9JsiA47y4xEtmjNoSaifEzFE9GhT93oKWGkf4yRkPzf8gz33ng1ujbRxXFVchna3Y3z',
+  txType: 'Sale',
+  owner: '4iLF1Rcfb2fxXqXh92TxieQWuyyivvrw52qTrTLWkPWV',
+  buyer: '4iLF1Rcfb2fxXqXh92TxieQWuyyivvrw52qTrTLWkPWV',
+  seller: undefined
+}
+{
+  txId: '2SkDXdsEpm9bEZH6zdsC4TFWeQTPLh2zwiLo86fTxPZmqrqTPmjobdu73HPyjFat6MQphp5yVYkJQNSDvx849xw1',
+  txType: 'List',
+  owner: 'G8aXCw3iShnL7tcd94scdL6Y2hXn9QDSotsvWr89Nwxz',
+  buyer: undefined,
+  seller: 'G8aXCw3iShnL7tcd94scdL6Y2hXn9QDSotsvWr89Nwxz'
+}
+{
+  txId: '55RUvCGt2ASe6xmEQgRgUiyoHTR1tu17rkpsf2VNhhZwMP1WVdG3U89in4LGJKjqaV3v2pdXTY5Pa91PcwN7ZDNH',
+  txType: 'Sale',
+  owner: '49jkiMUF3wB8N4MmRwewVSKNbYpfi2NYKBuLt4X28owR',
+  buyer: '49jkiMUF3wB8N4MmRwewVSKNbYpfi2NYKBuLt4X28owR',
+  seller: undefined
+}
+{
+  txId: '4bfq3XrHJ5ik9rCy6bwJPdAFUbxnbKQbZtYAns4yM5xQxqwGbN675yNjBE8qzgpzirPapkkzwoQxUCzJLnbrXM7a',
+  txType: 'List',
+  owner: 'DGWLm75aiyRC6eYio145cMngn1RzP1DRPc4zuDr2jXb3',
+  buyer: undefined,
+  seller: 'DGWLm75aiyRC6eYio145cMngn1RzP1DRPc4zuDr2jXb3'
+}
+{
+  txId: '4Ks MmAdcYMG91SAjV57iueteCXxaiRWtbFMgbh3ryey1esYS1iTkp1F4MK2UV2t2wSSkUp5YeGUnK2DKubyPVmMA',
+  txType: 'Sale',
+  owner: '6D7GtaQEWQZxnfd9nQ7vWu5XNqYddfkaXpRjUeV8BavH',
+  buyer: '6D7GtaQEWQZxnfd9nQ7vWu5XNqYddfkaXpRjUeV8BavH',
+  seller: undefined
+}
+{
+  txId: '3LAKYWLgWLTbBDthspnAfbffkNBKWXFSixAVXAW9rVPYBbhrizBvCtW1GTvSRpmLgc5GKk7atpreP1XZvVEZG1YB',
+  txType: 'Sale',
+  owner: '3SZ7dpXCYu1XN6r9x4ekQNrmdMQQpyemmA1fSUQ49Mph',
+  buyer: '3SZ7dpXCYu1XN6r9x4ekQNrmdMQQpyemmA1fSUQ49Mph',
+  seller: undefined
+}

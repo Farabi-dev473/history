@@ -1,0 +1,9 @@
+name: Issue 
+on: issues
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Event Details
+        run: echo ${{toJSON(github.event)}}

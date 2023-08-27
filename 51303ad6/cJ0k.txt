@@ -1,0 +1,25 @@
+21JLn1W6J7uWxZWNe33NAaCN5uhxABE1R63wDfFbkkiySh9xnjw15K8PEssX3bm464Z219MEBeDxjK9GH8EhLDP5
+{
+  pdaAddress: 'C3uZkygPQsx3fLsHrd6oq9Y2GXx7QapMdbGNipDQvpKE',
+  auctionHouse: 'E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe',
+  tokenAddress: 'ASEk64gwfGVpLDDqEVs4qNYdZ61M5jd7PUu5pAciSsCw',
+  tokenMint: '8i1on1c81t9LNwesYyreZfqMB1LYGx21ScvuB1JSYutQ',
+  seller: '2nBb3aLfwxwmvMB2B9YVkN2EW7Az1ihzVZo888BhfW6F',
+  sellerReferral: 'autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2',
+  tokenSize: 1,
+  price: 2,
+  expiry: -1
+}
+
+5WqkZnw5G8RwP2LEqGwfyrMpb2hGBaqM79A6h6pa1UwfSNmXoJRcPXFSBTAzScZPzNRzn4fJCq46PscAfKrPPrKZ
+{
+  pdaAddress: 'E9uVgm8c5354kHQi532ofsbXiVN4LgjDNiNEdQdb9taf',
+  auctionHouse: 'E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe',
+  tokenAddress: '9scPqJhJBqF9jwfUGTueg5NRqJWR8ge1u3ZCDcoUPJsi',
+  tokenMint: '5kfKAhBb5QhsXQtSQ6tDhNmMKeWVmnaDQgMw5jnV7CNi',
+  seller: 'CLAYPLvCNV2JWDHb5cEdgmfiucuegi4UUL7pUuir8KQ8',
+  sellerReferral: 'autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2',
+  tokenSize: 1,
+  price: 22.91145,
+  expiry: -1
+}

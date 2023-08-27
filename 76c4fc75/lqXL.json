@@ -1,0 +1,2415 @@
+{
+	"data": {
+		"audioSpace": {
+			"metadata": {
+				"rest_id": "1djxXlljgqjxZ",
+				"state": "Running",
+				"title": "NFTs are back",
+				"media_key": "28_1679217471600103425",
+				"created_at": 1689191618227,
+				"scheduled_start": 1689206400000,
+				"started_at": 1689206428791,
+				"replay_start_time": 0,
+				"updated_at": 1689210090556,
+				"disallow_join": false,
+				"narrow_cast_space_type": 0,
+				"is_employee_only": false,
+				"is_locked": false,
+				"is_space_available_for_replay": false,
+				"is_space_available_for_clipping": false,
+				"conversation_controls": 0,
+				"total_replay_watched": 0,
+				"total_live_listeners": 231,
+				"creator_results": {
+					"result": {
+						"__typename": "User",
+						"id": "VXNlcjoxMzczNzg2MTA2MTE4OTYzMjAw",
+						"rest_id": "1373786106118963200",
+						"affiliates_highlighted_label": {
+							"label": {
+								"url": {
+									"url": "https://twitter.com/Insightxyz",
+									"urlType": "DeepLink"
+								},
+								"badge": {
+									"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+								},
+								"description": "Insight",
+								"userLabelType": "BusinessLabel",
+								"userLabelDisplayType": "Badge"
+							}
+						},
+						"has_graduated_access": true,
+						"is_blue_verified": true,
+						"legacy": {
+							"can_dm": true,
+							"can_media_tag": false,
+							"created_at": "Sun Mar 21 23:59:14 +0000 2021",
+							"default_profile": true,
+							"default_profile_image": false,
+							"description": "boro.eth |BTC since 2017 |some RTs=ad | @rollbitcom partner - https://t.co/JprmdXKV8o | 362 days of everydays 👉 https://t.co/v3BU2l0mAv",
+							"entities": {
+								"description": {
+									"urls": [
+										{
+											"display_url": "rollbit.com/referral/borov…",
+											"expanded_url": "https://rollbit.com/referral/borovik",
+											"url": "https://t.co/JprmdXKV8o",
+											"indices": [62,85]
+										},
+										{
+											"display_url": "opensea.io/collection/aied",
+											"expanded_url": "https://opensea.io/collection/aied",
+											"url": "https://t.co/v3BU2l0mAv",
+											"indices": [112,135]
+										}
+									]
+								},
+								"url": {
+									"urls": [
+										{
+											"display_url": "linktr.ee/borovik",
+											"expanded_url": "http://linktr.ee/borovik",
+											"url": "https://t.co/VME3fdlerN",
+											"indices": [0,23]
+										}
+									]
+								}
+							},
+							"fast_followers_count": 0,
+							"favourites_count": 123561,
+							"followers_count": 138515,
+							"friends_count": 2383,
+							"has_custom_timelines": true,
+							"is_translator": false,
+							"listed_count": 621,
+							"location": "🦇🔊",
+							"media_count": 5549,
+							"name": "borovik.eth",
+							"normal_followers_count": 138515,
+							"pinned_tweet_ids_str": [
+								"1658612393100861440"
+							],
+							"possibly_sensitive": false,
+							"profile_banner_url": "https://pbs.twimg.com/profile_banners/1373786106118963200/1688170673",
+							"profile_image_url_https": "https://pbs.twimg.com/profile_images/1602013001275432961/fPt7sb1f_normal.png",
+							"profile_interstitial_type": "",
+							"screen_name": "3orovik",
+							"statuses_count": 64514,
+							"translator_type": "none",
+							"url": "https://t.co/VME3fdlerN",
+							"verified": false,
+							"want_retweets": false,
+							"withheld_in_countries": []
+						},
+						"professional": {
+							"rest_id": "1484338112847253504",
+							"professional_type": "Creator",
+							"category": []
+						},
+						"super_follow_eligible": true,
+						"business_account": {
+							
+						}
+					}
+				}
+			},
+			"is_subscribed": false,
+			"sharings": {
+				"items": [
+					{
+						"sharing_id": "1679281952325771264",
+						"created_at_ms": 1689206991641,
+						"updated_at_ms": 1689206991640,
+						"user_results": {
+							"result": {
+								"__typename": "User",
+								"id": "VXNlcjoxNDMxNDIzNzgyOTAwNjIxMzE0",
+								"rest_id": "1431423782900621314",
+								"affiliates_highlighted_label": {
+									"label": {
+										"url": {
+											"url": "https://twitter.com/Insightxyz",
+											"urlType": "DeepLink"
+										},
+										"badge": {
+											"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+										},
+										"description": "Insight",
+										"userLabelType": "BusinessLabel",
+										"userLabelDisplayType": "Badge"
+									}
+								},
+								"has_graduated_access": true,
+								"is_blue_verified": true,
+								"legacy": {
+									"can_dm": true,
+									"can_media_tag": true,
+									"created_at": "Sat Aug 28 01:11:01 +0000 2021",
+									"default_profile": true,
+									"default_profile_image": false,
+									"description": "Founder of @apocalypticapes BAYC 3817 • Crypto Punk 5745 Yuga maxi • Spaces host • Crypto enthusiast",
+									"entities": {
+										"description": {
+											"urls": []
+										},
+										"url": {
+											"urls": [
+												{
+													"display_url": "linktr.ee/apocalypticapes",
+													"expanded_url": "https://linktr.ee/apocalypticapes",
+													"url": "https://t.co/WG06tEF1rD",
+													"indices": [0,23]
+												}
+											]
+										}
+									},
+									"fast_followers_count": 0,
+									"favourites_count": 70492,
+									"followers_count": 55904,
+									"friends_count": 5119,
+									"has_custom_timelines": true,
+									"is_translator": false,
+									"listed_count": 232,
+									"location": "Otherside ",
+									"media_count": 6269,
+									"name": "fity.eth",
+									"normal_followers_count": 55904,
+									"pinned_tweet_ids_str": [
+										"1678620674104107008"
+									],
+									"possibly_sensitive": false,
+									"profile_banner_url": "https://pbs.twimg.com/profile_banners/1431423782900621314/1660095974",
+									"profile_image_url_https": "https://pbs.twimg.com/profile_images/1678261779166793729/SKXfxdYA_normal.jpg",
+									"profile_interstitial_type": "",
+									"screen_name": "Fityeth",
+									"statuses_count": 29397,
+									"translator_type": "none",
+									"url": "https://t.co/WG06tEF1rD",
+									"verified": false,
+									"want_retweets": false,
+									"withheld_in_countries": []
+								},
+								"business_account": {
+									
+								}
+							}
+						},
+						"shared_item": {
+							"__typename": "AudioSpaceSharedTweet",
+							"tweet_results": {
+								"result": {
+									"__typename": "Tweet",
+									"rest_id": "1679280980350373888",
+									"core": {
+										"user_results": {
+											"result": {
+												"__typename": "User",
+												"id": "VXNlcjoxNDMxNDIzNzgyOTAwNjIxMzE0",
+												"rest_id": "1431423782900621314",
+												"affiliates_highlighted_label": {
+													"label": {
+														"url": {
+															"url": "https://twitter.com/Insightxyz",
+															"urlType": "DeepLink"
+														},
+														"badge": {
+															"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+														},
+														"description": "Insight",
+														"userLabelType": "BusinessLabel",
+														"userLabelDisplayType": "Badge"
+													}
+												},
+												"has_graduated_access": true,
+												"is_blue_verified": true,
+												"legacy": {
+													"can_dm": true,
+													"can_media_tag": true,
+													"created_at": "Sat Aug 28 01:11:01 +0000 2021",
+													"default_profile": true,
+													"default_profile_image": false,
+													"description": "Founder of @apocalypticapes BAYC 3817 • Crypto Punk 5745 Yuga maxi • Spaces host • Crypto enthusiast",
+													"entities": {
+														"description": {
+															"urls": []
+														},
+														"url": {
+															"urls": [
+																{
+																	"display_url": "linktr.ee/apocalypticapes",
+																	"expanded_url": "https://linktr.ee/apocalypticapes",
+																	"url": "https://t.co/WG06tEF1rD",
+																	"indices": [0,23]
+																}
+															]
+														}
+													},
+													"fast_followers_count": 0,
+													"favourites_count": 70492,
+													"followers_count": 55904,
+													"friends_count": 5119,
+													"has_custom_timelines": true,
+													"is_translator": false,
+													"listed_count": 232,
+													"location": "Otherside ",
+													"media_count": 6269,
+													"name": "fity.eth",
+													"normal_followers_count": 55904,
+													"pinned_tweet_ids_str": [
+														"1678620674104107008"
+													],
+													"possibly_sensitive": false,
+													"profile_banner_url": "https://pbs.twimg.com/profile_banners/1431423782900621314/1660095974",
+													"profile_image_url_https": "https://pbs.twimg.com/profile_images/1678261779166793729/SKXfxdYA_normal.jpg",
+													"profile_interstitial_type": "",
+													"screen_name": "Fityeth",
+													"statuses_count": 29397,
+													"translator_type": "none",
+													"url": "https://t.co/WG06tEF1rD",
+													"verified": false,
+													"want_retweets": false,
+													"withheld_in_countries": []
+												},
+												"business_account": {
+													
+												}
+											}
+										}
+									},
+									"edit_control": {
+										"edit_tweet_ids": [
+											"1679280980350373888"
+										],
+										"editable_until_msecs": "1689210359000",
+										"is_edit_eligible": true,
+										"edits_remaining": "5"
+									},
+									"edit_perspective": {
+										"favorited": false,
+										"retweeted": false
+									},
+									"is_translatable": false,
+									"views": {
+										"count": "974",
+										"state": "EnabledWithCount"
+									},
+									"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+									"legacy": {
+										"bookmark_count": 0,
+										"bookmarked": false,
+										"created_at": "Thu Jul 13 00:05:59 +0000 2023",
+										"conversation_id_str": "1679280980350373888",
+										"display_text_range": [0,179],
+										"entities": {
+											"media": [
+												{
+													"display_url": "pic.twitter.com/VtVBoiYIkC",
+													"expanded_url": "https://twitter.com/Fityeth/status/1679280980350373888/photo/1",
+													"id_str": "1679280973136146432",
+													"indices": [180,203],
+													"media_url_https": "https://pbs.twimg.com/media/F04BJdnaMAAxWwY.jpg",
+													"type": "photo",
+													"url": "https://t.co/VtVBoiYIkC",
+													"features": {
+														"large": {
+															"faces": []
+														},
+														"medium": {
+															"faces": []
+														},
+														"small": {
+															"faces": []
+														},
+														"orig": {
+															"faces": []
+														}
+													},
+													"sizes": {
+														"large": {
+															"h": 1015,
+															"w": 886,
+															"resize": "fit"
+														},
+														"medium": {
+															"h": 1015,
+															"w": 886,
+															"resize": "fit"
+														},
+														"small": {
+															"h": 680,
+															"w": 594,
+															"resize": "fit"
+														},
+														"thumb": {
+															"h": 150,
+															"w": 150,
+															"resize": "crop"
+														}
+													},
+													"original_info": {
+														"height": 1015,
+														"width": 886,
+														"focus_rects": [
+															{
+																"x": 0,
+																"y": 386,
+																"w": 886,
+																"h": 496
+															},
+															{
+																"x": 0,
+																"y": 129,
+																"w": 886,
+																"h": 886
+															},
+															{
+																"x": 0,
+																"y": 5,
+																"w": 886,
+																"h": 1010
+															},
+															{
+																"x": 278,
+																"y": 0,
+																"w": 508,
+																"h": 1015
+															},
+															{
+																"x": 0,
+																"y": 0,
+																"w": 886,
+																"h": 1015
+															}
+														]
+													}
+												}
+											],
+											"user_mentions": [
+												{
+													"id_str": "1404165406202359808",
+													"name": "hero",
+													"screen_name": "heromachine_eth",
+													"indices": [33,49]
+												}
+											],
+											"urls": [],
+											"hashtags": [
+												{
+													"indices": [54,59],
+													"text": "BAYC"
+												},
+												{
+													"indices": [166,174],
+													"text": "Walmart"
+												},
+												{
+													"indices": [175,179],
+													"text": "LFG"
+												}
+											],
+											"symbols": []
+										},
+										"extended_entities": {
+											"media": [
+												{
+													"display_url": "pic.twitter.com/VtVBoiYIkC",
+													"expanded_url": "https://twitter.com/Fityeth/status/1679280980350373888/photo/1",
+													"id_str": "1679280973136146432",
+													"indices": [180,203],
+													"media_key": "3_1679280973136146432",
+													"media_url_https": "https://pbs.twimg.com/media/F04BJdnaMAAxWwY.jpg",
+													"type": "photo",
+													"url": "https://t.co/VtVBoiYIkC",
+													"ext_media_availability": {
+														"status": "Available"
+													},
+													"features": {
+														"large": {
+															"faces": []
+														},
+														"medium": {
+															"faces": []
+														},
+														"small": {
+															"faces": []
+														},
+														"orig": {
+															"faces": []
+														}
+													},
+													"sizes": {
+														"large": {
+															"h": 1015,
+															"w": 886,
+															"resize": "fit"
+														},
+														"medium": {
+															"h": 1015,
+															"w": 886,
+															"resize": "fit"
+														},
+														"small": {
+															"h": 680,
+															"w": 594,
+															"resize": "fit"
+														},
+														"thumb": {
+															"h": 150,
+															"w": 150,
+															"resize": "crop"
+														}
+													},
+													"original_info": {
+														"height": 1015,
+														"width": 886,
+														"focus_rects": [
+															{
+																"x": 0,
+																"y": 386,
+																"w": 886,
+																"h": 496
+															},
+															{
+																"x": 0,
+																"y": 129,
+																"w": 886,
+																"h": 886
+															},
+															{
+																"x": 0,
+																"y": 5,
+																"w": 886,
+																"h": 1010
+															},
+															{
+																"x": 278,
+																"y": 0,
+																"w": 508,
+																"h": 1015
+															},
+															{
+																"x": 0,
+																"y": 0,
+																"w": 886,
+																"h": 1015
+															}
+														]
+													}
+												}
+											]
+										},
+										"favorite_count": 32,
+										"favorited": false,
+										"full_text": "Big congratulations to my friend @heromachine_eth and #BAYC family for getting his ape ape featured at Walmart! 🎉🐵 Way to go! Let's celebrate this amazing milestone! #Walmart #LFG https://t.co/VtVBoiYIkC",
+										"is_quote_status": false,
+										"lang": "en",
+										"possibly_sensitive": false,
+										"possibly_sensitive_editable": true,
+										"quote_count": 0,
+										"reply_count": 8,
+										"retweet_count": 5,
+										"retweeted": false,
+										"user_id_str": "1431423782900621314",
+										"id_str": "1679280980350373888"
+									}
+								}
+							}
+						}
+					},
+					{
+						"sharing_id": "1679282383735099393",
+						"created_at_ms": 1689207094497,
+						"updated_at_ms": 1689207094498,
+						"user_results": {
+							"result": {
+								"__typename": "User",
+								"id": "VXNlcjoxNDMxNDIzNzgyOTAwNjIxMzE0",
+								"rest_id": "1431423782900621314",
+								"affiliates_highlighted_label": {
+									"label": {
+										"url": {
+											"url": "https://twitter.com/Insightxyz",
+											"urlType": "DeepLink"
+										},
+										"badge": {
+											"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+										},
+										"description": "Insight",
+										"userLabelType": "BusinessLabel",
+										"userLabelDisplayType": "Badge"
+									}
+								},
+								"has_graduated_access": true,
+								"is_blue_verified": true,
+								"legacy": {
+									"can_dm": true,
+									"can_media_tag": true,
+									"created_at": "Sat Aug 28 01:11:01 +0000 2021",
+									"default_profile": true,
+									"default_profile_image": false,
+									"description": "Founder of @apocalypticapes BAYC 3817 • Crypto Punk 5745 Yuga maxi • Spaces host • Crypto enthusiast",
+									"entities": {
+										"description": {
+											"urls": []
+										},
+										"url": {
+											"urls": [
+												{
+													"display_url": "linktr.ee/apocalypticapes",
+													"expanded_url": "https://linktr.ee/apocalypticapes",
+													"url": "https://t.co/WG06tEF1rD",
+													"indices": [0,23]
+												}
+											]
+										}
+									},
+									"fast_followers_count": 0,
+									"favourites_count": 70492,
+									"followers_count": 55904,
+									"friends_count": 5119,
+									"has_custom_timelines": true,
+									"is_translator": false,
+									"listed_count": 232,
+									"location": "Otherside ",
+									"media_count": 6269,
+									"name": "fity.eth",
+									"normal_followers_count": 55904,
+									"pinned_tweet_ids_str": [
+										"1678620674104107008"
+									],
+									"possibly_sensitive": false,
+									"profile_banner_url": "https://pbs.twimg.com/profile_banners/1431423782900621314/1660095974",
+									"profile_image_url_https": "https://pbs.twimg.com/profile_images/1678261779166793729/SKXfxdYA_normal.jpg",
+									"profile_interstitial_type": "",
+									"screen_name": "Fityeth",
+									"statuses_count": 29397,
+									"translator_type": "none",
+									"url": "https://t.co/WG06tEF1rD",
+									"verified": false,
+									"want_retweets": false,
+									"withheld_in_countries": []
+								},
+								"business_account": {
+									
+								}
+							}
+						},
+						"shared_item": {
+							"__typename": "AudioSpaceSharedTweet",
+							"tweet_results": {
+								
+							}
+						}
+					},
+					{
+						"sharing_id": "1679283187195736064",
+						"created_at_ms": 1689207286057,
+						"updated_at_ms": 1689207286055,
+						"user_results": {
+							"result": {
+								"__typename": "User",
+								"id": "VXNlcjoxMzczNzg2MTA2MTE4OTYzMjAw",
+								"rest_id": "1373786106118963200",
+								"affiliates_highlighted_label": {
+									"label": {
+										"url": {
+											"url": "https://twitter.com/Insightxyz",
+											"urlType": "DeepLink"
+										},
+										"badge": {
+											"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+										},
+										"description": "Insight",
+										"userLabelType": "BusinessLabel",
+										"userLabelDisplayType": "Badge"
+									}
+								},
+								"has_graduated_access": true,
+								"is_blue_verified": true,
+								"legacy": {
+									"can_dm": true,
+									"can_media_tag": false,
+									"created_at": "Sun Mar 21 23:59:14 +0000 2021",
+									"default_profile": true,
+									"default_profile_image": false,
+									"description": "boro.eth |BTC since 2017 |some RTs=ad | @rollbitcom partner - https://t.co/JprmdXKV8o | 362 days of everydays 👉 https://t.co/v3BU2l0mAv",
+									"entities": {
+										"description": {
+											"urls": [
+												{
+													"display_url": "rollbit.com/referral/borov…",
+													"expanded_url": "https://rollbit.com/referral/borovik",
+													"url": "https://t.co/JprmdXKV8o",
+													"indices": [62,85]
+												},
+												{
+													"display_url": "opensea.io/collection/aied",
+													"expanded_url": "https://opensea.io/collection/aied",
+													"url": "https://t.co/v3BU2l0mAv",
+													"indices": [112,135]
+												}
+											]
+										},
+										"url": {
+											"urls": [
+												{
+													"display_url": "linktr.ee/borovik",
+													"expanded_url": "http://linktr.ee/borovik",
+													"url": "https://t.co/VME3fdlerN",
+													"indices": [0,23]
+												}
+											]
+										}
+									},
+									"fast_followers_count": 0,
+									"favourites_count": 123561,
+									"followers_count": 138515,
+									"friends_count": 2383,
+									"has_custom_timelines": true,
+									"is_translator": false,
+									"listed_count": 621,
+									"location": "🦇🔊",
+									"media_count": 5549,
+									"name": "borovik.eth",
+									"normal_followers_count": 138515,
+									"pinned_tweet_ids_str": [
+										"1658612393100861440"
+									],
+									"possibly_sensitive": false,
+									"profile_banner_url": "https://pbs.twimg.com/profile_banners/1373786106118963200/1688170673",
+									"profile_image_url_https": "https://pbs.twimg.com/profile_images/1602013001275432961/fPt7sb1f_normal.png",
+									"profile_interstitial_type": "",
+									"screen_name": "3orovik",
+									"statuses_count": 64514,
+									"translator_type": "none",
+									"url": "https://t.co/VME3fdlerN",
+									"verified": false,
+									"want_retweets": false,
+									"withheld_in_countries": []
+								},
+								"professional": {
+									"rest_id": "1484338112847253504",
+									"professional_type": "Creator",
+									"category": []
+								},
+								"super_follow_eligible": true,
+								"business_account": {
+									
+								}
+							}
+						},
+						"shared_item": {
+							"__typename": "AudioSpaceSharedTweet",
+							"tweet_results": {
+								"result": {
+									"__typename": "Tweet",
+									"rest_id": "1679279594665279490",
+									"core": {
+										"user_results": {
+											"result": {
+												"__typename": "User",
+												"id": "VXNlcjoxMzczNzg2MTA2MTE4OTYzMjAw",
+												"rest_id": "1373786106118963200",
+												"affiliates_highlighted_label": {
+													"label": {
+														"url": {
+															"url": "https://twitter.com/Insightxyz",
+															"urlType": "DeepLink"
+														},
+														"badge": {
+															"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+														},
+														"description": "Insight",
+														"userLabelType": "BusinessLabel",
+														"userLabelDisplayType": "Badge"
+													}
+												},
+												"has_graduated_access": true,
+												"is_blue_verified": true,
+												"legacy": {
+													"can_dm": true,
+													"can_media_tag": false,
+													"created_at": "Sun Mar 21 23:59:14 +0000 2021",
+													"default_profile": true,
+													"default_profile_image": false,
+													"description": "boro.eth |BTC since 2017 |some RTs=ad | @rollbitcom partner - https://t.co/JprmdXKV8o | 362 days of everydays 👉 https://t.co/v3BU2l0mAv",
+													"entities": {
+														"description": {
+															"urls": [
+																{
+																	"display_url": "rollbit.com/referral/borov…",
+																	"expanded_url": "https://rollbit.com/referral/borovik",
+																	"url": "https://t.co/JprmdXKV8o",
+																	"indices": [62,85]
+																},
+																{
+																	"display_url": "opensea.io/collection/aied",
+																	"expanded_url": "https://opensea.io/collection/aied",
+																	"url": "https://t.co/v3BU2l0mAv",
+																	"indices": [112,135]
+																}
+															]
+														},
+														"url": {
+															"urls": [
+																{
+																	"display_url": "linktr.ee/borovik",
+																	"expanded_url": "http://linktr.ee/borovik",
+																	"url": "https://t.co/VME3fdlerN",
+																	"indices": [0,23]
+																}
+															]
+														}
+													},
+													"fast_followers_count": 0,
+													"favourites_count": 123561,
+													"followers_count": 138515,
+													"friends_count": 2383,
+													"has_custom_timelines": true,
+													"is_translator": false,
+													"listed_count": 621,
+													"location": "🦇🔊",
+													"media_count": 5549,
+													"name": "borovik.eth",
+													"normal_followers_count": 138515,
+													"pinned_tweet_ids_str": [
+														"1658612393100861440"
+													],
+													"possibly_sensitive": false,
+													"profile_banner_url": "https://pbs.twimg.com/profile_banners/1373786106118963200/1688170673",
+													"profile_image_url_https": "https://pbs.twimg.com/profile_images/1602013001275432961/fPt7sb1f_normal.png",
+													"profile_interstitial_type": "",
+													"screen_name": "3orovik",
+													"statuses_count": 64514,
+													"translator_type": "none",
+													"url": "https://t.co/VME3fdlerN",
+													"verified": false,
+													"want_retweets": false,
+													"withheld_in_countries": []
+												},
+												"professional": {
+													"rest_id": "1484338112847253504",
+													"professional_type": "Creator",
+													"category": []
+												},
+												"super_follow_eligible": true,
+												"business_account": {
+													
+												}
+											}
+										}
+									},
+									"card": {
+										"rest_id": "https://t.co/3glnPt0z9f",
+										"legacy": {
+											"binding_values": [
+												{
+													"key": "tweet_id",
+													"value": {
+														"string_value": "1679279594665279490",
+														"type": "STRING"
+													}
+												},
+												{
+													"key": "narrow_cast_space_type",
+													"value": {
+														"string_value": "0",
+														"type": "STRING"
+													}
+												},
+												{
+													"key": "id",
+													"value": {
+														"string_value": "1djxXlljgqjxZ",
+														"type": "STRING"
+													}
+												},
+												{
+													"key": "card_url",
+													"value": {
+														"scribe_key": "card_url",
+														"string_value": "https://t.co/3glnPt0z9f",
+														"type": "STRING"
+													}
+												}
+											],
+											"card_platform": {
+												"platform": {
+													"audience": {
+														"name": "production"
+													},
+													"device": {
+														"name": "Swift",
+														"version": "12"
+													}
+												}
+											},
+											"name": "3691233323:audiospace",
+											"url": "https://t.co/3glnPt0z9f",
+											"user_refs_results": []
+										}
+									},
+									"voiceInfo": {
+										
+									},
+									"unified_card": {
+										"card_fetch_state": "NoCard"
+									},
+									"edit_control": {
+										"edit_tweet_ids": [
+											"1679279594665279490"
+										],
+										"editable_until_msecs": "1689210029000",
+										"is_edit_eligible": true,
+										"edits_remaining": "5"
+									},
+									"edit_perspective": {
+										"favorited": false,
+										"retweeted": false
+									},
+									"is_translatable": false,
+									"views": {
+										"count": "2114",
+										"state": "EnabledWithCount"
+									},
+									"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+									"legacy": {
+										"bookmark_count": 1,
+										"bookmarked": false,
+										"created_at": "Thu Jul 13 00:00:29 +0000 2023",
+										"conversation_id_str": "1679279594665279490",
+										"display_text_range": [0,23],
+										"entities": {
+											"user_mentions": [],
+											"urls": [
+												{
+													"display_url": "twitter.com/i/spaces/1djxX…",
+													"expanded_url": "https://twitter.com/i/spaces/1djxXlljgqjxZ",
+													"url": "https://t.co/3glnPt0z9f",
+													"indices": [0,23]
+												}
+											],
+											"hashtags": [],
+											"symbols": []
+										},
+										"favorite_count": 34,
+										"favorited": false,
+										"full_text": "https://t.co/3glnPt0z9f",
+										"is_quote_status": false,
+										"lang": "zxx",
+										"possibly_sensitive": false,
+										"possibly_sensitive_editable": true,
+										"quote_count": 5,
+										"reply_count": 20,
+										"retweet_count": 24,
+										"retweeted": false,
+										"user_id_str": "1373786106118963200",
+										"id_str": "1679279594665279490"
+									}
+								}
+							}
+						}
+					},
+					{
+						"sharing_id": "1679286168486305797",
+						"created_at_ms": 1689207996852,
+						"updated_at_ms": 1689207996852,
+						"user_results": {
+							"result": {
+								"__typename": "User",
+								"id": "VXNlcjoxNDA0MTY1NDA2MjAyMzU5ODA4",
+								"rest_id": "1404165406202359808",
+								"affiliates_highlighted_label": {
+									
+								},
+								"has_graduated_access": true,
+								"is_blue_verified": true,
+								"legacy": {
+									"can_dm": true,
+									"can_media_tag": true,
+									"created_at": "Sun Jun 13 19:55:08 +0000 2021",
+									"default_profile": true,
+									"default_profile_image": false,
+									"description": "Member of @BoredApeYC since June 2021 | 8280, 9450",
+									"entities": {
+										"description": {
+											"urls": []
+										}
+									},
+									"fast_followers_count": 0,
+									"favourites_count": 12484,
+									"followers_count": 6820,
+									"friends_count": 3902,
+									"has_custom_timelines": true,
+									"is_translator": false,
+									"listed_count": 58,
+									"location": "Los Angeles ",
+									"media_count": 171,
+									"name": "hero",
+									"normal_followers_count": 6820,
+									"pinned_tweet_ids_str": [
+										"1679292068840218624"
+									],
+									"possibly_sensitive": false,
+									"profile_banner_url": "https://pbs.twimg.com/profile_banners/1404165406202359808/1689140050",
+									"profile_image_url_https": "https://pbs.twimg.com/profile_images/1593468651503464448/DsjVS_5C_normal.jpg",
+									"profile_interstitial_type": "",
+									"screen_name": "heromachine_eth",
+									"statuses_count": 4461,
+									"translator_type": "none",
+									"verified": false,
+									"want_retweets": false,
+									"withheld_in_countries": []
+								},
+								"professional": {
+									"rest_id": "1679288275981471745",
+									"professional_type": "Creator",
+									"category": [
+										{
+											"id": 15,
+											"name": "Entertainment & Recreation",
+											"icon_name": "IconBriefcaseStroke"
+										}
+									]
+								},
+								"business_account": {
+									
+								}
+							}
+						},
+						"shared_item": {
+							"__typename": "AudioSpaceSharedTweet",
+							"tweet_results": {
+								
+							}
+						}
+					}
+				],
+				"slice_info": {
+					
+				}
+			},
+			"participants": {
+				"total": 67,
+				"admins": [
+					{
+						"periscope_user_id": "1mMEPnyGLkwKG",
+						"start": 1689191618227,
+						"twitter_screen_name": "3orovik",
+						"display_name": "borovik.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1602013001275432961/fPt7sb1f_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": true,
+						"user_results": {
+							"rest_id": "1373786106118963200",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									"label": {
+										"url": {
+											"url": "https://twitter.com/Insightxyz",
+											"urlType": "DeepLink"
+										},
+										"badge": {
+											"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+										},
+										"description": "Insight",
+										"userLabelType": "BusinessLabel",
+										"userLabelDisplayType": "Badge"
+									}
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oNjlvewARaQw",
+						"start": 1689191618227,
+						"twitter_screen_name": "Fityeth",
+						"display_name": "fity.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1678261779166793729/SKXfxdYA_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": true,
+						"user_results": {
+							"rest_id": "1431423782900621314",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									"label": {
+										"url": {
+											"url": "https://twitter.com/Insightxyz",
+											"urlType": "DeepLink"
+										},
+										"badge": {
+											"url": "https://pbs.twimg.com/profile_images/1653074947219111947/w-fSXdLJ_bigger.jpg"
+										},
+										"description": "Insight",
+										"userLabelType": "BusinessLabel",
+										"userLabelDisplayType": "Badge"
+									}
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					}
+				],
+				"speakers": [
+					{
+						"periscope_user_id": "1VGjvAmXreZKO",
+						"start": 1689207348261,
+						"twitter_screen_name": "findurnemo",
+						"display_name": "NΞMO 🐠",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1669059383911755776/CUN4XQxW_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": true,
+						"user_results": {
+							"rest_id": "3370449197",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1MWEwOkPpVxEb",
+						"start": 1689208032358,
+						"twitter_screen_name": "thrillkicker",
+						"display_name": "ThrillKicker",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1636838114013462534/-Rt5En6j_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": true,
+						"user_results": {
+							"rest_id": "1524938931703259158",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1wBEAYdkLrLEP",
+						"start": 1689206453940,
+						"twitter_screen_name": "MoeOCMs",
+						"display_name": "Moe",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1678447852740124685/cn3MUnWo_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": true,
+						"user_results": {
+							"rest_id": "886863087600533504",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1pzjMNrnbnXEd",
+						"start": 1689209442081,
+						"twitter_screen_name": "David_Gonzales",
+						"display_name": "David_Gonzales",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1679278683406864384/tw9aZP5__normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "17350276",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "tw-1671922541815021569",
+						"start": 1689209512080,
+						"twitter_screen_name": "cryptoralphjohn",
+						"display_name": "RalphJohn",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1671922701555081216/LVg-Ng05_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1671922541815021569",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					}
+				],
+				"listeners": [
+					{
+						"periscope_user_id": "1JREmnokmwDQP",
+						"twitter_screen_name": "AlFarab58316007",
+						"display_name": "Al Farabi",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1671963281551130627/RzUHnzMu_normal.jpg",
+						"is_verified": false,
+						"user_results": {
+							"rest_id": "1644986404571852800",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "11508051",
+						"start": 1689208502000,
+						"twitter_screen_name": "merwyx",
+						"display_name": "MERILDA ✥",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1532107978404405249/JqmCNLOX_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "243224366",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1xkjDgVGNonKz",
+						"start": 1689209121000,
+						"twitter_screen_name": "MrFredoSix",
+						"display_name": "FrΞdo ⛳️",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1671313375429820416/Tf7Jry-E_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "2787231625",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1JREmpzdrnRjP",
+						"start": 1689206698000,
+						"twitter_screen_name": "unKn0wnwallet",
+						"display_name": "Unkownwallets.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1596066290837225472/FOz16yGY_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1375830185069531138",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1xnQrggGnoWKY",
+						"start": 1689208746000,
+						"twitter_screen_name": "theking12021",
+						"display_name": "SG",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1673007449085816833/zIf3Ywac_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1358815977182547974",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1drQerXXGxRKb",
+						"start": 1689208962000,
+						"twitter_screen_name": "itswaynedoteth",
+						"display_name": "ItsWayne.SWOOSH",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1614028468701757441/11Jb1RnC_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1063950596993110018",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DZEoLRXvRoQa",
+						"start": 1689209462000,
+						"twitter_screen_name": "Nikk_La",
+						"display_name": "nikk.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1587603775379820544/KZ1Pamxz_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "25565157",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1xnjryqGGrWKY",
+						"start": 1689209890000,
+						"twitter_screen_name": "BasedDegen_",
+						"display_name": "JeetsMad.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1665907421284380673/fWzrqJKD_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "2204965955",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WgKgNbGemxQv",
+						"start": 1689207839000,
+						"twitter_screen_name": "Grondin_eth",
+						"display_name": "Grondin.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1623644933696503811/soYJHPZZ_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "2631702952",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eVjYogRYDYQL",
+						"start": 1689208672000,
+						"twitter_screen_name": "Drifty5499",
+						"display_name": "Drifty",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1669793195859779584/pGtDKSaA_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1250161602856394752",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1ayQVPdxgLgjp",
+						"start": 1689207742000,
+						"twitter_screen_name": "tsukasa_v",
+						"display_name": "Tsukasa",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1610976866931998726/TSbSYUQ4_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1474630629962629121",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eVjYrbLvObEL",
+						"start": 1689206486000,
+						"twitter_screen_name": "Sebastian__LLC",
+						"display_name": "Sebastian",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1675582038123098117/3DVO5M_Z_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1547025752994025472",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1xeKWGqZzNGKP",
+						"start": 1689209904000,
+						"twitter_screen_name": "tattooguru88",
+						"display_name": "tattooguru.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1648131579657564160/ssjU0ICE_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1379536048087314433",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1VGjvaOagBdKO",
+						"start": 1689209657000,
+						"twitter_screen_name": "Nelo325",
+						"display_name": "Nelo Threetwofive",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1665955885544534020/veXIqiHI_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "47931351",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1mMEPNZnmBgKG",
+						"start": 1689207147000,
+						"twitter_screen_name": "averagekrypto",
+						"display_name": "Average Crypto",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1676621838057603073/kRjDqsEr_normal.png",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "781936123199250432",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eVQYkoJpxNjL",
+						"start": 1689208192000,
+						"twitter_screen_name": "kinder_moonly",
+						"display_name": "Kinde® ◎ Moonly",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1602828725875347458/3bkJ8vfM_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1512312772385812481",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1xeEWwpvVReEP",
+						"start": 1689207597000,
+						"twitter_screen_name": "SecureFundToken",
+						"display_name": "Security Fund Token",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1659634934313525253/memEMw3l_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1251093571031101441",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1AmjzlNPRVwQe",
+						"start": 1689206987000,
+						"twitter_screen_name": "MidnightStar_OG",
+						"display_name": "M*Star✨",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1674701294534275074/gmFlMNC0_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1371013122467581954",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eWEyALJZXrEA",
+						"start": 1689207811000,
+						"twitter_screen_name": "ibenxjean",
+						"display_name": "B ⋆",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1668506606248812544/IhrFgzJh_normal.jpg",
+						"is_verified": true,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1281116551601459200",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": true,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1drjeOqpxxpQb",
+						"start": 1689206516000,
+						"twitter_screen_name": "apocalypticapes",
+						"display_name": "Apocalyptic Apes | 🦍",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1516618952159334401/C6hXLGhk_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1457883544449994752",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1raQZNoknbzQz",
+						"start": 1689209644000,
+						"twitter_screen_name": "Mr_Monkeyagi",
+						"display_name": "Mr-Monkeyagi.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1679227321251659776/3b7_MgnC_normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1060477453",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1edQnVZdeYBQo",
+						"start": 1689209220000,
+						"twitter_screen_name": "tommykwakstudio",
+						"display_name": "Tommy Kwak",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1665408753158463499/Ukfs43SB_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1380621339413843972",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1XJjkeDexPaQL",
+						"start": 1689207769000,
+						"twitter_screen_name": "TGoyer_eth",
+						"display_name": "TGoyer.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1627896043013816322/PzVwces4_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "909601844070039552",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DZEoYOZkogKa",
+						"start": 1689210040000,
+						"twitter_screen_name": "mrangel1_eth",
+						"display_name": "mrangel1.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1662524423814123520/oZ2EDN4K_normal.png",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "3307323469",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": true,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1JRKmXWLApWQP",
+						"start": 1689208498000,
+						"twitter_screen_name": "Denkel_art",
+						"display_name": "denkeL Art",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1676953613191774209/hhrG50FP_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1413998973497577473",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1VGjvekrwZZKO",
+						"start": 1689208593000,
+						"twitter_screen_name": "bybanshee_",
+						"display_name": "BANSHEE",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1652762892192628736/Pl-_UsKI_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1416410720913301509",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oPELAnBeAVQd",
+						"start": 1689209197000,
+						"twitter_screen_name": "tkoneth",
+						"display_name": "tkon.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1678243376427040773/JYHpijCL_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1507696369758351362",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WLKRODmnZwjb",
+						"start": 1689208675000,
+						"twitter_screen_name": "StewartJosephl",
+						"display_name": "🔥JoeJoeRising🔥",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1539821495853240322/Dd0eqXBE_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1134857788910374912",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1pzjMLXDvrdKd",
+						"start": 1689209534000,
+						"twitter_screen_name": "AaronCapps19",
+						"display_name": "Zinu-aaron24.nft",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1678902870534668288/BnmIpUU6_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1475493224483409922",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1mMKPLPqGzmKG",
+						"start": 1689208208000,
+						"twitter_screen_name": "EasyNFT_",
+						"display_name": "EZ NFT 🟣",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1674865565611991041/miUWDAzK_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1455201487488004112",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DYEXwlqGPojg",
+						"start": 1689206498000,
+						"twitter_screen_name": "IrieVibes79",
+						"display_name": "IrieVibes.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1678019332612190208/r1rUSDCs_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1354540046544752640",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1mMKPrBBWkYEG",
+						"start": 1689206808000,
+						"twitter_screen_name": "bdstime",
+						"display_name": "Volts",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1540125072894984193/ZzgRF9Uk_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1475127345681813508",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1WLKRZvMMZVKb",
+						"start": 1689207952000,
+						"twitter_screen_name": "Steve_Walson",
+						"display_name": "SteveWalson.eth 🛡",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1614708036672667651/kUIkRe4u_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "3345953254",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eVQYLxYzBrEL",
+						"start": 1689206483000,
+						"twitter_screen_name": "HarrietPJones",
+						"display_name": "Harriet",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1674751035716571137/pFzWGW2x_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1585108297551486976",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DZKokvdoZmKa",
+						"start": 1689207067000,
+						"twitter_screen_name": "AgentExWeb3",
+						"display_name": "Agent-X | 6694.eth",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1590222640622448640/VZfv-Mok_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1486806996380643330",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1mMEPRLlepeKG",
+						"start": 1689209958000,
+						"twitter_screen_name": "xkeel3",
+						"display_name": "_Keel_",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1672058292992978946/QcbFmuVI_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "538740570",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1PXKddpomklKe",
+						"start": 1689209840000,
+						"twitter_screen_name": "Cory_moonsniper",
+						"display_name": "Cory | Sniperbot.com",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1675152463601573893/7MD8tfQr_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1657757813152575490",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eRExeWZzVJQw",
+						"start": 1689206518000,
+						"twitter_screen_name": "0xSwampOwl",
+						"display_name": "oakrz🦉",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1676028112662933513/hzb3z_5V_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1389034718499385345",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1DLKBLqnxJnEJ",
+						"start": 1689208320000,
+						"twitter_screen_name": "ZeenoHass",
+						"display_name": "zee",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1606671830063906821/xogq0Y9Y_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1253391322293075971",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1pzQMJGayxOKd",
+						"start": 1689208425000,
+						"twitter_screen_name": "eyeamfin",
+						"display_name": "EYEamFIN 🔺",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1677363796053041156/2dmzrjbj_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "527158131",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oPELBdaDqnKd",
+						"start": 1689209797000,
+						"twitter_screen_name": "hanaan328",
+						"display_name": "Hanaan",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1564098634639196161/8l2KvnRf_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1142517571280887808",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1oPELJmwRbgKd",
+						"start": 1689209815000,
+						"twitter_screen_name": "Noeezy16",
+						"display_name": "noeezy",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1607924169148338176/yhghbs3N_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "999013838765805568",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1PXEdWvZdqqje",
+						"start": 1689209622000,
+						"twitter_screen_name": "StevexPr23",
+						"display_name": "StevexPR23🇵🇷",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1679214578260115456/0Zo2qGF5_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1592258539568844801",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1PmKqwNBwDZEo",
+						"start": 1689208027000,
+						"twitter_screen_name": "Tarre_Viszla",
+						"display_name": "Tarre Viszla 🇺🇸✝️",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1663593583440719872/xYhyj_mq_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1654156790249193477",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1YLEJLWykneKN",
+						"start": 1689208406000,
+						"twitter_screen_name": "UrbanDitch",
+						"display_name": "Fordo",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1640979898155008001/TqS3IQHw_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1441854738023084032",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1eWEyoMvNgRKA",
+						"start": 1689207311000,
+						"twitter_screen_name": "MissCoolLooking",
+						"display_name": "𝗠𝗶𝘀𝘀 𝗖𝗼𝗼𝗹-𝗟𝗼𝗼𝗸𝗶𝗻𝗴",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1676872278032695297/ZWIQyij1_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1467084153141268483",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1YLKJwWyOYXjN",
+						"start": 1689207379000,
+						"twitter_screen_name": "jf1235813",
+						"display_name": "JonasFreire - jfDeFi",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1620523723735326721/Ohcpu8aa_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1602419216791048194",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1drQeApLppgQb",
+						"start": 1689209380000,
+						"twitter_screen_name": "real_cryptonoob",
+						"display_name": "d¡R♧¥_$oUtĥ",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1676526738417893376/2OhBMpTi_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1318505909631504384",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1lZEpeZABPaQn",
+						"start": 1689209562000,
+						"twitter_screen_name": "Abel56049423792",
+						"display_name": "Abel",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1674359083191640065/oSa_6KBt_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1642283075437580288",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1drQeOWwWoPjb",
+						"start": 1689207287000,
+						"twitter_screen_name": "iPocG",
+						"display_name": "iPocG",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1250100512613154822/ZV6I7lfo_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "3432819453",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					},
+					{
+						"periscope_user_id": "1ayjVYmAplLKp",
+						"start": 1689207589000,
+						"twitter_screen_name": "TheHipCaptain",
+						"display_name": "TheHipCaptain",
+						"avatar_url": "https://pbs.twimg.com/profile_images/1678875351970197505/VAtDEIBa_normal.jpg",
+						"is_verified": false,
+						"is_muted_by_admin": false,
+						"is_muted_by_guest": false,
+						"user_results": {
+							"rest_id": "1678875215420440576",
+							"result": {
+								"__typename": "User",
+								"identity_profile_labels_highlighted_label": {
+									
+								},
+								"has_nft_avatar": false,
+								"is_blue_verified": false,
+								"legacy": {
+									
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

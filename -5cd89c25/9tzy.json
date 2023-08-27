@@ -1,0 +1,99 @@
+{
+  "collections": [
+    {
+      "id": "0x1278fb63b150e1c9cc478824e589045729321c54",
+      "slug": "patchworks",
+      "createdAt": "2023-01-10T15:59:16.473Z",
+      "name": "PATCHWORKS",
+      "image": "https://i.seadn.io/gcs/files/primary-drop-files/patchworks/logo.png",
+      "banner": "https://i.seadn.io/gcs/files/primary-drop-files/patchworks/patchworks-min.png",
+      "discordUrl": "https://discord.gg/cameopass",
+      "externalUrl": "http://pass.cameo.com",
+      "twitterUsername": "CAMEOPASS",
+      "openseaVerificationStatus": "verified",
+      "description": "",
+      "sampleImages": [
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad953736a0550e93df74abd2950414945bc826dbfe5f948c7b3b4c3fa9c23d50f2a40dbb688578ecc4ff51b2db56c093dea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5585851ddb10ea973ad5289cd5843ead7abe242416387aca01755bcbd36c25c2c837347d4ffb2048f996ef8c45aa82d4ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a649889ee76eb46c2d235c12894cc8bb84010c8ae18f0bb27c12bd7b0fdc8e893d3f4f66b14f20cab22604878a3f0ecb2ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae66d50893e9549d4fa2977d80de90aacb24cbbce25be8a4130f11c7aa563ed273be56e13e5bc7260ee4e16dcdfe37a9eea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d"
+      ],
+      "tokenCount": "1000",
+      "onSaleCount": "135",
+      "primaryContract": "0x1278fb63b150e1c9cc478824e589045729321c54",
+      "tokenSetId": "contract:0x1278fb63b150e1c9cc478824e589045729321c54",
+      "royalties": {
+        "recipient": null,
+        "breakdown": [],
+        "bps": 0
+      },
+      "allRoyalties": {
+        "onchain": [],
+        "opensea": [
+          {
+            "bps": 500,
+            "recipient": "0x1d522ae2dff7f5b3cb24465630a5951ad60c9233"
+          }
+        ]
+      },
+      "lastBuy": {
+        "value": null
+      },
+      "floorAsk": {
+        "id": "0x1ff47e87a00fbf64dde83411a182625850ae6c3a89932487decd80269019254a",
+        "sourceDomain": "opensea.io",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "114000000000000000",
+            "decimal": 0.114, // Floor
+            "usd": 176.85099,
+            "native": 0.114
+          }
+        },
+        "maker": "0x1375bed638ca105f3707f7f58b1b078ab858545e",
+        "validFrom": 1673817590,
+        "validUntil": 1676495990,
+        "token": {
+          "contract": "0x1278fb63b150e1c9cc478824e589045729321c54",
+          "tokenId": "211",
+          "name": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7cfce0c6e14fc2a5127767cd8e3304293cbfa8e8caa3fdf8b9261d7991fb678501296083fd49b992b9c2cf8ef4bf6f80ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d"
+        }
+      },
+      "rank": {
+        "1day": 604,
+        "7day": 72,
+        "30day": 236,
+        "allTime": 3185
+      },
+      "volume": {
+        "1day": 1.23992,
+        "7day": 234.3876,
+        "30day": 234.3876,
+        "allTime": 234.3876
+      },
+      "volumeChange": {
+        "1day": 0.5292018352539479,
+        "7day": null,
+        "30day": null
+      },
+      "floorSale": {
+        "1day": 0.0828,
+        "7day": 0.18,
+        "30day": null
+      },
+      "floorSaleChange": {
+        "1day": 1.3768115942028984,
+        "7day": 0.6333333333333333,
+        "30day": null
+      },
+      "collectionBidSupported": true
+    }
+  ]
+}

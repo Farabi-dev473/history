@@ -1,0 +1,22 @@
+```
+# --------------------
+# LOGIN with TWITTER
+# --------------------
+TWITTER_CLIENT_ID=d2s1WlV0d2V4SnNhbGJFd2NfcjE6MTpjaQ
+TWITTER_CLIENT_SECRET=vCyRboSmRphaHGO9xyUh_r76JO-ikZFMzJkCbIGPLfV173VkRxH
+TWITTER_LOGIN_REDIRECT_URL=https://staging.moonly.online/login
+TWITTER_ACCOUNT_LINK_REDIRECT_URL=https://staging.moonly.online/profile?tab=account-linking
+NX_TWITTER_LOGIN_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=d2s1WlV0d2V4SnNhbGJFd2NfcjE6MTpjaQ&redirect_uri=https://staging.moonly.online/login&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+
+NX_TWITTER_ACCOUNT_LINK_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=d2s1WlV0d2V4SnNhbGJFd2NfcjE6MTpjaQ&redirect_uri=https://staging.moonly.online/profile?tab=account-linking&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+
+NX_TWITTER_ACCOUNT_LINK_URL_FOR_KARAMENDOS=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=d2s1WlV0d2V4SnNhbGJFd2NfcjE6MTpjaQ&redirect_uri=https://staging.moonly.online/karamendos?step=1&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+
+# TWITTER_CLIENT_ID=WDhwZWlMSWtIV2VnMWVBLTJXZHc6MTpjaQ
+TWITTER_CLIENT_ID=d2s1WlV0d2V4SnNhbGJFd2NfcjE6MTpjaQ 
+TWITTER_CLIENT_SECRET=qH49CtfqeYJCCF1sb-S73yo9S7SUVuaqwFsH1UmDItjHt0Pma9 
+TWITTER_LOGIN_REDIRECT_URL=https://staging.moonly.online/login 
+TWITTER_ACCOUNT_LINK_REDIRECT_URL=https://staging.moonly.online/profile?tab=account-linking 
+NX_TWITTER_LOGIN_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=d2s1WlV0d2V4SnNhbGJFd2NfcjE6MTpjaQ&redirect_uri=https://staging.moonly.online/login&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+NX_TWITTER_ACCOUNT_LINK_URL=https://twitter.com/i/oauth2/authorize?response_type=code&client_id=d2s1WlV0d2V4SnNhbGJFd2NfcjE6MTpjaQ&redirect_uri=https://staging.moonly.online/profile?tab=account-linking&scope=tweet.read%20users.read%20follows.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain
+```

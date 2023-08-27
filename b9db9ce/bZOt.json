@@ -1,0 +1,116 @@
+{
+    "collections": [
+      {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "slug": "boredapeyachtclub",
+        "createdAt": "2022-02-09T21:14:58.386Z",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?w=500&auto=format",
+        "banner": "https://i.seadn.io/gae/i5dYZRkVCUK97bfprQ3WXyrT9BnLSZtVKGJlKQ919uaUB0sxbngVCioaiyu9r6snqfi2aaTyIvv6DHm4m2R3y7hMajbsv14pSZK8mhs?w=500&auto=format",
+        "discordUrl": "https://discord.gg/3P5K3dzgdB",
+        "externalUrl": "http://www.boredapeyachtclub.com/",
+        "twitterUsername": "BoredApeYC",
+        "openseaVerificationStatus": "verified",
+        "description": "The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.BoredApeYachtClub.com for more details.",
+        "sampleImages": [
+          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0f53d7f3142b0e51f50eb2f98b8adf776b1fedb5048c96be2e7940f7d6ce1d0051c5eb5e53928a752c535287d65d1f8d2da42bcfb59ead4828d4495549b3aaf7fa4729fc25c486b9d00ac5ac35bab4f27f06464ba150ba7c3b4979512470f4484122930ae9d5ff221e970c0d41200fc3058ed9feecb44e991ea6b299d1f7ae6c",
+          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a795cde1c97521d6e4094e3b604c7eb56c2e0bcb93e76b399d9733cd27d82cc65bc92fe3bf0b30177897a65f49a2b19bfd6336650314abbd1ead0506cba4ed5533c6c95e172e9ce4089991160fba94274407aa1095c873e4ea0db8b8c111ed1ebd5324940c1b7371e7d008aed2882f3df058ed9feecb44e991ea6b299d1f7ae6c",
+          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a749d590a64e65f802ff1ccb2d840d92d042009e31daa401bcd52fafd67ea0e28a6a2fd70de8c6a554bd80264af5600742097b155b634e4a3da7c5b909cd8c668241dcfcd6f1238eca3f85362b89bfab3391b8bc80db45ba432babf07f14e55cf3c558b737c8bd9f48cb450a15e9f4fece1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a86f4df4bf77f028d8b098eb528c4b2bf86b331c33abf63410a4a337a68078f50f932d2cc940e6f9323a2afc02798a2c077fe3446c05b09064980c5a120018b2506ca0effd8f95f3f0210bfdcd02fd6e1246176589e30247d0d4ec2ac51f81066a4830b63b2c8d111b1cd5a773e76ee9a23c5e4198f99eda3f3b783c3322e8c56"
+        ],
+        "tokenCount": "10000",
+        "onSaleCount": "449",
+        "primaryContract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "tokenSetId": "contract:0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "royalties": {
+          "recipient": "0xaae7ac476b117bccafe2f05f582906be44bc8ff1",
+          "breakdown": [
+            {
+              "bps": 250,
+              "recipient": "0xaae7ac476b117bccafe2f05f582906be44bc8ff1"
+            }
+          ],
+          "bps": 250
+        },
+        "allRoyalties": {
+          "eip2981": [
+            {
+              "bps": 250,
+              "recipient": "0xaae7ac476b117bccafe2f05f582906be44bc8ff1"
+            }
+          ],
+          "onchain": [
+            {
+              "bps": 250,
+              "recipient": "0xaae7ac476b117bccafe2f05f582906be44bc8ff1"
+            }
+          ],
+          "opensea": [
+            {
+              "bps": 250,
+              "recipient": "0xa858ddc0445d8131dac4d1de01f834ffcba52ef1"
+            }
+          ]
+        },
+        "lastBuy": {
+          "value": null
+        },
+        "floorAsk": {
+          "id": "0xe7a4dd3a98e86d9c55e57afc6918760302b2814c7f586ea37749130c311b85f8",
+          "sourceDomain": "looksrare.org",
+          "price": {
+            "currency": {
+              "contract": "0x0000000000000000000000000000000000000000",
+              "name": "Ether",
+              "symbol": "ETH",
+              "decimals": 18
+            },
+            "amount": {
+              "raw": "69400000000000000000",
+              "decimal": 69.4,
+              "usd": 108925.43981,
+              "native": 69.4
+            }
+          },
+          "maker": "0x3d892f8a18543959c1f8865ce7b6b45654c8f073",
+          "validFrom": 1674042101,
+          "validUntil": 1674128496,
+          "token": {
+            "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+            "tokenId": "3147",
+            "name": null,
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae14573e09199389121e87e94bf01506d65b60d84f317661989e7a72da3d181f9c81d90144917713b4758df04ca483f2e0f64eeca273295fe4af9612c0f576249ca310edd0f9a6c0666a694e7155faf9b52dca228349018c8a9d9646a96019e35b935241bcef29253c5f6f64890cac16fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a"
+          }
+        },
+        "rank": {
+          "1day": 4,
+          "7day": 2,
+          "30day": 2,
+          "allTime": 4
+        },
+        "volume": {
+          "1day": 1285.379,
+          "7day": 11368.10919,
+          "30day": 58459.83693,
+          "allTime": 976251.63308
+        },
+        "volumeChange": {
+          "1day": 0.7778823389864973,
+          "7day": 0.8186527970221189,
+          "30day": 0.9345680181025529
+        },
+        "floorSale": {
+          "1day": 66.69,
+          "7day": 74.001,
+          "30day": 14.825
+        },
+        "floorSaleChange": {
+          "1day": 1.0406357774778827,
+          "7day": 0.9378251645248037,
+          "30day": 4.681281618887015
+        },
+        "collectionBidSupported": true
+      }
+    ],
+    "continuation": "OTc2MjUxNjMzMDc1OTczMDc1MTE0NTUzXzB4YmM0Y2EwZWRhNzY0N2E4YWI3YzIwNjFjMmUxMThhMThhOTM2ZjEzZA=="
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "transaction-decoder-farabi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+   "type": "module",
+  "scripts": {
+    "start": "jiti index.js"
+  },
+  "devDependencies": {
+    "jiti": "^1.16.2"
+  },
+  "dependencies": {
+    "bs58": "^5.0.0",
+  }
+}

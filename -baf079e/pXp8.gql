@@ -1,0 +1,11 @@
+type Users {
+    name: String!
+    status: [PersonStatus]!
+}
+
+enum PersonStatus {
+    SINGLE
+    MARRIED
+    DIVORSED
+}
+

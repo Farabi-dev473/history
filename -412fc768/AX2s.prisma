@@ -1,0 +1,135 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id Int @id @default(autoincrement())
+  user_product User_Product[]
+  name String
+  country String
+  review Review[]
+  expert Boolean @default(false)
+}
+
+model Product {
+  id Int @id @default(autoincrement())
+  user_product User_Product[]
+  name String
+  rating Int
+  reviews Int
+  property Json
+  compare_price Json
+  watching Int @default(0)
+  brand String
+  description Json
+  review Review[]
+  video Video[]
+}
+
+model User_Product {
+  id Int @id @default(autoincrement())
+  product_id Int
+  user_id Int
+  user User @relation(fields: [user_id], references: [id])
+  product Product @relation(fields: [product_id], references: [id])
+  love Boolean @default(false)
+}
+
+model Review {
+  id Int @id @default(autoincrement())
+  product_id Int
+  user_id Int
+  review_reply Review_Reply[]
+  product Product @relation(fields: [product_id], references: [id])
+  user User @relation(fields: [user_id], references: [id])
+  star Int @default(0)
+  title String
+  description String
+  created_at DateTime @default(now())
+  likes Int @default(0)
+}
+
+model Review_Reply {
+  id Int @id @default(autoincrement())
+  msg String
+  review_id Int
+  review Review @relation(fields: [review_id], references: [id])
+}
+
+model Shop {
+  id Int @id @default(autoincrement())
+  name String
+  site_link String
+  product_stats Product_Stat[]
+}
+
+model Video {
+  id Int @id @default(autoincrement())
+  embaded_link String
+  product_id Int
+  product Product @relation(fields: [product_id], references: [id])
+}
+
+model Delivery_Service {
+  id Int @id @default(autoincrement())
+  name String @default("")
+}
+
+model Delivery_Type {
+  id Int @id @default(autoincrement())
+  name String @default("")
+  delivery_option Delivery_Option[]
+  delivery_min_day_id Int
+  delivery_max_day_id Int
+
+  delivery_min_day Delivery_Min_Day @relation(fields: [[delivery_min_day_id]], references: [id])
+  delivery_max_day Delivery_Max_Day @relation(fields: [delivery_max_day_id], references: [id])
+}
+
+model Delivery_Option {
+    id Int @id @default(autoincrement())
+    name String @default("")
+    delivery_service_id Int
+    delivery_type_id Int
+    delivery_type Delivery_Type @relation(fields: [delivery_type_id], references: [id])
+    delivery_service Delivery_Service @relation(fields: [delivery_service_id], references: [id])
+}
+
+model Delivery_Min_Day {
+  id Int @id @default(autoincrement())
+  min_day Int
+}
+
+model Delivery_Max_Day {
+  id Int @id @default(autoincrement())
+  max_day Int
+}
+
+model Delivery_Charge {
+  id Int @id @default(autoincrement())
+  charge Int
+}
+
+model Special_day {
+  id Int @id @default(autoincrement())
+  name String
+  product_stat Product_Stat[]
+}
+
+model Product_Stat {
+  id Int @id @default(autoincrement())
+  created_at DateTime @default(now())
+  store Shop @relation(fields: [store_id], references: [id])
+  store_id Int
+  lowest_price Float 
+  special_day Special_day @relation(fields: [special_day_id], references: [id])
+  special_day_id Int
+}

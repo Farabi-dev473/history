@@ -1,0 +1,73 @@
+57bHzn6dNftr7J17JGEbvJsD4RjkZWLQWRohD1b9xqk7nsAX5woh2tozcJLLcFph5GkkuNcgGS7ihcdfhx8bVhbP
+[Magic Eden V2]
+{
+  pdaAddress: '5cKUN1Wre6EHhh2j6knEPwLtfLs4jPkEtcwxL2TjBLdM',
+  auctionHouse: '969kj9XHPixNZ1Yet7sMA4zyGhyFsZcfipcc5caU8pfV',
+  tokenAddress: '4xRjoLZq9LWo6f9ETEVmeJ3KF5ze7h3VC2vh1YA71R6u',
+  tokenMint: 'BhfThdDQjZMkXHPSQGxKrbNoqtj3DhVrtFYAKYBaFRkz',
+  seller: 'EAoUTaAQAxTmmpkgXjJoGuc6AN298PCn1cgtmcEnHxqF',
+  sellerReferral: '39fEpihLATXPJCQuSiXLUSiCbGchGYjeL39eyXh3KbyT',
+  tokenSize: 1,
+  expiry: undefined,
+  price: 17
+}
+
+4oBFNe4qY8HQGUMComcWQtDmF9Q9YGvLEYDUPbMWqeGBKRXTj5595C3N1EWyT6SRgFSSQys12kdaauDndNeHKbPR
+[Solanart]
+{
+  pdaAddress: '5cKUN1Wre6EHhh2j6knEPwLtfLs4jPkEtcwxL2TjBLdM',
+  auctionHouse: '969kj9XHPixNZ1Yet7sMA4zyGhyFsZcfipcc5caU8pfV',
+  tokenAddress: '4xRjoLZq9LWo6f9ETEVmeJ3KF5ze7h3VC2vh1YA71R6u',
+  tokenMint: 'BhfThdDQjZMkXHPSQGxKrbNoqtj3DhVrtFYAKYBaFRkz',
+  seller: 'EAoUTaAQAxTmmpkgXjJoGuc6AN298PCn1cgtmcEnHxqF',
+  sellerReferral: '39fEpihLATXPJCQuSiXLUSiCbGchGYjeL39eyXh3KbyT',
+  tokenSize: 1,
+  expiry: undefined,
+  price: 17
+}
+
+4bfq3XrHJ5ik9rCy6bwJPdAFUbxnbKQbZtYAns4yM5xQxqwGbN675yNjBE8qzgpzirPapkkzwoQxUCzJLnbrXM7a
+[Auction House]
+{
+  pdaAddress: undefined,
+  auctionHouse: '29xtkHHFLUHXiLoxTzbC7U8kekTwN3mVQSkfXnB1sQ6e',
+  tokenAddress: '38FWaDDVwfFTXmEzi2C7THNkyeWGBveXE5ZfVQJnx3Jk',
+  tokenMint: '2mV6fMySkw6XiP6ghkWNxzFGv9w17ppxmTkB1r1ecxsi',
+  seller: 'DGWLm75aiyRC6eYio145cMngn1RzP1DRPc4zuDr2jXb3',
+  sellerReferral: '7sCBBDvgc6N4xPbWFVDydBp1cUvQw4EoCNfB3wC8bSsK',
+  tokenSize: 1,
+  expiry: undefined,
+  price: 5.69
+}
+
+5TfkkW6JeFQVNM7i8Ymtk6SyJz57zWSvBTf7ABeRPBh8wp1PpWhD7wU5t76qAqyvBBkLB7VfQTHVyBs98Fn2CshF
+{
+  pdaAddress: undefined,
+  auctionHouse: 'Ex9xNf2ocrM9hmtKhkpQG4i4XeXWrhFxsusSc1wHz3X8',
+  tokenAddress: 'GVwrFA1yjmnYygTRv3zXjrJ1VP29xC79ofdXVY43u8Xq',
+  tokenMint: '5hhuAbZafGBLgyPwbiuDH9GgEax19GUe7FJ6YGG7KET1',
+  seller: 'DYLm6wkeFJgyAHS1y5EW3Hi2xQHdxMXfsiau9BSqLzEc',
+  sellerReferral: 'Eb3acfYSGkFeRCnbPjMpwdsqouo41LiKYv3MApobNLwE',
+  tokenSize: 1,
+  expiry: undefined,
+  price: 0.15
+}
+
+65GBRLNkRcuSr8JkgFg1xJuMRqWLTXd87uv2bxLvEq1TgY2MdiLtqtEqNRxqaSPuyMASJoaxP4Z9sdFZ67UGHhYF
+[HyperSpace]
+{
+  pdaAddress: 'C8dLV8Rxo49Zwc2SnTTn1bHNnVWMi77PM3957pnYpbhp',
+  auctionHouse: '4BzVBkBvZ7atwQCw2sVQjXG3EDuouuD7EVgtEgJ9CNWc',
+  tokenAddress: '2qbHEBkNcPdBa4baXJND7RS2f4gS99XbZfXrUUtoWTNx',
+  tokenMint: 'Ep8W6ou8nphhx83K2XHzFt7nvHWRVXHCKVxrnaPYNh2c',
+  seller: '4vnt9boTFKqGEykMUexG3uyr64QnaLetHmFTSPucF57',
+  sellerReferral: '6QEJwoTfHg4vkwE6nbprtwiwEw7msvNuZJ1tp22SPACE',
+  tokenSize: 1,
+  expiry: undefined,
+  price: 115
+}
+
+
+
+
+

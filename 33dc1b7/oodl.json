@@ -1,0 +1,19 @@
+{
+  "name": "transaction-decoder-farabi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  // "type":"module",
+  "scripts": {
+    "start": "jiti index.js"
+  },
+  "devDependencies": {
+    "jiti": "^1.16.2"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.73.0",
+    "axios": "^1.2.5",
+    "bs58": "^5.0.0",
+    "to-data-view": "^2.0.0"
+  }
+}

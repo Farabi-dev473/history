@@ -1,0 +1,13 @@
+{
+  "name": "do",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ./output/app.js"
+  },
+  "dependencies": {
+    "data-store": "^4.0.3"
+  }
+}

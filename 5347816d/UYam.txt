@@ -1,0 +1,10 @@
+{
+  slug: 'MagicEdenV2',
+  txType: 'Sale',
+  seller: 'QaqwCWwSSGHjQzwztExnryPQerxvmxMVVDWqNZc2c6Y',
+  owner: '58DjVFor5dCEfm4PK4dUMkPCa8eCbiJ8w1CEAgSG8f2L',
+  buyer: '58DjVFor5dCEfm4PK4dUMkPCa8eCbiJ8w1CEAgSG8f2L',
+  amount: 94,
+  mintAddress: 'ER2frsUUnYLbtFv4jo4AoMuvdd8KGMxEv1TB163PEAst',
+  txId: '4c9UbAg3YH2Mp9BR2Lyx7vmw1iuiyCJxLJ5XvCHFv3UV59skJpKGPxYsRunBmCF3nLeaixNPxz4BH3gjrHgG98uz'
+}
